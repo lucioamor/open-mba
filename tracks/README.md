@@ -22,8 +22,8 @@ Os exemplos demonstram roteamento. Não representam alunos reais nem a trajetór
 
 O tempo por semana organiza uma estimativa de calendário, não reduz o conteúdo necessário. Se a agenda apertar, divida em etapas em vez de baixar a barra de domínio.
 
-## Authorship and maintenance
+## Autoria e manutenção
 
-This project was created by [Lucio Amorim](https://linkedin.com/in/lucioamorim).
+Este projeto foi criado por [Lucio Amorim](https://lucioamorim.ai/). Conheça também seu [LinkedIn](https://www.linkedin.com/in/lucioamorim/).
 
-When reusing, redistributing, or citing this work, keep the attribution credits and include a link to this repository.
+Ao reutilizar, redistribuir ou citar este trabalho, preserve os créditos e inclua um link para este repositório.

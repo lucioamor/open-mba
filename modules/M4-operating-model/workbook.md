@@ -1,4 +1,4 @@
-# Workbook — M4
+# Caderno de exercícios — M4
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -22,7 +22,7 @@ Escolha um mecanismo que hoje depende de você.
 2. Treine um operador.
 3. Injete uma exceção.
 4. Ausente-se do caminho de aprovação.
-5. Observe outcome, cycle time, errors e escalations.
+5. Observe outcome, cycle time, errors e escalonamentos.
 6. Corrija o design.
 
 Se for simulação, rotule. Não classifique como P.

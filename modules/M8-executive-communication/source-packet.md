@@ -1,9 +1,9 @@
-# Source Packet — M8
+# Referências de apoio — M8
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
 **Status:** aceito para autoria\
-**As of:** 2026-07-23\
+**Data de referência:** 2026-07-23\
 **Escopo:** comunicação executiva como mecanismo de decisão
 
 ## Fontes aceitas
@@ -31,7 +31,7 @@
 
 - `Board memo`: serve ao decision right do board ou comitê.
 - `Investment memo`: serve a alocação/continuação/morte de capital.
-- `QBR de miss`: serve a revisar verdade operacional, forecast e ação.
+- `QBR de miss`: serve a revisar verdade operacional, previsão e ação.
 - `Executive update`: serve a manter stakeholders informados; não força decisão quando não existe ask.
 - `Oral defense`: testa autoria e julgamento; não é performance de palco.
 - `EN/PT`: a verdade, os números e os limites não mudam com o idioma.

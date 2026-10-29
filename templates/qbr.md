@@ -1,25 +1,25 @@
 # QBR — Brasil
 
-**Quarter:** [período] · **Owner:** [função] · **Forecast vintage:** [data]
+**Trimestre:** [período] · **Responsável:** [função] · **Data da versão da previsão:** [data]
 
-## Executive summary
+## Resumo executivo
 
-Resultado, miss/beat, causa controlável/não controlável e decisão requerida.
+Resultado, resultado abaixo/acima do plano, causa controlável/não controlável e decisão requerida.
 
-## Scorecard
+## Quadro de indicadores
 
-| Métrica | Plano | Real | Forecast | Variância | Driver | Owner |
+| Métrica | Plano | Real | Previsão | Variância | Causa | Responsável |
 |---|---:|---:|---:|---:|---|---|
 
 ## P&L e caixa
 
-## Revenue bridge e forecast accuracy
+## Ponte de receita e acurácia da previsão
 
-## Customers, capacity e people
+## Clientes, capacidade e pessoas
 
-## Riscos, controles e escalations
+## Riscos, controles e escalonamentos
 
 ## Decisões e compromissos
 
-| Decisão | Owner | Prazo | Trigger de revisão |
+| Decisão | Responsável | Prazo | Gatilho de revisão |
 |---|---|---|---|

@@ -19,7 +19,7 @@
     },
     {
       "id": "F3",
-      "title": "Distribuição e growth",
+      "title": "Distribuição e crescimento",
       "path": "foundations/F3-growth.md",
       "requires": [
         "F1",
@@ -48,7 +48,7 @@
     },
     {
       "id": "M2",
-      "title": "Unit economics, pricing e capital",
+      "title": "Economia por unidade, preços e capital",
       "path": "modules/M2-unit-economics-pricing-capital/module.md",
       "requires": [
         "M1"

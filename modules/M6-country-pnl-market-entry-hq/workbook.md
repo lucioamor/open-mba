@@ -1,4 +1,4 @@
-# M6 — Workbook
+# M6 — Caderno de exercícios
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -18,30 +18,30 @@ Depois produza três modes para o Brasil: cross-border, partner-led e first loca
 
 Use `CASE-M6-SYNTHETIC-ARCO`, blocos A e B.
 
-1. Calcule expected accessible logos, bookings e first-year revenue. **(12)**
+1. Calcule expected accessible logos, bookings e receita do primeiro ano. **(12)**
 2. Reconstrua gross profit/margin, local contribution/margin e fully allocated result/margin no base. **(12)**
 3. Recalcule as mesmas linhas no stress. **(10)**
-4. Explique a diferença entre PTAX spot, Focus expectation e um FX scenario interno; diga qual owner valida hedge. **(6)**
+4. Explique a diferença entre PTAX spot, Focus expectation e um FX scenario interno; diga qual responsável valida hedge. **(6)**
 
-**Fatal errors:** TAM lançado como revenue; P&L não reconcilia; HQ allocation oculto; FX sem moeda/data/tipo; dado sintético atribuído a empresa real.
+**Erros críticos:** TAM lançado como revenue; P&L não reconcilia; HQ allocation oculto; FX sem moeda/data/tipo; dado sintético atribuído a empresa real.
 
 ### Prática
 
-Crie bridge de P&L `base → volume → FX → fixed cost → allocation`. Em seguida modele coverage: accounts por owner, partner lane, implementation capacity, stage criteria e forecast cadence.
+Crie bridge de P&L `base → volume → FX → fixed cost → allocation`. Em seguida modele coverage: accounts por responsável, partner lane, implementation capacity, stage criteria e previsão cadence.
 
 ## WB-M6-03 — Entry, HQ rights e diplomacy
 
-### ASSESS-M6-B — Executive judgment (60 pontos J)
+### ASSESS-M6-B — Julgamento executivo (60 pontos J)
 
 Use `CASE-M6-SYNTHETIC-ARCO`, blocos C–G.
 
 1. Calcule o weighted score dos três entry modes; recomende um e declare o que M7 ainda precisa validar. **(12)**
-2. Calcule commit, best-case total e pipeline total; faça a forecast call contra o plano sem double count de partner influence. **(12)**
-3. Avalie o gate 180: `scale`, `hold/remediate` ou `stop`. Dê evidência, owner e próximo gate. **(12)**
+2. Calcule commit, best-case total e pipeline total; faça a previsão call contra o plano sem double count de partner influence. **(12)**
+3. Avalie o gate 180: `scale`, `hold/remediate` ou `stop`. Dê evidência, responsável e próximo gate. **(12)**
 4. Calcule incremental expected ARR, contribution e first-year net da exception. Recomende approve/reformulate/reject. **(12)**
 5. Responda ao freeze com um resource ask de até 180 palavras: fato, economic implication, options, recommendation, rights, milestone e decision-by date. **(12)**
 
-**Fatal errors:** claim sem fonte; partner influence somado como revenue; subsidiária tratada como automaticamente autorizada; exception aprovada sem economics/expiry; promessa fora de decision right; “Brasil é diferente” usado sem evidência.
+**Erros críticos:** claim sem fonte; partner influence somado como revenue; subsidiária tratada como automaticamente autorizada; exception aprovada sem economics/expiry; promessa fora de decision right; “Brasil é diferente” usado sem evidência.
 
 ## Templates
 

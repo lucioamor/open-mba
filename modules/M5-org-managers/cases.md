@@ -1,180 +1,133 @@
-# M5 — Cases
+# M5 — Casos
 
-> **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
+> **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e localizadores herdados de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Consulte [SOURCES.md](../../SOURCES.md).
 
-## CASE-ORG-GITLAB — practice documented, not universal
+## CASE-ORG-GITLAB — prática documentada, sem regra universal
 
-**Type:** REAL DOCUMENTED CASE.\
-**Sources:** `[SRC-ORG-GITLAB-SPAN] [SRC-ORG-GITLAB-MANAGER]`.\
-**No invented company fact.**
+**Tipo:** caso real documentado. **Fontes:** `[SRC-ORG-GITLAB-SPAN] [SRC-ORG-GITLAB-MANAGER]`. Não inventar fatos sobre a empresa.
 
-GitLab’s public handbook presents two compatible ideas:
+O manual público da GitLab apresenta duas ideias compatíveis: gestão é um trabalho próprio, voltado a construir uma organização que funcione de forma sustentável; a orientação sobre número de subordinados na área de produto é uma diretriz contextual, não uma exigência universal. Seu modelo aborda o próprio gestor, as pessoas, a organização e o trabalho em diferentes horizontes.
 
-1. management is a distinct job whose purpose includes building an organization that performs sustainably; the framework spans self, individuals, organization and work across horizons;
-2. span guidance in Product is explicitly a guideline rather than a requirement because structures and reporting lines differ by context.
+### Questão de decisão
 
-### Decision prompt
+Uma executiva quer copiar um número de subordinados da GitLab para uma operação brasileira de 24 pessoas. O que pode ser transferido?
 
-An executive wants to copy a GitLab span number into a 24-person Brazilian operation. What can be transferred?
+### Resposta defensável
 
-### Defensible answer
+Transferir os mecanismos: definir o trabalho gerencial, examinar o contexto, explicitar premissas e usar diretrizes para identificar lacunas e necessidades de escala. Não transferir um número como verdade causal, linhas de subordinação de produto, sequência de cargos ou afirmação de “melhor prática” sem evidência.
 
-Transfer the mechanisms:
+O manual documenta intenção e método da GitLab. Não estabelece efeito experimental, amplitude universal de gestão nem aplicabilidade automática à Atlas.
 
-- define managerial work;
-- examine structure by context;
-- make assumptions explicit;
-- use guidance to surface gaps and scaling needs.
+## CASE-ORG-ATLAS-50 — caso sintético integrado
 
-Do not transfer:
+**Todas as pessoas, ocorrências e quantidades abaixo são fictícias.**
 
-- a numeric span as causal truth;
-- Product reporting lines;
-- a title ladder;
-- a claim that the practice is “best”.
+### Empresa e equipe atual
 
-### Limitation
+A Atlas AI Brasil vende software empresarial para fluxos de trabalho. Tem 19 pessoas, prevê 34 em 12 meses e possui teto de 50 aprovado pelo conselho. O plano de nova receita recorrente anualizada é R$12 milhões; o limite mínimo de margem bruta é 68%; o teto de consumo de caixa é R$9 milhões.
 
-The handbook documents GitLab’s framework and intent. It does not establish an experimental effect, a universal span or applicability to Atlas.
-
----
-
-## CASE-ORG-ATLAS-50 — integrated synthetic case
-
-**Type:** SYNTHETIC SCENARIO FOR LEARNING.\
-**All people, events and numbers below are fictional.**
-
-### Company
-
-Atlas AI Brasil sells enterprise workflow software. It has 19 employees, expects 34 in 12 months and has a board-approved ceiling of 50. New ARR plan is R$12m; gross-margin guardrail is 68%; burn ceiling is R$9m.
-
-### Current people
-
-| function | people | current reporting line |
+| Função | Pessoas | Subordinação atual |
 |---|---:|---|
-| Country Lead | 1 | HQ CRO |
-| Sales AEs | 6 | Sales Manager |
-| Sales Manager | 1 | Country Lead |
-| RevOps | 1 | Country Lead |
-| Customer Success | 4 | Country Lead |
-| Solutions/Security | 2 | Country Lead |
-| Marketing | 2 | Country Lead |
-| Finance/People Ops | 2 | Country Lead |
+| Liderança de país | 1 | Diretoria de receita da matriz |
+| Executivos de contas | 6 | Gerência de vendas |
+| Gerência de vendas | 1 | Liderança de país |
+| Operações de receita | 1 | Liderança de país |
+| Sucesso do cliente | 4 | Liderança de país |
+| Soluções/segurança | 2 | Liderança de país |
+| Marketing | 2 | Liderança de país |
+| Finanças/operações de pessoas | 2 | Liderança de país |
 
-Country Lead has 12 direct reports and records 31 hours/week in 1:1s, approvals, escalations and cross-functional coordination. Six recurring decisions still require Country Lead approval although M4 assigns four of them to functional owners.
+A liderança de país tem 12 subordinados diretos e registra 31 horas semanais em reuniões individuais, aprovações, escalonamentos e coordenação entre áreas. Seis decisões recorrentes ainda dependem de sua aprovação, embora M4 atribua quatro delas aos responsáveis funcionais.
 
-### Workload by proposed role
+### Carga semanal por função proposta — horas
 
-| work | Sales Manager | CS Manager | Country Lead | possible Head of Revenue |
+| Trabalho | Gerência de vendas | Gerência de sucesso do cliente | Liderança de país | Possível diretoria de receita |
 |---|---:|---:|---:|---:|
-| 1:1/coaching | 8 | 8 | 5 | 3 |
-| planning/reviews | 6 | 5 | 6 | 6 |
-| hiring/development | 4 | 4 | 4 | 4 |
-| cross-functional interfaces | 4 | 5 | 8 | 6 |
-| decisions/escalations | 3 | 3 | 6 | 5 |
-| individual production | 5 | 8 | 4 | 0 |
-| reserve | 3 | 3 | 4 | 3 |
-| total | 33 | 36 | 37 | 27 |
+| Reuniões individuais/orientação | 8 | 8 | 5 | 3 |
+| Planejamento/revisões | 6 | 5 | 6 | 6 |
+| Contratação/desenvolvimento | 4 | 4 | 4 | 4 |
+| Interfaces entre áreas | 4 | 5 | 8 | 6 |
+| Decisões/escalonamentos | 3 | 3 | 6 | 5 |
+| Produção individual | 5 | 8 | 4 | 0 |
+| Reserva | 3 | 3 | 4 | 3 |
+| Total | 33 | 36 | 37 | 27 |
 
-Assume 34 sustainable hours/week for role-specific work. The proposed Head of Revenue would initially manage only the Sales Manager; CS has no manager today. Revenue conflict requiring a common portfolio decision occurs about 2 hours/week.
+Premissa: 34 horas semanais sustentáveis para trabalho específico da função. A diretoria de receita gerenciaria inicialmente apenas a gerência de vendas; sucesso do cliente ainda não tem gestor. Conflitos de receita que exigem decisão conjunta de carteira ocupam cerca de duas horas semanais.
 
-### Growth plan
+### Plano de crescimento
 
-| function | now | D+180 | D+365 |
+| Área | Agora | D+180 | D+365 |
 |---|---:|---:|---:|
-| Sales | 7 incl. manager | 10 | 14 |
-| CS | 4 | 7 | 10 |
-| Solutions/Security | 2 | 4 | 6 |
+| Vendas | 7, incluindo gestão | 10 | 14 |
+| Sucesso do cliente | 4 | 7 | 10 |
+| Soluções/segurança | 2 | 4 | 6 |
 | Marketing | 2 | 3 | 5 |
-| Finance/People Ops | 2 | 3 | 4 |
-| Leadership/other | 2 | 3 | 11 |
-| total | 19 | 30 | 50 |
+| Finanças/operações de pessoas | 2 | 3 | 4 |
+| Liderança/outras | 2 | 3 | 11 |
+| Total | 19 | 30 | 50 |
 
-Only 70% of D+365 headcount is funded; hires need revenue/capacity gates.
+Somente 70% das posições de D+365 têm financiamento. Novas contratações precisam de condições de receita e capacidade. Os quadros são dados fornecidos pelo cenário; a proposta deve explicitar diferenças entre previsão, teto e financiamento, sem inventar vagas financiadas.
 
-### Performance evidence
+### Evidências de desempenho
 
-| person | role | result | control/people evidence |
+| Pessoa | Função | Resultado | Evidência de controles/pessoas |
 |---|---|---|---|
-| Ana | AE | 140% quota | two unauthorized discounts; one unapproved product promise |
-| Bruno | AE | 108% quota | accurate CRM; mentors two AEs |
-| Clara | CS | 97% renewal | hides at-risk accounts until final week |
-| Diego | CS | 94% renewal | early risk flags; improves playbook; coaches peers |
-| Elisa | Sales Manager | team 92% plan | forecast accuracy 58%; irregular coaching; zero policy violations hidden |
+| Ana | Executiva de contas | 140% da meta | Dois descontos sem autorização; uma promessa de produto não aprovada |
+| Bruno | Executivo de contas | 108% da meta | CRM preciso; orienta dois colegas |
+| Clara | Sucesso do cliente | 97% de renovação | Oculta contas em risco até a última semana |
+| Diego | Sucesso do cliente | 94% de renovação | Sinaliza riscos cedo; melhora o manual operacional; orienta colegas |
+| Elisa | Gerência de vendas | Equipe a 92% do plano | Acurácia da previsão de 58%; orientação irregular; nenhuma violação de política ocultada |
 
-Facts are incomplete on intent and individual circumstances. No termination or legal conclusion is authorized from the dataset.
+Faltam dados sobre intenção e circunstâncias individuais. O conjunto não autoriza concluir por desligamento ou emitir conclusão jurídica.
 
-### Candidate data — CS Manager
+### Candidatura à gerência de sucesso do cliente
 
-Frozen scorecard weights:
+Critérios fixados antes da avaliação: sistema de retenção 25; orientação/desenvolvimento 25; julgamento de risco 20; execução entre áreas 15; rigor operacional 15. Escala de 1 a 5; pontuação ponderada = `nota/5 × peso`.
 
-- retention system: 25;
-- coaching/development: 25;
-- risk judgment: 20;
-- cross-functional execution: 15;
-- operating rigor: 15.
-
-Scale: 1–5. Weighted score is scale percentage (`score/5 × weight`).
-
-| evidence | Candidate A — Diego | Candidate B — Fernanda |
+| Evidência | Candidato A — Diego | Candidata B — Fernanda |
 |---|---|---|
-| retention system | built early-warning playbook; 94% renewal | managed 20 CSMs; states 98% renewal, no cohort/base supplied |
-| coaching | two peers adopted review cadence | cites high standards; no coaching example |
-| risk work sample | flags top-3 risks; stages coverage; score 5 | protects renewal target but suppresses one risk until customer reply; score 2 |
-| cross-functional | documented three Product escalations, two resolved | strong executive communication; attribution unclear |
-| rigor | complete source/vintage log | polished plan, two unsupported inputs |
+| Sistema de retenção | Criou alertas antecipados; renovação de 94% | Gerenciou 20 profissionais; declara 98% de renovação sem base ou coorte |
+| Orientação | Dois colegas adotaram a cadência de revisão | Cita padrões elevados, sem exemplo de desenvolvimento |
+| Amostra de julgamento de risco | Identifica três riscos principais; organiza cobertura; nota 5 | Protege meta, mas retém um risco até resposta do cliente; nota 2 |
+| Trabalho entre áreas | Três escalonamentos para produto documentados, dois resolvidos | Boa comunicação executiva; atribuição pouco clara |
+| Rigor | Registro completo de fontes e versões | Plano bem apresentado, com duas premissas sem suporte |
 
-Do not infer age, gender, family, health, identity or other protected information. None is relevant.
+Não inferir idade, gênero, família, saúde, identidade ou outros dados pessoais protegidos. Eles não são critérios relevantes para a função.
 
-### Incentive proposal under review
+### Proposta de incentivo em revisão
 
-Proposed CS variable pay:
+Remuneração variável proposta: 80% de retenção bruta e 20% de expansão. Não há condição de qualidade, recebimento, dano ao cliente, integridade de dados ou controles. O pagamento não tem teto nem regra de exceção.
 
-- 80% gross retention;
-- 20% expansion.
+### Funções críticas e sucessão
 
-No quality, collection, customer harm, data integrity or control gate. Payout has no cap or override rule.
-
-### Critical-role slate
-
-| role | vacancy impact | possible candidate | current evidence |
+| Função | Impacto da vacância | Possível sucessor | Evidência atual |
 |---|---|---|---|
-| Country Lead | pricing, hiring and HQ interface stop in 48h | Sales Manager | strong commercial delivery; no cross-functional budget cycle |
-| Sales Manager | forecast/coaching cadence degrades in 1 week | Bruno | peer mentoring; no formal performance conversation |
-| CS Manager | role does not yet exist | Diego | playbook/coaching; no hiring or underperformance case |
-| Solutions/Security Lead | enterprise deals blocked in 72h | none | one senior specialist, no delegation test |
+| Liderança de país | Preço, contratação e interface com matriz param em 48h | Gerência de vendas | Boa entrega comercial; sem ciclo de orçamento entre áreas |
+| Gerência de vendas | Previsão e orientação pioram em uma semana | Bruno | Orienta colegas; sem conversa formal de desempenho |
+| Gerência de sucesso do cliente | Função ainda inexistente | Diego | Manual e orientação; sem caso de contratação ou baixo desempenho |
+| Liderança de soluções/segurança | Negócios empresariais bloqueados em 72h | Nenhum | Um especialista sênior, sem teste de delegação |
 
-### Required decisions
+### Decisões exigidas
 
-1. Propose structures for 5, 20 and 50, with triggers.
-2. Decide whether Head of Revenue enters now.
-3. Build CS Manager selection pack without changing criteria after reading candidates.
-4. Design performance response to the five people without unauthorized sanction.
-5. Redesign incentive against gaming.
-6. Build succession plan with interim authority and experiences.
+1. Propor estruturas para 5, 20 e 50 pessoas, com gatilhos.
+2. Decidir se a diretoria de receita entra agora.
+3. Preparar seleção para gerência de sucesso do cliente sem mudar critérios após conhecer candidatos.
+4. Responder ao desempenho das cinco pessoas sem aplicar sanções sem autoridade/processo.
+5. Redesenhar incentivos contra manipulação de métricas.
+6. Criar sucessão com autoridade interina e experiências de desenvolvimento.
 
-### Data gaps that must remain explicit
+### Lacunas que devem ficar explícitas
 
-- salary/headcount cost by role;
-- jurisdiction-specific employment constraints;
-- validated causes of the control breaches;
-- candidate reference checks;
-- individual development preferences;
-- HQ reserved matters beyond M4;
-- exact revenue/capacity gates for unfunded hires.
+Custos salariais por função; restrições locais de trabalho; causas verificadas das violações de controle; referências dos candidatos; preferências de desenvolvimento; matérias reservadas à matriz além de M4; condições exatas para contratar posições sem financiamento.
 
-An excellent answer contains decisions despite gaps and identifies which gaps block irreversible action.
+Uma boa resposta decide apesar das lacunas e identifica quais delas bloqueiam ações irreversíveis.
 
----
+## CASE-ORG-ATLAS-B — dados de reteste
 
-## CASE-ORG-ATLAS-B — sealed retest data
+**Cenário sintético. Usar somente após corrigir a forma A.**
 
-Use only after Form A is graded.
+A Nacre Cloud Brasil tem 23 pessoas, planeja 41 e conta com um fundador com 14 subordinados. Suporte de produto tem nove profissionais sem gestão, tarefas homogêneas e demanda média de orientação de quatro horas semanais. Entrega empresarial tem cinco profissionais, alta novidade e demanda de orientação/escalonamento de 14 horas semanais. Uma diretoria de operações proposta gerenciaria apenas uma gerência de suporte e teria somente cinco horas semanais de trabalho próprio de coordenação de carteira.
 
-**Type:** SYNTHETIC RETEST.
+A pessoa X entrega uma amostra detalhada, mas altera dados de risco do cliente para melhorar o gráfico. A pessoa Y apresenta pior, porém preserva incertezas e identifica falha de controle. O incentivo paga somente quantidade de projetos concluídos. A liderança crítica de implantação não tem substituto e concentra todas as credenciais.
 
-Nacre Cloud Brasil has 23 people, plans 41, and a founder with 14 reports. Product Support has 9 ICs, high task homogeneity and 4 hours/week average coaching demand; Enterprise Delivery has 5 ICs, high novelty and 14 hours/week coaching/escalation demand. A proposed Operations Director would manage one Support Manager and has only 5 hours/week of distinct portfolio work.
-
-Candidate X delivers a detailed work sample but changes customer-risk data to improve the chart. Candidate Y scores lower on presentation but preserves unknowns and identifies a control gap. Incentive design pays only project completion count. Critical Implementation Lead has no interim and holds all deployment credentials.
-
-Form B requires the same artifact types and rubric with these data. The grader must not disclose answer anchors before submission.
+A forma B exige os mesmos tipos de entrega e rubrica. O avaliador não revela respostas de referência antes da submissão.

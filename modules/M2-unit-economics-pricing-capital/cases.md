@@ -1,4 +1,4 @@
-# M2 — Cases
+# M2 — Casos
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -71,7 +71,7 @@ Pool trimestral, em R$ mil:
 
 Foram adquiridos 15 logos pagos. MRR inicial médio = R$8 mil/logo; margem de contribuição esperada = 62,5%; churn mensal usado no cenário simples = 2,5%. Não há lag adicional no exercício; em uso real ele deve ser testado.
 
-### Bloco C — Workload enterprise
+### Bloco C — Carga de trabalho enterprise
 
 Fornecedor fictício do exercício: Modelo A, a US$2,50/MTok input e US$15/MTok output. Esses valores são premissas sintéticas e não descrevem um produto comercial.
 
@@ -105,7 +105,7 @@ Downside comum: todos os inflows ficam 20% menores; `CF0` não muda. Sunk cost a
 - Qualquer preço abaixo do floor ou NPV negativo exige CFO review.
 - Qualquer supplier price com mais de 30 dias exige recheck.
 - Não use Rule of 40 como gate do projeto.
-- Kill criteria estratégicos serão definidos no M3; aqui, proponha somente gates financeiros de liberação.
+- Critérios de encerramento estratégicos serão definidos no M3; aqui, proponha somente gates financeiros de liberação.
 
 ### Deliverable do case
 

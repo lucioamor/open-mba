@@ -4,7 +4,7 @@
 
 ## 1. Decisão executiva central
 
-O plano mostra crescimento. O caixa cai. O forecast piora. HQ pergunta se deve liberar oito contratações ou congelar o Brasil.
+O plano mostra crescimento. O caixa cai. O previsão piora. HQ pergunta se deve liberar oito contratações ou congelar o Brasil.
 
 Sua decisão não é “cortar custo” nem “defender o mercado”. É identificar:
 
@@ -12,37 +12,37 @@ Sua decisão não é “cortar custo” nem “defender o mercado”. É identif
 2. onde a mudança aparece em lucro, caixa e capital;
 3. o que é timing, o que é deterioração estrutural e o que é erro de modelo;
 4. qual ação preserva a opção de crescimento;
-5. qual threshold exige escalonamento.
+5. qual limite exige escalonamento.
 
 Um country executive não precisa fechar a contabilidade estatutária. Precisa ler o sistema financeiro sem se esconder atrás do controller.
 
 ## 2. Como escolher a profundidade
 
-Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, test-out ou M0.
+Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, avaliação para dispensa ou M0.
 
-## 3. Conhecimentos prévios e test-out
+## 3. Conhecimentos prévios e avaliação para dispensa
 
-M1 só admite test-out por subcompetência depois de M0:
+M1 só admite avaliação para dispensa por subcompetência depois de M0:
 
 - `FIN-01`: accrual/cash e reconhecimento;
 - `FIN-02`: três demonstrações;
 - `FIN-03`: P&L de país;
-- `FIN-04`: forecast e bridge;
+- `FIN-04`: previsão e bridge;
 - `FIN-05`: cash, working capital e FX.
 
-Cada subcompetência exige `K ≥ 85`, `J ≥ 80`, dois casos e zero fatal error. Uma média alta não libera uma subcompetência com erro local. Enquanto M0 está pendente, faça tudo.
+Cada subcompetência exige `K ≥ 85`, `J ≥ 80`, dois casos e zero erro crítico. Uma média alta não libera uma subcompetência com erro local. Enquanto M0 está pendente, faça tudo.
 
-## 4. Learning outcomes
+## 4. Objetivos de aprendizagem
 
 Ao final, sem IA, você consegue:
 
 1. registrar dez eventos simples em regime de competência e caixa;
 2. conectar lucro líquido ao cash flow e ao balanço;
 3. construir um P&L gerencial de 24 meses por receita, COGS, opex e responsabilidade;
-4. fechar um rolling forecast com base/upside/downside;
+4. fechar um rolling previsão com base/upside/downside;
 5. produzir bridge de volume, preço, mix, churn, FX, timing e custo;
 6. diagnosticar AR, deferred revenue, working capital e runway;
-7. conduzir QBR com recommendation, ask, owner e trigger.
+7. conduzir QBR com recommendation, ask, responsável e gatilho.
 
 ## 5. Mapa de conceitos em uma página
 
@@ -184,12 +184,12 @@ O lucro de 40 coexistiu com queda de caixa de 5. O modelo fecha.
 Um P&L gerencial precisa declarar:
 
 - moeda funcional e moeda de reporte;
-- períodos e vintage do forecast;
+- períodos e vintage do previsão;
 - revenue attribution: contracting entity, customer location ou seller credit;
 - custos controláveis, alocados e não controláveis;
 - política de transfer pricing e shared services, se aplicável;
 - regra para COGS de cloud/inference/support;
-- owner de cada linha;
+- responsável de cada linha;
 - tratamento de headcount aprovado, aberto e iniciado.
 
 Sem essas definições, “Brasil bateu o plano” pode ser uma disputa de alocação, não um resultado.
@@ -200,14 +200,14 @@ Sem essas definições, “Brasil bateu o plano” pode ser uma disputa de aloca
 2. COGS: inference/cloud, support, payment fees, service delivery;
 3. gross profit e gross margin;
 4. sales, marketing, success, product/localization, G&A;
-5. contribution margin;
+5. margem de contribuição;
 6. allocations claramente separadas;
 7. operating income gerencial;
-8. cash items: collections, capex, taxes, intercompany funding.
+8. cash items: collections, capex, taxes, intercompany financiamento.
 
 #### Exemplo resolvido 3 — contratação que “melhora” o P&L tarde demais
 
-`CENÁRIO SINTÉTICO`. Um AE custa R$45 mil/mês fully loaded, começa em abril, leva três meses para ramp e fecha receita reconhecida de R$80 mil/mês a partir de julho, com 25% de COGS.
+`CENÁRIO SINTÉTICO`. Um AE custa R$45 mil/mês com todos os custos incluídos, começa em abril, leva três meses para ramp e fecha receita reconhecida de R$80 mil/mês a partir de julho, com 25% de COGS.
 
 Incremento anual:
 
@@ -222,19 +222,19 @@ No run-rate pós-ramp:
 - monthly contribution `15`;
 - payback sobre o investimento de ramp deve considerar o caixa desembolsado, timing de billing e risco de churn.
 
-**Decisão:** a contratação pode destruir resultado no ano e ainda ser correta se o hurdle, funding e leading indicators estiverem explícitos. Não chame run-rate futuro de lucro realizado.
+**Decisão:** a contratação pode destruir resultado no ano e ainda ser correta se o hurdle, financiamento e leading indicators estiverem explícitos. Não chame run-rate futuro de lucro realizado.
 
-### L4 — Budget é compromisso; forecast é melhor estimativa
+### L4 — Budget é compromisso; previsão é melhor estimativa
 
-Budget não deve ser “corrigido” para esconder miss. Forecast não deve ser mantido artificialmente para proteger o budget.
+Budget não deve ser “corrigido” para esconder miss. Previsão não deve ser mantido artificialmente para proteger o budget.
 
 - **Budget/AOP:** alocação e compromisso aprovado.
 - **Actual:** evento registrado com cut-off.
-- **Forecast:** melhor estimativa atual, datada.
+- **Previsão:** melhor estimativa atual, datada.
 - **Outlook:** faixa executiva com incerteza.
 - **Scenario:** mundo coerente condicionado a premissas.
 
-Um rolling forecast responde:
+Um rolling previsão responde:
 
 1. qual resultado agora é mais provável;
 2. o que mudou desde o último vintage;
@@ -247,9 +247,9 @@ Um rolling forecast responde:
 
 `Previous forecast + volume + price + mix + expansion – contraction – churn + FX + timing + cost = New forecast`
 
-Cada componente tem sinal, unidade, owner e evidência. Não use “execution” como balde residual.
+Cada componente tem sinal, unidade, responsável e evidência. Não use “execution” como balde residual.
 
-**Forecast accuracy**
+**Previsão accuracy**
 
 Para uma métrica de receita:
 
@@ -287,7 +287,7 @@ No exercício, a taxa oficial do BCB é referência auditável; não é a taxa e
 **Escalar**
 
 - controller: cut-off, reconhecimento, alocação e reconciliação;
-- CFO/treasury: funding, liquidity, hedge, covenant e material FX exposure;
+- CFO/treasury: financiamento, liquidity, hedge, covenant e material FX exposure;
 - tax counsel: incidência e estrutura;
 - bank/FX provider: execução de câmbio;
 - legal: obrigação contratual e collectability.
@@ -299,14 +299,14 @@ O executivo identifica o issue, quantifica materialidade e chama o especialista;
 Um ciclo útil:
 
 1. freeze de actual e reconciliações;
-2. update de drivers por owners;
+2. update de drivers por responsáveis;
 3. finance challenge independente;
-4. forecast lock com vintage;
-5. bridge para o último forecast e budget;
+4. previsão lock com vintage;
+5. bridge para o último previsão e budget;
 6. pre-read 24–48h antes;
 7. QBR focado em exceções e decisões;
-8. decision log com owners e thresholds;
-9. revisão de forecast accuracy.
+8. decision log com responsáveis e limites;
+9. revisão de previsão accuracy.
 
 QBR ruim descreve vinte métricas. QBR bom declara:
 
@@ -316,7 +316,7 @@ QBR ruim descreve vinte métricas. QBR bom declara:
 - ação já tomada;
 - ask a HQ;
 - risco que exige escalonamento;
-- trigger de nova revisão.
+- gatilho de nova revisão.
 
 ## 7. Práticas guiadas
 
@@ -336,7 +336,7 @@ Não conclua “melhor/pior” sem definir horizonte e causa.
 
 Use `templates/pnl-forecast.xlsx`. Preencha base/upside/downside; mantenha premissas em células próprias; execute os choques do caso.
 
-### GP3 — Forecast bridge e QBR
+### GP3 — Previsão bridge e QBR
 
 Feche três ciclos. Em cada ciclo:
 
@@ -354,11 +354,11 @@ O caso real é o filing Salesforce FY2026; a tarefa está em `cases.md`. O cená
 
 - receita tratada como caixa;
 - bookings/ARR misturados com GAAP revenue;
-- gross margin calculada sem workload/inference/support;
+- gross margin calculada sem carga de trabalho/inference/support;
 - headcount “aprovado” contado como gasto sem start date;
-- forecast igual ao budget apesar de novos dados;
+- previsão igual ao budget apesar de novos dados;
 - FX usado como explicação residual;
-- AR vencido sem aging/owner;
+- AR vencido sem aging/responsável;
 - cenário downside sem contingência;
 - cash plug ou “other” que fecha o modelo;
 - QBR que pede confiança em vez de decisão.
@@ -373,8 +373,8 @@ O caso real é o filing Salesforce FY2026; a tarefa está em `cases.md`. O cená
 - [ ] Premissas separadas de fórmulas.
 - [ ] Base/upside/downside internamente coerentes.
 - [ ] Bridge reconcilia integralmente.
-- [ ] Cada variação material tem owner.
-- [ ] Decision, ask, trigger e alternativa rejeitada explícitos.
+- [ ] Cada variação material tem responsável.
+- [ ] Decision, ask, gatilho e alternativa rejeitada explícitos.
 - [ ] Questões contábeis/tributárias/jurídicas escaladas.
 
 ## 11. Exercício aplicado à operação Brasil
@@ -384,7 +384,7 @@ Execute os ciclos Q1–Q3 do cenário em `cases.md`. Entregue:
 - modelo de três demonstrações;
 - P&L de 24 meses;
 - cash runway;
-- forecast vintage por ciclo;
+- previsão vintage por ciclo;
 - BvA/reforecast bridge;
 - QBR de duas páginas.
 
@@ -395,9 +395,9 @@ Avaliações estão em `workbook.md`; soluções em `answer-key.md`. Pesos:
 - K: 50;
 - J: 50;
 - mínimo: 80;
-- zero fatal errors.
+- zero erros críticos.
 
-Fatal errors: P&L que não reconcilia; lucro tratado como caixa; erro material de forecast; plug oculto; cifra real sem fonte.
+Erros críticos: P&L que não reconcilia; lucro tratado como caixa; erro material de previsão; plug oculto; cifra real sem fonte.
 
 ## 13. Artefato para o capstone
 
@@ -406,7 +406,7 @@ O capstone recebe:
 1. três demonstrações do caso;
 2. P&L de país de 24 meses;
 3. base/upside/downside;
-4. forecast pack;
+4. previsão pack;
 5. bridge;
 6. QBR e investment ask.
 

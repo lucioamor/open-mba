@@ -2,15 +2,15 @@
 
 # Avaliações avançadas — casos sintéticos
 
-## Instrumento B — finance case integrado de 24 meses
+## Instrumento B — caso financeiro integrado de 24 meses
 
 **Tempo:** 150 minutos.\
-**Mede:** três demonstrações, accrual vs cash, P&L, forecast, working capital, FX e reação a choque.\
+**Mede:** três demonstrações, accrual vs cash, P&L, previsão, working capital, FX e reação a choque.\
 **Empresa:** `Aster AI Brasil Ltda.` — cenário sintético.
 
 ### Situação
 
-A Aster vende assinatura anual e consumo de uma plataforma de IA. O HQ avalia continuar financiando a operação brasileira. Você recebeu o balanço de abertura e um forecast operacional de 24 meses. Deve construir as três demonstrações integradas, identificar a necessidade de caixa e recomendar ações.
+A Aster vende assinatura anual e consumo de uma plataforma de IA. O HQ avalia continuar financiando a operação brasileira. Você recebeu o balanço de abertura e um previsão operacional de 24 meses. Deve construir as três demonstrações integradas, identificar a necessidade de caixa e recomendar ações.
 
 ### Balanço de abertura — fim de M0
 
@@ -46,7 +46,7 @@ A Aster vende assinatura anual e consumo de uma plataforma de IA. O HQ avalia co
 12. Não há dividendos, goodwill, outros ativos, outros passivos ou juros.
 13. Caixa fecha por roll-forward; não é plug arbitrário. O balanço deve reconciliar a cada mês.
 
-### Dataset mensal
+### Dados mensais
 
 | Mês | Assinatura | Consumo | Hosting % | Suporte | Payroll | S&M | G&A | FX | AR fim | Diferida fim | AP fim | Salários fim | Tributos fim | Capex | Aporte | Dívida +/- |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -80,7 +80,7 @@ A Aster vende assinatura anual e consumo de uma plataforma de IA. O HQ avalia co
 No início de M13:
 
 - câmbio segue a tabela;
-- consumo realizado fica 20% abaixo do forecast de M13–M18;
+- consumo realizado fica 20% abaixo do previsão de M13–M18;
 - uma contratação planejada para M16 ocorre em M13, adicionando R$ 140 mil/mês a payroll;
 - clientes atrasam recebíveis: AR final de M13–M18 aumenta em R$ 300 mil sobre a tabela;
 - HQ exige preservar caixa final de M18 acima de R$ 4.000 mil.
@@ -93,15 +93,15 @@ No início de M13:
 4. Calcular gross profit, EBITDA, margem EBITDA, burn ou geração de caixa e runway quando aplicável.
 5. Construir base case e downside M13–M18.
 6. Produzir bridge de EBITDA e caixa entre base e downside.
-7. Recomendar três ações priorizadas para respeitar o piso de caixa, com efeito, trade-off e trigger.
+7. Recomendar três ações priorizadas para respeitar o piso de caixa, com efeito, escolha e renúncia e gatilho.
 8. Escrever memo de uma página para HQ: situação, implicação, opções, recomendação, riscos e ask.
 
 ---
 
-## Instrumento C — revenue operating simulation
+## Instrumento C — simulação da operação de receita
 
 **Tempo:** 90 minutos.\
-**Mede:** pipeline, capacity, quota, forecast, discount governance e miss management.\
+**Mede:** pipeline, capacity, quota, previsão, discount governance e miss management.\
 **Empresa:** Aster AI Brasil — cenário sintético.\
 **Data de corte:** 30 de setembro; Q4 tem 92 dias.
 
@@ -150,17 +150,17 @@ Política: desconto acima de 10% exige Country Lead + Finance; acima de 15% exig
 ### Tarefas
 
 1. Higienizar o pipeline e marcar evidência ausente.
-2. Produzir forecast `commit / best case / upside`, sem usar apenas probabilidade do CRM.
+2. Produzir previsão `commit / best case / upside`, sem usar apenas probabilidade do CRM.
 3. Calcular cobertura total, cobertura qualificada e gap para quota.
 4. Avaliar capacidade por rep e propor redistribuição ou desqualificação.
 5. Aprovar, negar ou condicionar cada desconto acima de 10%.
-6. Produzir plano de 30 dias com owners, métricas leading, thresholds e ações.
+6. Produzir plano de 30 dias com responsáveis, métricas leading, limites e ações.
 7. Simular QBR: explique o miss provável sem culpar mercado ou pipeline genérico.
 8. Identificar diferenças entre bookings, ARR, receita reconhecida e caixa.
 
 ---
 
-## Instrumento D — Brazil investment memo
+## Instrumento D — memorando de investimento no Brasil
 
 **Tempo:** 240 minutos.\
 **Mede:** estratégia, market entry, alocação, P&L de país e diplomacia HQ↔local.\
@@ -220,24 +220,24 @@ Use o base case e escolha dois:
 
 ### Entrega — memo máximo de seis páginas
 
-1. Recommendation e ask.
+1. Recomendação e ask.
 2. Por que Brasil agora — somente com os inputs fornecidos.
 3. Segmento e wedge; dois segmentos explicitamente adiados.
 4. Entry mode e alternativa rejeitada.
 5. Dois itens de produto priorizados e dois recusados.
 6. Headcount e sequência até M12.
 7. P&L simplificado 24 meses, base/downside.
-8. Gates M3, M6, M9 e M12; cada um com métrica, threshold, owner e ação.
-9. Kill criteria e capital realocado se o investimento parar.
+8. Gates M3, M6, M9 e M12; cada um com métrica, limite, responsável e ação.
+9. Critérios de encerramento e capital realocado se o investimento parar.
 10. Riscos, informação ausente e escalonamento a CFO/controller/advogado.
 11. Mensagem de cinco linhas ao HQ defendendo a decisão sem excepcionalismo brasileiro.
 
 ---
 
-## Instrumento E — organization case 0–5 / 5–20 / 20–50
+## Instrumento E — caso de organização 0–5 / 5–20 / 20–50
 
 **Tempo:** 120 minutos.\
-**Mede:** operating model, org design, managers, incentivos, performance e sucessão.\
+**Mede:** operating model, org design, gestores, incentivos, performance e sucessão.\
 **Empresa:** Northstar AI Brasil — cenário sintético.
 
 ### Situação inicial
@@ -253,13 +253,13 @@ Time atual: Country Lead, 2 AEs, 1 Solutions Engineer e 1 Community/Growth Lead.
 | Implementações novas | 12 | 5 por implementation lead | duas complexas |
 | Contas ativas high-touch | 45 | 25 por CSM | expansão incluída |
 | Incidentes críticos | 6 | 12 por support lead | on-call necessário |
-| Partner reviews | 10 | 15 por partner manager | conflito potencial |
+| Partner reviews | 10 | 15 por partner gestor | conflito potencial |
 
 ### Restrições
 
 - Limite de payroll fully-loaded: R$ 720 mil/mês em M12.
-- Custos mensais por papel, em R$ mil: manager 75; AE 55; SE 60; CSM 42; implementation 48; growth 45; ops/finance 50; support 38; partner manager 52.
-- Span-alvo para manager: 4–7 reports.
+- Custos mensais por papel, em R$ mil: gestor 75; AE 55; SE 60; CSM 42; implementation 48; growth 45; ops/finance 50; support 38; partner gestor 52.
+- Span-alvo para gestor: 4–7 reports.
 - Nenhuma função pode ter só uma pessoa sem backup nomeado após 20 FTEs.
 - O HQ retém product roadmap, security policy e treasury.
 - O país decide contratação dentro do budget, segment sequencing e parceiros não exclusivos.
@@ -268,10 +268,10 @@ Time atual: Country Lead, 2 AEs, 1 Solutions Engineer e 1 Community/Growth Lead.
 ### Tarefas
 
 1. Desenhar organizações 0–5, 5–20 e 20–50.
-2. Sequenciar as primeiras dez contratações, com trigger e custo.
+2. Sequenciar as primeiras dez contratações, com gatilho e custo.
 3. Definir decision rights: país, HQ e compartilhado.
 4. Remover pelo menos três dependências do Country Lead.
-5. Criar scorecard de dois managers: outcomes, leading indicators, comportamentos e fatal errors.
+5. Criar quadro de indicadores de dois gestores: resultados, leading indicators, comportamentos e erros críticos.
 6. Definir incentivo que não premie receita ruim, desconto excessivo ou churn futuro.
 7. Especificar cadência: weekly, monthly e quarterly.
 8. Resolver um caso de performance: o melhor AE bate 140% da quota, mas usa descontos não aprovados e deteriora handoffs.
@@ -280,13 +280,13 @@ Time atual: Country Lead, 2 AEs, 1 Solutions Engineer e 1 Community/Growth Lead.
 
 ---
 
-## Instrumento F — governance simulation
+## Instrumento F — simulação de governança
 
 **Tempo:** 90 minutos.\
 **Mede:** QBR, risco, board, controles, issue-spotting e comunicação sob challenge.\
 **Empresa:** Northstar AI Brasil — cenário sintético.
 
-### QBR pack
+### Pacote da revisão trimestral
 
 | Métrica Q3 | Plano | Real | Observação |
 |---|---:|---:|---|
@@ -294,7 +294,7 @@ Time atual: Country Lead, 2 AEs, 1 Solutions Engineer e 1 Community/Growth Lead.
 | Gross margin | 70% | 63% | uso acima do previsto |
 | Burn | 1.800 | 2.350 | contratação antecipada |
 | Pipeline qualificado Q4 | 7.200 | 5.100 | CRM total mostra 9.800 |
-| Forecast accuracy | 85% | 58% | commit incluiu security pendente |
+| Previsão accuracy | 85% | 58% | commit incluiu security pendente |
 | NRR | 108% | 96% | downsell de duas contas |
 | DSO | 45 dias | 71 dias | três invoices contestadas |
 | Incidentes críticos | 0 | 2 | um ainda aberto |
@@ -310,21 +310,21 @@ Time atual: Country Lead, 2 AEs, 1 Solutions Engineer e 1 Community/Growth Lead.
 
 ### Tarefas
 
-1. Produzir QBR de uma página: realidade, causas, forecast revisado, ações e asks.
-2. Criar risk register com owner, leading indicator, threshold, response e escalation.
+1. Produzir QBR de uma página: realidade, causas, previsão revisado, ações e asks.
+2. Criar registro de riscos com responsável, leading indicator, limite, response e escalation.
 3. Priorizar os seis eventos em uma matriz de urgência/impacto/reversibilidade.
 4. Decidir o que comunicar imediatamente ao board e o que investigar antes.
 5. Recusar ou escalar afirmações jurídicas sem parecer paralisado.
 6. Propor três controles preventivos e três detectivos.
 7. Responder oralmente, em até três minutos cada:
-   - “Por que devemos confiar no seu novo forecast?”
+   - “Por que devemos confiar no seu novo previsão?”
    - “Você está escondendo um problema de produto atrás do Brasil?”
    - “Qual investimento você mata hoje?”
    - “O que exige advogado, controller, security ou HQ?”
 
 ### Limite de autoridade
 
-O aluno não deve emitir parecer jurídico, tributário ou de segurança. Deve identificar problema, preservar evidência, conter dano, nomear owner, definir threshold e escalar ao especialista adequado.
+O aluno não deve emitir parecer jurídico, tributário ou de segurança. Deve identificar problema, preservar evidência, conter dano, nomear responsável, definir limite e escalar ao especialista adequado.
 
 ---
 
@@ -337,8 +337,8 @@ As formas abaixo são especificações, não atalhos. O avaliador deve trocar n�
 | B | balanço de abertura e 18 meses novos; choque de churn + collections; três demonstrações continuam obrigatórias |
 | C | 14–18 oportunidades novas; stages e policy equivalentes; quota gap diferente |
 | D | empresa sintética diferente; três segmentos, três entry modes e capital cap equivalente |
-| E | capacidade e custo novos; mesmo problema de centralização e manager misconduct |
-| F | QBR novo; um incidente, um risco jurídico, um miss de forecast e um conflito de canal |
+| E | capacidade e custo novos; mesmo problema de centralização e gestor misconduct |
+| F | QBR novo; um incidente, um risco jurídico, um miss de previsão e um conflito de canal |
 
 Não reutilizar respostas, números, planilhas ou gabarito da tentativa anterior.
 

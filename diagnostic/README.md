@@ -4,7 +4,7 @@
 
 Escolher o que estudar sem pressupor as lacunas do autor ou do aluno. O diagnóstico é educacional e não é seleção de emprego nem certificação.
 
-O mapa inicial é qualitativo. Uma avaliação formal exige resposta produzida pelo participante, identificação do exercício e registro da revisão. Para fundamentos, use os casos F1–F4. Para o núcleo, use o test-out da seção 3 e a avaliação do `module.md`, os exercícios do `workbook.md` e os gabaritos depois da tentativa. Os [instrumentos avançados](advanced-assessments.md) e suas [rubricas](advanced-rubrics.md) servem como opção integrada.
+O mapa inicial é qualitativo. Uma avaliação formal exige resposta produzida pelo participante, identificação do exercício e registro da revisão. Para fundamentos, use os casos F1–F4. Para o núcleo, use o avaliação para dispensa da seção 3 e a avaliação do `module.md`, os exercícios do `workbook.md` e os gabaritos depois da tentativa. Os [instrumentos avançados](advanced-assessments.md) e suas [rubricas](advanced-rubrics.md) servem como opção integrada.
 
 Nos instrumentos avançados, o instrumento A pessoal foi excluído. Para documentar experiência, use [evidence-record.md](../templates/evidence-record.md), sem lista obrigatória de empregadores ou projetos.
 
@@ -54,8 +54,8 @@ O script verifica consistência e aplica regras ao registro fornecido; ele não 
 
 Necessidades de acessibilidade e idioma devem ser combinadas antes. Avalie a decisão e o raciocínio; velocidade de fala, sotaque e acesso a um cargo não são competências medidas aqui.
 
-## Authorship and maintenance
+## Autoria e manutenção
 
-This project was created by [Lucio Amorim](https://linkedin.com/in/lucioamorim).
+Este projeto foi criado por [Lucio Amorim](https://lucioamorim.ai/). Conheça também seu [LinkedIn](https://www.linkedin.com/in/lucioamorim/).
 
-When reusing, redistributing, or citing this work, keep the attribution credits and include a link to this repository.
+Ao reutilizar, redistribuir ou citar este trabalho, preserve os créditos e inclua um link para este repositório.

@@ -1,5 +1,7 @@
 # Comece pelo seu objetivo
 
+Este programa é para brasileiros e usa português brasileiro. Princípios de gestão são aplicados ao nosso contexto; casos internacionais aparecem para comparação, sem substituir regras locais. Consulte [idioma e contexto brasileiro](docs/BRASIL-E-IDIOMA.md) e o [glossário](docs/GLOSSARIO.md) quando encontrar termos técnicos.
+
 ## 1. Defina uma decisão que você precisa aprender a tomar
 
 Escolha uma destas trilhas iniciais:
@@ -26,7 +28,7 @@ Sem notas, o plano recomenda estudar ou fazer a avaliação de entrada. Isso sig
 
 ## 3. Teste o que já domina
 
-Use [diagnostic/README.md](diagnostic/README.md). Faça apenas as avaliações relevantes ao objetivo. Você pode estudar diretamente se preferir não investir tempo em test-out. O plano não força uma prova de 13 horas para começar.
+Use [diagnostic/README.md](diagnostic/README.md). Faça apenas as avaliações relevantes ao objetivo. Você pode estudar diretamente se preferir não investir tempo em avaliação para dispensa. O plano não força uma prova de 13 horas para começar.
 
 Cargo e tempo de experiência ajudam a escolher exemplos, mas não dispensam competências. Um engenheiro pode demonstrar domínio de dados e precisar estudar aquisição; uma pessoa de vendas pode demonstrar o inverso. Um executivo experiente também pode encontrar lacunas pontuais.
 

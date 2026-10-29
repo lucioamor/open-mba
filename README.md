@@ -1,49 +1,55 @@
 # OpenMBA
 
-**Uma base aberta de gestão, com percursos de aprendizagem individuais.**
+**An open management curriculum for Brazilian learners, with individual learning paths.**
 
-Um currículo aberto em português, com fundamentos, casos, exercícios, arguição e trilhas que partem do que você precisa aprender. Criado por Lucio Amorim.
+OpenMBA brings together business fundamentals, case studies, exercises, oral defense and competency-based learning plans. The learning material is written in **Brazilian Portuguese**. This README is the English entry point for international readers and contributors.
 
-Você pode chegar como profissional técnico, fundador, líder funcional ou gestor experiente. O programa não presume que todos tenham as mesmas lacunas. Objetivo define relevância; avaliação define profundidade; experiência real é registrada separadamente.
+Created by [Lucio Amorim](https://lucioamorim.ai/) · [LinkedIn](https://www.linkedin.com/in/lucioamorim/)
 
-A primeira edição disponível concentra conteúdo em negócios de tecnologia e IA. A evolução para uma base geral de gestão está descrita no [desenho curricular e matriz de cobertura](docs/CURRICULUM-DESIGN.md); ela ainda não está integralmente implementada.
+**[Start learning — in Portuguese](START-HERE.md)** · [Available curriculum](CURRICULUM.md) · [Diagnostic](diagnostic/README.md) · [Learning paths](tracks/README.md) · [Contribute](CONTRIBUTING.md)
 
-**[Comece aqui](START-HERE.md)** · [Currículo](CURRICULUM.md) · [Diagnóstico](diagnostic/README.md) · [Trilhas](tracks/README.md) · [Estudar com IA](prompts/tutor.md) · [Contribuir](CONTRIBUTING.md)
+## Who it is for
 
-Se prefere áudio, voz ou grupo de estudo, veja as [formas de estudar](docs/STUDY-MODES.md).
+Brazilian professionals, founders, technical builders and managers who want to understand how businesses work and make better decisions. Your objective determines relevance; demonstrated competence determines depth. Job titles and years of experience do not automatically exempt you from a subject.
 
-## O que você encontra
+Brazil is the program's operating context, not a translation setting. Examples use Brazilian business situations and BRL where appropriate. Local governance, regulation, employment, taxation and market-entry topics require Brazilian sources and context. International examples are used for comparison, with explicit limits on what transfers. See the [language and Brazil-context policy](docs/BRASIL-E-IDIOMA.md).
 
-- Quatro módulos introdutórios: negócio, cliente, growth e produto/dados.
-- Oito módulos avançados: finanças, unit economics, estratégia, operação, pessoas, expansão, risco e comunicação.
-- Casos sintéticos, análises de fontes públicas, exercícios, gabaritos e templates.
-- Um diagnóstico por competência, com regras transparentes para estudar, comprimir ou dispensar conteúdo.
-- Um capstone ajustável ao objetivo e um protocolo de prática no mundo real.
-- Prompts portáveis para tutor, examinador e parceiro de decisão; nenhum serviço pago é obrigatório.
+## What is available
 
-## Experimente em 30 minutos
+- **Four introductory workshops:** business fundamentals, customer discovery, growth/distribution, and product/data/experimentation.
+- **Eight advanced modules:** finance, unit economics, strategy, operations, people, market entry, governance/risk, and executive communication.
+- **33 competencies** and **five starting paths**, with explicit prerequisites.
+- Synthetic cases, public-source analyses, exercises, answer keys, templates and two financial workbooks.
+- A capstone adapted to the learner's objective and a separate field-practice protocol.
+- Optional tutor and decision-partner prompts; no paid AI service is required.
 
-Abra [F1 — Fundamentos de negócio](foundations/F1-business.md), resolva o caso sem olhar a resposta e escreva a decisão em cinco linhas. Depois compare com a rubrica. Para adaptar o restante, siga o [guia de entrada](START-HERE.md).
+The current edition focuses on technology and AI businesses. A broader general-management foundation is being designed from the earlier curriculum research. The [coverage matrix](docs/CURRICULUM-DESIGN.md) distinguishes existing material, partial coverage and work still to be developed. It is not a completed general MBA curriculum.
 
-## Três dimensões diferentes
+## Try it in 30 minutes
 
-| Dimensão | O que observar | Como desenvolver |
+Open [F1 — Business fundamentals](foundations/F1-business.md), attempt the case before reading the answer, and write your decision in five lines. Compare it with the rubric, then follow the [getting-started guide](START-HERE.md) to adapt your learning plan.
+
+Prefer audio, voice or a study group? See [study modes](docs/STUDY-MODES.md). All learning instructions are in Portuguese.
+
+## Knowledge, judgment and documented practice
+
+| Dimension | Question | How to develop it |
 |---|---|---|
-| K — conhecimento | Você calcula e explica? | Aulas, exercícios e provas |
-| J — julgamento | Você escolhe, explicita renúncias e revê decisões? | Casos, memos e defesa |
-| P — prática documentada | Você já fez isso com responsabilidade real? | Trabalho, projeto real e revisão de evidências |
+| K — knowledge | Can you calculate and explain? | Lessons, exercises and assessments |
+| J — judgment | Can you choose, explain trade-offs and revise a decision? | Cases, memos and oral defense |
+| P — documented practice | Have you done this with real responsibility? | Authorized real projects and evidence review |
 
-Simulação pode desenvolver K e J. Não comprova P. O projeto não concede diploma, certificação profissional ou equivalência acadêmica a um MBA.
+Simulation can develop K and J. It does not establish P. OpenMBA does not award an academic degree, professional certification or equivalence to an accredited MBA.
 
-## Estado da edição
+## Status and limitations
 
-**v0.1.0 — edição inicial, 29 de outubro de 2026.** O núcleo avançado foi adaptado de um programa pessoal; os fundamentos são uma introdução, com menor profundidade. Esta é uma proposta curricular para negócios de tecnologia e IA, com casos brasileiros, não uma cobertura completa de todas as áreas de administração.
+**Initial public edition, October 29, 2026.** The advanced material was adapted from a personal study program; the four introductory workshops are shorter and less developed. The curriculum, assessment thresholds and time estimates have not been externally validated.
 
-O método de roteamento e seus limiares são convenções do projeto, ainda sem validação pedagógica externa. Notas de IA são sugestões para revisão. As referências herdadas têm revisão pública pendente: veja [fontes e limites](SOURCES.md), [proveniência](docs/MIGRATION.md) e [roadmap](ROADMAP.md).
+Inherited references are marked as pending review for this public edition. AI-generated scores are provisional and cannot authorize an exemption in the planner. See [sources and limitations](SOURCES.md), [provenance](docs/MIGRATION.md) and [development priorities](ROADMAP.md).
 
-## Usar localmente
+## Local use
 
-A leitura exige apenas um navegador. Para gerar um plano ou verificar o projeto, use Python 3.11+ sem dependências externas:
+You can read the material in a browser. The optional planner and checks use Python 3.11+ with no external dependencies:
 
 ```sh
 python scripts/plan.py --profile examples/technical-builder.json
@@ -52,14 +58,14 @@ python -m unittest discover -s tests
 python scripts/build.py
 ```
 
-O plano vai para a saída do terminal. Para salvar um plano pessoal, use `--output learner/plan.md`. A pasta `learner/` é ignorada pelo Git; revise seus arquivos antes de qualquer publicação.
+The planner writes a Portuguese plan to the terminal. Use `--output learner/plan.md` to save a private plan. `learner/` is ignored by Git; inspect your files before publishing anything. Technical filenames and identifiers remain stable across language revisions.
 
-## Licença
+## License
 
-Textos autorais, adaptações autorais e código deste repositório estão sob [Apache-2.0](LICENSE). Fontes externas, marcas e materiais apenas referenciados conservam seus próprios direitos. Não há afiliação ou endosso das empresas citadas. Consulte [SOURCES.md](SOURCES.md).
+Original material, original adaptations and code are available under [Apache-2.0](LICENSE). External sources, trademarks and referenced materials retain their own rights. No affiliation or endorsement is implied. See [SOURCES.md](SOURCES.md).
 
 ## Authorship and maintenance
 
-This project was created by [Lucio Amorim](https://linkedin.com/in/lucioamorim).
+This project was created by [Lucio Amorim](https://lucioamorim.ai/). You can also find him on [LinkedIn](https://www.linkedin.com/in/lucioamorim/).
 
 When reusing, redistributing, or citing this work, keep the attribution credits and include a link to this repository.

@@ -1,4 +1,4 @@
-# M8 — Comunicação executiva: decisão legível sob challenge
+# M8 — Comunicação executiva: decisão legível sob questionamento
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -6,26 +6,26 @@
 
 Um board, CFO ou HQ não precisa de mais narrativa. Precisa responder:
 
-> **Qual decisão deve ser tomada agora, com qual evidência, contra quais alternativas, aceitando qual risco e com que trigger de revisão?**
+> **Qual decisão deve ser tomada agora, com qual evidência, contra quais alternativas, aceitando qual risco e com que gatilho de revisão?**
 
 Comunicação executiva é parte do mecanismo de decisão. O memo prepara o debate; o QBR corrige a visão do negócio; a defesa testa autoria e julgamento; o registro preserva por que a decisão foi tomada. O output não é “parecer executivo”. É reduzir ambiguidade sem apagar incerteza.
 
 ## 2. Como escolher a profundidade
 
-Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, test-out ou M0.
+Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, avaliação para dispensa ou M0.
 
-## 3. Conhecimentos prévios e test-out
+## 3. Conhecimentos prévios e avaliação para dispensa
 
 M8 consome, sem reensinar:
 
-- P&L, forecast e bridge de M1;
+- P&L, previsão e bridge de M1;
 - unit economics e investment logic de M2;
 - choices e kill criteria de M3;
 - cadence/decision rights de M4;
 - country economics e HQ contract de M6;
-- risk register e escalonamento de M7.
+- registro de riscos e escalonamento de M7.
 
-Test-out por subcompetência exige:
+Avaliação para dispensa por subcompetência exige:
 
 - `K ≥ 85`, `J ≥ 80`;
 - dois casos independentes do mesmo domínio;
@@ -35,17 +35,17 @@ Test-out por subcompetência exige:
 
 Sem resultado M0, faça o módulo completo. Simulação melhora K/J; P permanece pendente.
 
-## 4. Learning outcomes mensuráveis
+## 4. Objetivos de aprendizagem mensuráveis
 
 Ao final, você consegue:
 
-1. distinguir board memo, investment memo, executive update e QBR pelo decision right;
-2. escrever recommendation, options, economics, risk, dissent, trigger e ask em duas páginas;
-3. explicar miss por bridge causal, revisar forecast e propor ação;
+1. distinguir board memo, investment memo, atualização executiva e QBR pelo decision right;
+2. escrever recommendation, options, economics, risk, dissent, gatilho e ask em duas páginas;
+3. explicar miss por bridge causal, revisar previsão e propor ação;
 4. marcar `actual`, `estimate`, `assumption`, `unknown` e `decision`;
-5. defender a mesma decisão em PT e EN sem trocar números ou limites;
+5. defender a mesma decisão sem trocar números ou limites; praticar outro idioma é opcional;
 6. mudar altitude entre headline, mecanismo e evidência;
-7. responder “não sei” com contenção, owner, prazo e impacto;
+7. responder “não sei” com contenção, responsável, prazo e impacto;
 8. converter challenge em decisão ou próximo passo registrado.
 
 ## 5. Mapa de conceitos
@@ -77,26 +77,26 @@ A SEC separa clareza de simplificação indevida: plain English organiza informa
 
 #### Quatro outputs diferentes
 
-| Output | Pergunta | Ask | Erro típico |
+| Output | Pergunta | Pedido de decisão | Erro típico |
 |---|---|---|---|
 | Board memo | que decisão reservada ao board é requerida? | approve / reject / defer / condition | contexto longo antes da recomendação |
-| Investment memo | este capital merece ser comprometido ou continuado? | fund / stage / stop / reallocate | upside sem downside ou kill trigger |
-| Executive update | o que mudou e quem precisa agir/saber? | acknowledge / unblock / escalate | update que esconde uma decisão |
-| QBR de miss | por que o plano falhou e qual forecast substitui o anterior? | accept reset / resource / corrective action | desculpa, atividade ou cherry-picking |
+| Investment memo | este capital merece ser comprometido ou continuado? | fund / stage / stop / reallocate | upside sem downside ou kill gatilho |
+| Atualização executiva | o que mudou e quem precisa agir/saber? | acknowledge / unblock / escalate | update que esconde uma decisão |
+| QBR de miss | por que o plano falhou e qual previsão substitui o anterior? | accept reset / resource / corrective action | desculpa, atividade ou cherry-picking |
 
 O practitioner insight publicado pelo HKS Policy Memos Resource recomenda memo curto centrado na decisão, razão de urgência, próximos passos e perguntas prováveis. É uma preferência identificada em contexto de policy, útil como lente, não uma regra corporativa. `[SRC-COM-HKS-MEMO]`
 
 #### Arquitetura de duas páginas
 
-1. `Decision required` — verbo, owner e deadline.
+1. `Decision required` — verbo, responsável e deadline.
 2. `Recommendation` — uma frase testável.
 3. `Why now` — custo de esperar ou janela que fecha.
 4. `Evidence` — três a cinco fatos, cada um com status.
 5. `Options` — incluindo status quo.
 6. `Economics` — capital, downside, reversibilidade e opportunity cost.
 7. `Risk and dissent` — o melhor argumento contrário.
-8. `Conditions` — gate, trigger, kill criterion.
-9. `Next 30/60/90` — owner e data.
+8. `Conditions` — gate, gatilho, kill criterion.
+9. `Next 30/60/90` — responsável e data.
 
 O memo da Amazon é um caso de processo: a carta de 2017 descreve narrativas de seis páginas, leitura silenciosa no início da reunião, reescrita e colaboração. Isso prova a prática declarada da empresa; não prova que seis páginas sejam ideais em outro contexto. `[SRC-COM-AMZN-2017]`
 
@@ -124,21 +124,21 @@ Falhas: “estratégico” sem critério; piloto vira tração; não há alterna
 
 > **Decisão requerida até sexta:** autorizar R$ 1,2 milhão para uma fase cross-border de 90 dias; não autorizar entidade local agora.
 >
-> **Recommendation:** comprar informação antes de comprar estrutura. Os 12 discoveries e 3 pilotos demonstram problema e willingness to test, não repeatable revenue. A fase preserva R$ 4,8 milhões de option value.
+> **Recomendação:** comprar informação antes de comprar estrutura. Os 12 discoveries e 3 pilotos demonstram problema e willingness to test, não repeatable revenue. A fase preserva R$ 4,8 milhões de option value.
 >
 > **Alternativas:** (A) entidade agora — maior controle, mas compromete 80% do capital antes do primeiro contrato; (B) validação em estágio — menor velocidade aparente, preserva capital; (C) esperar — preserva caixa, mas perde os três pilotos.
 >
 > **Gates em D+90:** ≥2 contratos pagos; ≥1 processo enterprise de security concluído; pipeline qualificado ≥3× o target do próximo trimestre; unit economics dentro do guardrail aprovado por Finance.
 >
-> **Kill trigger:** menos de dois contratos ou blocker de security sem owner/roadmap. Nesse caso, não abrir entidade e realocar o saldo.
+> **Kill gatilho:** menos de dois contratos ou blocker de security sem responsável/roadmap. Nesse caso, não abrir entidade e realocar o saldo.
 >
 > **Risco contrário:** cross-border pode atrasar procurement. Mitigação: mapear blocker por piloto em D+15 e escalar ao board se dois dos três exigirem entidade.
 >
-> **Ask:** approve R$ 1,2 milhão, gates e authority para interromper sem nova rodada de defesa.
+> **Pedido de decisão:** approve R$ 1,2 milhão, gates e authority para interromper sem nova rodada de defesa.
 
 Por que funciona: não converte sinal em fato; explicita renúncia; liga capital a informação; pede uma decisão específica; permite ao board discordar.
 
-### L2 — QBR de miss: verdade, bridge, forecast, ação
+### L2 — QBR de miss: verdade, bridge, previsão, ação
 
 A guidance de MD&A da SEC pede foco em informação material, trends/uncertainties e análise das causas; também diz que uma visão balanceada inclui misses materiais, não só sucessos. M8 usa essa disciplina por analogia. Um QBR interno não é filing e pode ter outros deveres de confidencialidade e escalonamento. `[SRC-COM-SEC-MDA]`
 
@@ -161,7 +161,7 @@ Nunca apresentar `E`, `P` ou `U` como `A`. Incerteza explícita é informação 
 3. `Root causes`: controlável, não controlável e causa ainda aberta.
 4. `What we got wrong`: premissa/processo/controle.
 5. `Revised forecast`: base, downside e data vintage.
-6. `Corrective action`: owner, leading indicator, threshold.
+6. `Corrective action`: responsável, leading indicator, limite.
 7. `Risk`: o que pode piorar antes de melhorar.
 8. `Ask`: decisão ou recurso.
 
@@ -178,7 +178,7 @@ O caso é útil porque:
 - expõe drivers;
 - mostra action language.
 
-Limite: earnings release é comunicação externa regulada; não revela o debate interno, o forecast vintage nem todas as alternativas. Não o trate como “QBR perfeito”.
+Limite: earnings release é comunicação externa regulada; não revela o debate interno, o previsão vintage nem todas as alternativas. Não o trate como “QBR perfeito”.
 
 #### Exemplo resolvido 2 — QBR de miss
 
@@ -190,27 +190,27 @@ Limite: earnings release é comunicação externa regulada; não revela o debate
 | Gross margin | 70% | 63% | (7 pp) |
 | Burn | 1.800 | 2.350 | +550 |
 | Pipeline qualificado Q4 | 7.200 | 5.100 | (2.100) |
-| Forecast accuracy | 85% | 58% | (27 pp) |
+| Previsão accuracy | 85% | 58% | (27 pp) |
 
 Bridge do new ARR: deal escorregado `(350)`; security atrasou dois deals `(220)`; capacidade superestimada `(140)`; perda competitiva `(70)`. Total `(780)`.
 
 **QBR resolvido**
 
-> **Headline:** Q3 fechou 32,5% abaixo do plano de new ARR; o problema é simultaneamente execução e qualidade do forecast. Gross margin e burn também violaram guardrails.
+> **Headline:** Q3 fechou 32,5% abaixo do plano de new ARR; o problema é simultaneamente execução e qualidade do previsão. Gross margin e burn também violaram guardrails.
 >
 > **O que erramos:** incluímos um deal com security pendente em commit; modelamos capacidade pela quota nominal, não pela ramp; o approval de contratação ocorreu antes do gate de pipeline.
 >
-> **Forecast revisado:** Q4 commit 2.000, base 2.350, downside 1.650. Vintage bloqueado em 03/out; assumptions anexas.
+> **Previsão revisado:** Q4 commit 2.000, base 2.350, downside 1.650. Vintage bloqueado em 03/out; assumptions anexas.
 >
-> **Ações:** Revenue Lead remove deal sem security do commit imediatamente; Finance implementa forecast vintage semanal; Country Lead congela uma vaga até pipeline qualificado ≥3× commit por duas semanas.
+> **Ações:** Revenue Lead remove deal sem security do commit imediatamente; Finance implementa previsão vintage semanal; Country Lead congela uma vaga até pipeline qualificado ≥3× commit por duas semanas.
 >
 > **Risco:** o freeze reduz cobertura no fim do trimestre. Trigger para reabrir: security backlog <10 dias e coverage ≥3×.
 >
-> **Ask ao HQ:** aceitar reset de Q4 para 2.350 base e manter budget apenas sob os dois triggers.
+> **Pedido de decisão ao HQ:** aceitar reset de Q4 para 2.350 base e manter budget apenas sob os dois gatilhos.
 
 O memo assume responsabilidade sem fingir controle sobre tudo. A causa não controlável continua visível, mas não serve de desculpa.
 
-### L3 — Defesa adversarial EN/PT
+### L3 — Defesa adversarial em português
 
 O challenge não é interrupção do memo; é parte do processo decisório. A FRC associa board effectiveness a debate, constructive challenge, success criteria e registro das razões da decisão. `[SRC-COM-FRC-2024]`
 
@@ -225,9 +225,9 @@ O challenge não é interrupção do memo; é parte do processo decisório. A FR
 
 > Minha recomendação é manter a fase de validação e adiar a entidade. A base é zero contrato assinado e três pilotos ativos. O risco é procurement exigir presença local; saberemos em D+15. Peço autorização para R$ 1,2 milhão com kill gate em D+90.
 
-**EN**
+**Extensão opcional em inglês**
 
-> My recommendation is to keep the validation phase and defer the entity. The evidence is zero signed contracts and three active pilots. The material risk is that procurement may require local presence; we will know by day 15. I am asking for R$1.2 million with a day-90 kill gate.
+> Para prática opcional em inglês, traduza a resposta acima depois da tentativa em português, preservando números, limites e responsabilidade. Compare as versões sem usar fluência em inglês como nota de gestão.
 
 A língua muda; o claim não.
 
@@ -236,28 +236,28 @@ A língua muda; o claim não.
 | Nível | Uso | Resposta |
 |---|---|---|
 | 1 — headline | decisão | “Adiar entidade; financiar validação.” |
-| 2 — mechanism | lógica | “Stage capital against three gates.” |
-| 3 — evidence | auditoria | números, fonte, fórmula, owner, data |
+| 2 — mechanism | lógica | “Liberar capital em etapas, sujeito a três condições.” |
+| 3 — evidence | auditoria | números, fonte, fórmula, responsável, data |
 
 Comece no nível 1. Desça quando perguntado. Não despeje nível 3 para evitar responder.
 
-#### Hostile challenge
+#### Questionamento sob pressão
 
-**“Why did you miss this?”**
+**“Por que você não identificou isso?”**
 
-Resposta ruim: “The market changed.”
+Resposta ruim: “O mercado mudou.”
 
 Resposta forte:
 
-> We missed because I allowed a security-dependent deal into commit and used nominal capacity. The market did not create those control failures. I have removed that deal, reset capacity, and locked a weekly vintage. The remaining unknown is procurement timing on two accounts; it is in downside, not commit.
+> Erramos porque permiti um negócio dependente de segurança na previsão comprometida e usei capacidade nominal. O mercado não criou essas falhas de controle. Retirei o negócio, revi a capacidade e fixei uma versão semanal da previsão. A incerteza restante é o prazo de compras em duas contas; ela está no cenário adverso, fora do comprometido.
 
 **“Você está escondendo um problema de produto atrás do Brasil?”**
 
 > Não. Dois sinais são locais — procurement e cobrança — e um é global — o gap de security workflow. Ainda não sei a parcela causal de cada um. Em D+10, Product e Security fecham a análise. Até lá, retiro os dois deals do commit e preservo o risco no downside.
 
-**“Give me one number.”**
+**“Dê um número para a decisão.”**
 
-> The decision number is R$1.2 million at risk for 90 days. The range that matters is two to three paid contracts; below two, we stop.
+> O número da decisão é R$1,2 milhão em risco por 90 dias. A faixa relevante é dois a três contratos pagos; abaixo de dois, encerramos.
 
 Precisão executiva não é falsa exatidão. É tornar a incerteza decisiva explícita.
 
@@ -270,7 +270,7 @@ Receba um pack de seis páginas. Produza:
 - uma headline de 25 palavras;
 - um memo de duas páginas;
 - appendix de evidência;
-- um ask com verbo, owner e deadline.
+- um ask com verbo, responsável e deadline.
 
 Teste: um leitor independente identifica recommendation, downside e ask em 90 segundos.
 
@@ -289,7 +289,7 @@ Use o cenário Aurora:
 Defenda o mesmo memo:
 
 - 90 segundos em PT;
-- 90 segundos em EN;
+- 90 segundos opcionais em inglês;
 - cinco minutos de Q&A em cada idioma.
 
 O painel compara números, claims, unknowns e ask entre as duas versões.
@@ -310,19 +310,19 @@ Empresa real nunca recebe fato inventado. Pergunta sem dado vira unknown ou pedi
 - “FYI” que contém decisão escondida;
 - opção preferida sem status quo;
 - número sem definição, período ou unidade;
-- forecast sem vintage;
+- previsão sem vintage;
 - miss explicado por atividade;
-- causa e ação sem owner;
+- causa e ação sem responsável;
 - upside tratado como base;
 - material risk enterrado em appendix;
 - unknown convertido em certeza durante challenge;
-- mudar número entre PT e EN;
+- mudar número entre texto e defesa;
 - responder pergunta diferente;
 - excesso de detalhe como evasão;
 - confidence teatral;
-- “legal approved” sem owner/locator.
+- “legal approved” sem responsável/locator.
 
-Fatal errors:
+Erros críticos:
 
 - fabricar fato, número, quote, source ou atribuição;
 - ocultar risco material conhecido;
@@ -335,16 +335,16 @@ Fatal errors:
 
 - [ ] O decision right e o leitor estão nomeados.
 - [ ] A primeira frase contém recommendation.
-- [ ] O ask tem verbo, owner e deadline.
+- [ ] O ask tem verbo, responsável e deadline.
 - [ ] Fatos têm fonte/locator; cenários estão rotulados.
 - [ ] Actual, estimate, assumption, unknown e decision estão separados.
 - [ ] Status quo aparece como opção.
-- [ ] Economics e opportunity cost estão visíveis.
+- [ ] Economia do negócio e opportunity cost estão visíveis.
 - [ ] O melhor argumento contrário foi steelmanned.
 - [ ] Risco material não está enterrado.
-- [ ] Gate, trigger e kill criterion são mensuráveis.
-- [ ] Owners e datas fecham o loop.
-- [ ] PT e EN mantêm a mesma verdade.
+- [ ] Gate, gatilho e kill criterion são mensuráveis.
+- [ ] Responsáveis e datas fecham o loop.
+- [ ] texto e defesa mantêm os mesmos fatos.
 - [ ] A defesa retorna ao ask.
 - [ ] Decision log registra razão e dissent.
 
@@ -357,9 +357,9 @@ Entregue:
 1. board memo PT de duas páginas;
 2. investment memo EN de duas páginas;
 3. QBR de miss de uma página;
-4. executive update de 150 palavras;
+4. atualização executiva de 150 palavras;
 5. appendix de evidence/status;
-6. defesa gravada PT/EN;
+6. defesa gravada em português;
 7. decision log pós-painel.
 
 O memo deve declarar onde depende de CFO/controller, Legal, Security ou HQ.
@@ -371,23 +371,23 @@ Veja `workbook.md` para o enunciado e `answer-key.md` para o avaliador.
 - `K`: 20%.
 - `J`: 80%.
 - mínimo: 80/100.
-- zero fatal errors.
+- zero erros críticos.
 - primeira tentativa e defesa: individual, sem IA.
 - IA permitida apenas para crítica pós-entrega, com disclosure; não altera a nota da primeira tentativa.
 
 Avaliações:
 
 - A1 — board/investment memo;
-- A2 — QBR de miss + painel adversarial PT/EN.
+- A2 — QBR de miss + painel adversarial em português.
 
 ## 13. Artefatos para o capstone
 
 - board memo com recommendation e ask;
-- investment memo com options, economics e kill trigger;
-- QBR de miss com bridge e revised forecast;
-- executive update;
+- investment memo com options, economics e kill gatilho;
+- QBR de miss com bridge e previsão revisada;
+- atualização executiva;
 - evidence/status appendix;
-- bilingual defense log;
+- registro de defesa oral;
 - decision/dissent log.
 
 ## 14. Leituras

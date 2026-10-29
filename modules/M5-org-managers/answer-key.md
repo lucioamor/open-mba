@@ -1,171 +1,122 @@
-# M5 — Evaluator guide and answer key
+# M5 — Guia do avaliador e gabarito
 
-> **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
+> **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e localizadores herdados de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Consulte [SOURCES.md](../../SOURCES.md).
 
-Do not release before Form A submission. Grade decisions against evidence, not prose polish or agreement with one organogram.
+Não consultar antes da entrega da forma A. Avalie decisões contra evidências, sem premiar apresentação ou concordância com um único organograma.
 
-## Pass rules
+## Regras de aprovação
 
-- total ≥80/100;
-- K ≥24.5/35;
-- J ≥45.5/65;
-- zero fatal errors;
-- oral defense consistent with written pack;
-- no P claim from simulation.
+Total ≥80/100; K ≥24,5/35; J ≥45,5/65; nenhum erro crítico; defesa oral coerente com a entrega; nenhuma alegação de prática real derivada da simulação. Esses limites específicos avaliam o exercício; o roteamento público usa os critérios próprios de `diagnostic/README.md`.
 
-## Dimension map
-
-| dimension | points | evidence |
+| Dimensão | Pontos | Evidência |
 |---|---:|---|
-| K | 35 | distinctions role/span/layer; job analysis; structured selection; performance cycle; incentive/succession mechanics |
-| J | 65 | diagnosis, sequencing, tradeoffs, evidence use, candidate decision, consequences, gaming controls, succession readiness |
+| K | 35 | Função, amplitude, camadas; análise de trabalho; seleção estruturada; desempenho; incentivo/sucessão |
+| J | 65 | Diagnóstico, sequência, escolhas, uso de evidência, candidatos, consequências, controles e prontidão |
 
-## A1 rubric — 45 points
+## Rubrica A1 — 45 pontos
 
-| criterion | K/J | points | full-credit anchor |
+| Critério | K/J | Pontos | Referência de pontuação máxima |
 |---|---|---:|---|
-| work/decision/interface diagnosis | J | 10 | quantifies overload, sees M4 rights not exercised, separates symptoms from structure |
-| 0–5/5–20/20–50 sequencing | J | 10 | stages roles by work and gates; includes status quo/alternative and reversibility |
-| spans/layers concepts | K | 7 | no universal number; every layer has distinct managerial work and cost |
-| Head of Revenue decision | J | 7 | defers now because one manager + ~2h portfolio conflict do not justify 27h role; states trigger to revisit |
-| role charters/triggers | K | 5 | outcomes, authority, interfaces, load, entry/removal trigger |
-| 90-day transition | J | 6 | moves existing rights, installs CS management capacity, protects operation, names owners/dates |
+| Diagnóstico do trabalho/decisões/interfaces | J | 10 | Quantifica sobrecarga e direitos de M4 não exercidos; separa sintomas de estrutura |
+| Sequência 0–5/5–20/20–50 | J | 10 | Liga funções a trabalho e condições; inclui situação atual, alternativa e reversibilidade |
+| Amplitude e camadas | K | 7 | Sem número universal; cada camada tem trabalho próprio e custo |
+| Diretoria de receita | J | 7 | Adia: um gestor e cerca de 2h de conflito não justificam função de 27h; informa gatilho de revisão |
+| Funções e gatilhos | K | 5 | Resultados, autoridade, interfaces, carga e gatilhos de criação/remoção |
+| Transição de 90 dias | J | 6 | Transfere direitos existentes, instala capacidade de gestão de sucesso do cliente, protege operação e define responsáveis/datas |
 
-### A1 acceptable variance
+É aceitável contratar a gerência de sucesso do cliente, designar interino ou redistribuir subordinados primeiro. Antecipar diretoria de receita exige identificar trabalho ausente do caso, rotulá-lo como premissa, tornar a mudança gradual/reversível e demonstrar economia e teste. Criar título sem suporte perde pontos de julgamento, sem ser automaticamente erro crítico.
 
-An answer may hire CS Manager now, appoint an interim, or redistribute reports first. It may add Head of Revenue earlier only if it:
+## Rubrica A2 — 55 pontos
 
-- identifies distinct work absent from the case;
-- labels that as assumption;
-- makes the move staged/reversible;
-- provides economics and a test.
-
-Unsupported title creation loses judgment points; it is not automatically fatal.
-
-## A2 rubric — 55 points
-
-| criterion | K/J | points | full-credit anchor |
+| Critério | K/J | Pontos brutos | Referência de pontuação máxima |
 |---|---|---:|---|
-| job analysis and frozen scorecard | K | 8 | mission/outcomes/competencies linked to work; weights and anchors frozen |
-| candidate evidence and decision | J | 9 | preserves unsupported claims as uncertainty; Diego leads on case evidence; no protected/personal inference |
-| performance cycle | K | 8 | plan, monitor, develop, rate/reward; facts before consequences |
-| people judgment | J | 9 | contains Ana’s risk without improvised sanction; differentiates support/consequence by evidence; recognizes Bruno/Diego development |
-| incentive mechanics | K | 7 | balanced components, definitions, gates, owner and governed override |
-| gaming judgment | J | 6 | tests at least four routes and changes design accordingly |
-| succession mechanics | K | 7 | criticality, interim limits, readiness, gap, experience, fallback, review |
-| succession judgment | J | 6 | no unsupported ready-now label; converts gaps into testable assignments |
-- Total available in table is 60; normalize A2 table score to 55 using `score × 55 / 60`.
+| Análise de trabalho e quadro fixado | K | 8 | Missão/resultados/competências ligados ao trabalho; pesos e referências fixados |
+| Evidências e decisão sobre candidatos | J | 9 | Mantém incertezas; Diego lidera nas evidências do caso; nenhuma inferência pessoal protegida |
+| Ciclo de desempenho | K | 8 | Planejar, acompanhar, desenvolver, avaliar/recompensar; fatos antes de consequências |
+| Julgamento sobre pessoas | J | 9 | Contém risco de Ana sem sanção improvisada; diferencia apoio e consequência por evidência; reconhece desenvolvimento de Bruno/Diego |
+| Mecanismo de incentivo | K | 7 | Componentes equilibrados, definições, condições, responsável e exceção governada |
+| Testes de manipulação | J | 6 | Testa ao menos quatro rotas e ajusta desenho |
+| Mecanismo de sucessão | K | 7 | Criticidade, limites interinos, prontidão, lacuna, experiência, contingência e revisão |
+| Julgamento de sucessão | J | 6 | Não afirma prontidão sem suporte; converte lacunas em experiências testáveis |
 
-## K/J total calculation
+A tabela soma 60 pontos brutos. Para o subtotal de A2, use `nota × 55 / 60`.
 
-Because criteria contain mixed point pools:
+## Cálculo final de K e J
 
-1. calculate earned K across both assessments, divide by available K, multiply by 35;
-2. calculate earned J across both assessments, divide by available J, multiply by 65;
-3. sum normalized K + J.
+As tabelas têm conjuntos de pontos diferentes. Para o resultado final, some os pontos K obtidos nas duas avaliações, divida pelo total K disponível e multiplique por 35. Faça o mesmo para J, multiplicando por 65. Some K e J normalizados. Não use os subtotais brutos A1/A2 como nota final se distorcerem o peso obrigatório de 35/65; os subtotais servem para retorno por entrega.
 
-Do not use raw A1/A2 sums as the final if they distort the mandated 35/65 weights.
+## Respostas de referência
 
-## Resolved anchors
+### Estrutura e diretoria de receita
 
-### Org plan
+- 0–5: fundador e responsáveis explícitos por resultados, sem cargos gerenciais automáticos.
+- 5–20: gerência de vendas justificável; instalar gestão de sucesso do cliente, ainda que interina, diante da carga e da sobrecarga da liderança de país.
+- 20–50: ampliar gestores funcionais; liderança de gestores entra quando dois ou mais gestores precisam de calibração recorrente de carteira, recursos e pessoas.
 
-Strong pattern:
+Com 19 pessoas, 12 subordinados e 31 horas de coordenação/aprovação, há sobrecarga. Antes de criar camada, mova as aprovações já atribuídas em M4. Não institucionalize aprovações evitáveis.
 
-- 0–5: founder plus explicit outcome owners, no management titles by default;
-- 5–20: Sales Manager justified; add CS Manager/interim because Country Lead overload and CS workload are visible;
-- 20–50: functional managers scale; manager-of-managers enters only when two or more managers need recurring portfolio/resource/talent calibration.
+Decisão de referência: adiar a diretoria de receita. Revisar quando existirem pelo menos dois gestores, trabalho recorrente de alocação/calibração entre equipes e carga executiva mensurável que não possa ser absorvida.
 
-At 19 people, Country Lead’s 12 reports and 31 coordination/approval hours show overload, but six approvals should first move to their M4 owners. Structure must not institutionalize avoidable approvals.
+### Seleção
 
-### Head of Revenue
+Diego tem evidências mais fortes: manual adotado por colegas, nota 5 na amostra de risco, trabalho entre áreas documentado e registro completo de fontes/versões. A afirmação de escala de Fernanda carece de coorte/base, e duas premissas não têm suporte. Não a declare desonesta; busque referência/evidência e pontue somente o disponível.
 
-Reference decision: **defer**. One manager and two hours/week of portfolio conflict do not justify a 27-hour role. Revisit when there are at least two managers, recurring cross-team allocation/calibration work and measurable executive load that cannot be absorbed.
+### Desempenho
 
-### Candidate decision
+- Ana: conter descontos/promessas sem autorização e risco ao cliente; preservar fatos, investigar, permitir resposta e revisar com RH/jurídico competente. Excluir negócios inválidos da recompensa; não determinar desligamento automático.
+- Bruno: reconhecer resultado e orientação; testar desenvolvimento formal e conversa de desempenho antes de declarar prontidão gerencial.
+- Clara: reafirmar padrão de comunicação antecipada de risco; acompanhar indicador e apoiar. Consequência depende de expectativa estabelecida, fatos reiterados e processo local.
+- Diego: reconhecer contribuição ao sistema; testar contratação e gestão de baixo desempenho antes de declarar prontidão atual.
+- Elisa: plano de melhoria de previsão e orientação, com definições, cadência e apoio. Não inventar má conduta.
 
-Diego has stronger case-grounded evidence:
+### Incentivos
 
-- playbook and peer adoption;
-- risk work sample score 5;
-- documented cross-functional work;
-- complete source/vintage log.
+Um desenho defensável: 40% retenção bruta; 20% expansão líquida; 15% recebimento/valor realizado; 15% qualidade de previsão/dados de risco; 10% capacidade da equipe/saúde dos controles.
 
-Fernanda’s scale claim lacks cohort/base and two inputs are unsupported. A strong answer does not call her dishonest; it seeks evidence/reference and scores only what exists.
+Engano ao cliente, manipulação de dados ou violação material pode impedir pagamento relacionado e limitar/zerar o período conforme política válida. Exceção exige revisão, afastamento de participantes em conflito e justificativa registrada. Medida real trabalhista ou remuneratória depende de revisão local; a fórmula é um exercício.
 
-### Performance response
+### Sucessão
 
-- **Ana:** immediately contain unauthorized discounts/promises and customer risk; preserve facts; investigate and allow response; review with competent HR/Legal; exclude invalid business from reward; do not auto-terminate from this case.
-- **Bruno:** recognize results and mentoring; offer formal coaching/performance-conversation assignment before manager readiness.
-- **Clara:** reset early-risk standard, monitor leading indicator and support; consequence depends on established expectation, repeated facts and local process.
-- **Diego:** recognize system contribution; test hiring and difficult-performance gaps before “ready now”.
-- **Elisa:** forecast/coaching improvement plan with definitions, cadence and support; no invented misconduct.
+- Liderança de país: gerência de vendas não está pronta agora; falta ciclo de orçamento/matriz entre áreas. Experiência: conduzir uma revisão trimestral com limites delegados.
+- Gerência de vendas: Bruno é candidato em desenvolvimento; testar orientação formal e conversa difícil.
+- Gerência de sucesso do cliente: Diego pode ficar em menos de seis meses somente se as experiências de contratação/desempenho funcionarem; caso contrário, seis a 12 meses.
+- Soluções/segurança: nenhum identificado; designar interino com limites, documentar/delegar credenciais e buscar alternativa de desenvolvimento ou contratação.
 
-### Incentive
+## Erros críticos
 
-One defensible design:
+Reprovar independentemente da nota se o participante: recomenda ação ilegal, discriminatória ou retaliatória; solicita/usa informação pessoal protegida sem relação com a função; fabrica evidência ou acusa além dos fatos; muda critérios para favorecer candidato; recompensa conscientemente fraude, assédio, discriminação ou violação material; determina sanção com certeza sem processo/revisão diante de fatos incompletos; oculta conflito do avaliador; afirma competência operacional real a partir do exercício.
 
-- 40% gross retention;
-- 20% net expansion;
-- 15% collection/realized value;
-- 15% forecast/risk-data quality;
-- 10% team capability/control health.
+Se uma formulação potencialmente crítica for ambígua, peça esclarecimento neutro na defesa, sem ensinar a resposta.
 
-Gates: customer deception, data manipulation or material control breach can remove affected payout and cap/zero the period under valid policy. Override must be reviewed, conflicted members recused and rationale logged. Exact employment/compensation action requires local review.
+## Perguntas de defesa
 
-### Succession
+1. Que observação faria remover a gerência de sucesso do cliente?
+2. Qual o melhor argumento para criar diretoria de receita agora?
+3. Qual informação sobre candidato é desconhecida, em vez de evidência negativa?
+4. Quando uma exceção melhora a justiça e quando vira favorecimento?
+5. O que uma liderança de país interina não pode decidir?
+6. Que evidência mudaria Diego para prontidão atual?
 
-- Country Lead: Sales Manager is not ready now; gap is cross-functional budget/HQ cycle. Experience: own one quarterly operating review with delegated limits.
-- Sales Manager: Bruno is a development candidate, not ready now; test formal coaching and difficult conversation.
-- CS Manager: Diego may be `<6m` only if hiring/performance assignments succeed; otherwise `6–12m`.
-- Solutions/Security Lead: `none identified`; designate constrained interim, document/delegate credentials and open build/buy search.
+## Reteste — forma B
 
-## Fatal-error screen
+Use `CASE-ORG-ATLAS-B` após corrigir a forma A; exija os mesmos sete tipos de arquivo e rubrica. Elementos esperados:
 
-Mark fail regardless of numeric score if the learner:
+- Intensidade diferente do trabalho não exige mesma amplitude gerencial para suporte e entrega empresarial.
+- Adiar diretoria de operações com apenas um gestor e cinco horas de trabalho distinto.
+- Alterar dados, como X, é sinal crítico de integridade/controle; preservar incertezas, como Y, é evidência positiva. A seleção ainda segue os critérios fixados.
+- Contar somente conclusões incentiva fragmentar trabalho e sacrificar qualidade.
+- Credenciais de implantação exigem controle de acesso, substituto e exercício de transição.
 
-- recommends illegal, discriminatory or retaliatory people action;
-- uses or solicits protected/personal information not job-related;
-- fabricates evidence or accuses a person beyond facts;
-- changes criteria after seeing candidates to favor one;
-- knowingly rewards fraud, harassment, discrimination or material control breach;
-- orders termination/sanction as certain without process/local review where facts are incomplete;
-- hides evaluator conflict;
-- claims field proficiency from this exercise.
+Os limites de aprovação não mudam no reteste. Registre versão, avaliador e diferença em relação à forma A.
 
-If potentially fatal language is ambiguous, ask one neutral clarification in oral defense. Do not coach.
+## Registro de evidências
 
-## Oral-defense probes
-
-1. What observation would make you remove the CS Manager layer?
-2. What is the strongest argument for Head of Revenue now?
-3. Which candidate fact is an unknown rather than negative evidence?
-4. When can override improve fairness, and when can it become favoritism?
-5. What can an interim Country Lead not decide?
-6. What evidence would move Diego to ready now?
-
-## Retest Form B
-
-Use `CASE-ORG-ATLAS-B` only after grading Form A. Require the same seven artifact types and rubric.
-
-Expected discriminators:
-
-- different work intensity means Support and Enterprise Delivery need not share the same span;
-- defer Operations Director with only one manager and five hours of distinct work;
-- Candidate X’s data alteration is a fatal integrity/control signal; Candidate Y’s unknown preservation is positive evidence, but selection still follows frozen scorecard;
-- completion-count incentive invites slicing work and quality sacrifice;
-- deployment credentials require immediate access control, backup and transition drill.
-
-Retest passes only at the same thresholds with zero fatal errors. Record version, grader and delta from Form A.
-
-## Evidence record
-
-| item | score | locator | uncertainty/dissent |
+| Item | Nota | Localizador | Incerteza/divergência |
 |---|---:|---|---|
-| K | /35 |  |  |
-| J | /65 |  |  |
-| fatal errors | 0/1+ |  |  |
-| oral consistency | pass/fail |  |  |
-| final | /100 |  |  |
+| K | /35 | | |
+| J | /65 | | |
+| Erros críticos | 0/1+ | | |
+| Coerência oral | Aprovado/reprovado | | |
+| Final | /100 | | |
 
-Final status: `pass`, `retest`, or `fail-fatal`. Never record `P demonstrated` from this module alone.
+Situação final: aprovado, reteste ou reprovado por erro crítico. Nunca registrar prática real demonstrada somente por este módulo.

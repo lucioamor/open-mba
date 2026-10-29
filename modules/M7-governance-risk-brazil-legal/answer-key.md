@@ -1,4 +1,4 @@
-# M7 — Answer key do avaliador
+# M7 — Gabarito do avaliador
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -10,12 +10,12 @@ Não entregar junto com o enunciado. As respostas são modelos de qualidade, nã
 
 Resposta esperada:
 
-| Decisão | Recommend | Challenge | Approve | Execute | Assure |
+| Decisão | Recommend | Questionamento | Approve | Execute | Assure |
 |---|---|---|---|---|---|
-| Miss de forecast / reforecast | Country lead + Finance | CFO + board/committee | Autoridade definida no budget policy | Country team | Finance/internal audit conforme desenho |
-| Feature de IA | Product owner | AI risk + security + privacy | Product/risk authority conforme impacto | Product/Engineering | Test owner independente da entrega |
+| Miss de previsão / reforecast | Country lead + Finance | CFO + board/committee | Autoridade definida no budget policy | Country team | Finance/internal audit conforme desenho |
+| Feature de IA | Product responsável | AI risk + security + privacy | Product/risk authority conforme impacto | Product/Engineering | Test responsável independente da entrega |
 | Incidente | Incident commander | DPO + counsel + forensics | Comunicação por autoridade competente | Security/Privacy/Comms | After-action review e control testing |
-| Entidade Brasil | Country lead + Finance | Corporate/tax/labor/privacy advisors | Board/shareholder conforme reserved matters | Legal/Finance/Ops | Corporate records + audit/control owner |
+| Entidade Brasil | Country lead + Finance | Corporate/tax/labor/privacy advisors | Board/shareholder conforme reserved matters | Legal/Finance/Ops | Corporate records + audit/control responsável |
 
 Aceitar variações se decision rights, conflito, evidência e escalation estiverem explícitos.
 
@@ -28,7 +28,7 @@ Converter labels:
 - “tax” → contrato/invoice podem divergir da operação e da transição, gerando retrabalho, exposição e margem incorreta.
 - “people” → fatos de direção e integração podem divergir do rótulo contratual, exigindo reclassificação e remediação.
 
-Cada risco precisa de owner, controle e evidência. “Política”, “treinamento” ou “contrato” sem teste não bastam.
+Cada risco precisa de responsável, controle e evidência. “Política”, “treinamento” ou “contrato” sem teste não bastam.
 
 ### GP-M7-INCIDENT-TRIAGE
 
@@ -61,8 +61,8 @@ Resposta forte recomenda diligence, não entidade pronta. Ela:
 Para cada fluxo:
 
 - **management service:** funções, pessoas, benefício, allocation key, contrato, invoice, evidência;
-- **software/IP:** owner do IP, direito concedido, usuários, território, conduta real, charge;
-- **funding:** entidade, instrumento, moeda, uso, approval, registro/reporting, repayment e accounting.
+- **software/IP:** responsável do IP, direito concedido, usuários, território, conduta real, charge;
+- **financiamento:** entidade, instrumento, moeda, uso, approval, registro/reporting, repayment e accounting.
 
 O aluno não escolhe método de transfer pricing.
 
@@ -70,31 +70,31 @@ O aluno não escolhe método de transfer pricing.
 
 “Legal aprova a feature?” deve virar:
 
-> Decisão: autorizar piloto interno de versão X em data Y. Fatos: propósito, usuários, dados, vendor, região, avaliação, oversight, fallback e contrato. Issues: papel LGPD, transferência, comunicação, setor, trabalho e IP. Perguntas numeradas. Ação provisória: sandbox sem dado real. Stop trigger: falha de isolamento ou ausência de log.
+> Decisão: autorizar piloto interno de versão X em data Y. Fatos: propósito, usuários, dados, vendor, região, avaliação, oversight, fallback e contrato. Issues: papel LGPD, transferência, comunicação, setor, trabalho e IP. Perguntas numeradas. Ação provisória: sandbox sem dado real. Stop gatilho: falha de isolamento ou ausência de log.
 
 ## 2. CASE-M7-SES-SC
 
-### Timeline permitida
+### Cronologia permitida
 
 Usar somente a sequência publicada: incidente → resposta/comunicação considerada inadequada ou intempestiva → requisições da ANPD → achados → advertências e medidas corretivas. Não inventar datas intermediárias ou causa.
 
-### Failure modes
+### Modos de falha
 
-1. owner de incidente e comunicação não efetivo;
+1. responsável de incidente e comunicação não efetivo;
 2. processo de avaliação/registro insuficiente;
 3. evidência de segurança e accountability incompleta;
 4. RIPD não disponível quando requisitado;
-5. regulatory response sem owner e evidence pack.
+5. regulatory response sem responsável e evidence pack.
 
-### Control map modelo
+### Mapa de controles modelo
 
 | Objetivo | Preventivo | Detectivo | Corretivo | Evidência |
 |---|---|---|---|---|
 | Resposta tempestiva | Playbook, papéis, contatos | Exercise e clock audit | Incident command | Logs, decision log |
 | Comunicação adequada | Template e approval path | Counsel/DPO review | Comunicação complementar | Versões e approvals |
 | Segurança | Baseline e vendor controls | Monitoring/test | Contenção/remediação | Test log e tickets |
-| RIPD/evidência | Trigger e repository | Quarterly completeness review | Remediation owner | RIPD versionado |
-| Resposta à autoridade | Regulatory intake owner | Due-date tracker | Escalation ao executive | Protocolos e submissions |
+| RIPD/evidência | Trigger e repository | Quarterly completeness review | Remediation responsável | RIPD versionado |
+| Resposta à autoridade | Regulatory intake responsável | Due-date tracker | Escalation ao executive | Protocolos e submissions |
 
 ### Limite obrigatório
 
@@ -145,20 +145,20 @@ Bridge permitida: sandbox interno sem dado real, com tenant isolation, permissio
 - preservar continuidade sem orientar mudança artificial de fatos;
 - revisar EOR, IP, confidentiality e performance process.
 
-### Funding
+### Financiamento
 
 - bloquear envio sem entidade, instrumento, purpose, tax/FX/accounting review;
 - rejeitar fragmentação para “simplificar”;
 - preparar flow-of-funds e advisor brief;
 - envolver instituição autorizada quando o fluxo estiver definido.
 
-### Board versus management
+### Conselho e gestão
 
-**Board/committee:** risk outside appetite, external launch, entidade/funding material, incidente material, conflito, public communication e exceção de produto.
+**Board/committee:** risk outside appetite, external launch, entidade/financiamento material, incidente material, conflito, public communication e exceção de produto.
 
 **Management:** contenção, coleta de fatos, advisor engagement, internal sandbox dentro de limite e remediação operacional.
 
-### Risk register modelo
+### Registro de riscos modelo
 
 **CENÁRIO SINTÉTICO.**
 
@@ -169,13 +169,13 @@ Bridge permitida: sandbox interno sem dado real, com tenant isolation, permissio
 | R3 | Comunicação inadequada | 3 | 5 | 15 | Clock + DPO/counsel |
 | R4 | Transferência/vendor não mapeados | 4 | 4 | 16 | Data/vendor map + DPA |
 | R5 | Contractor facts não revisados | 4 | 4 | 16 | Freeze + labor review |
-| R6 | Funding sem estrutura | 3 | 5 | 15 | Freeze + flow-of-funds |
+| R6 | Financiamento sem estrutura | 3 | 5 | 15 | Freeze + flow-of-funds |
 | R7 | Autoridade de assinatura ambígua | 3 | 4 | 12 | Delegation matrix |
 | R8 | Miss gera override de controle | 4 | 4 | 16 | Board condition + dissent log |
 
 Scores são priorização interna do cenário, não benchmark.
 
-### Advisor questions mínimas
+### Perguntas ao especialista mínimas
 
 **Privacy**
 
@@ -200,8 +200,8 @@ Scores são priorização interna do cenário, não benchmark.
 
 **Tax/FX**
 
-1. Qual entidade e instrumento suportam funding?
-2. Que fatos definem serviço, IP, funding e charge?
+1. Qual entidade e instrumento suportam financiamento?
+2. Que fatos definem serviço, IP, financiamento e charge?
 3. Que documentação, registro e finalidade são exigidos?
 4. Como a transição 2026 afeta produto, contrato e invoice?
 
@@ -217,7 +217,7 @@ Scores são priorização interna do cenário, não benchmark.
 
 | Horizon | Entrega | Exit criterion |
 |---|---|---|
-| 30 | Incidente fechado/monitorado; logs preservados; data/vendor map; hiring/funding gates | Owners e evidência completos |
+| 30 | Incidente fechado/monitorado; logs preservados; data/vendor map; hiring/financiamento gates | Responsáveis e evidência completos |
 | 60 | Structure decision; delegation; DPA/transfer; contractor remediation; tax/FX design | Advisor memos e decisões registradas |
 | 90 | Control testing; entity/bridge implementation; AI re-evaluation; board review | Residual accepted by authority |
 
@@ -228,7 +228,7 @@ Scores são priorização interna do cenário, não benchmark.
 | Dimensão | Evidência | Pontos |
 |---|---|---:|
 | K | Fonte, status normativo, LGPD/RCIS, transferência, tax/FX, AI regulation | 45 |
-| J | Decisão, trade-offs, board, risk/control, action, advisor brief, challenge | 55 |
+| J | Decisão, escolhas e renúncias, board, risk/control, action, advisor brief, challenge | 55 |
 | **Total** | | **100** |
 
 ### Rubrica
@@ -239,26 +239,26 @@ Scores são priorização interna do cenário, não benchmark.
 | LGPD, fluxo, transferência e incident criteria/clock | K | 15 |
 | Estrutura/trabalho/tax/FX/intercompany issues | K | 15 |
 | Fontes, locators, as-of e limitações | K | 5 |
-| Recomendação, opções, trade-offs e condições | J | 15 |
+| Recomendação, opções, escolhas e renúncias e condições | J | 15 |
 | Board/accountability, conflito e decision rights | J | 10 |
-| Risk register, controles, evidence e triggers | J | 15 |
-| Advisor brief, owners e roadmap | J | 10 |
+| Registro de riscos, controles, evidence e gatilhos | J | 15 |
+| Briefing para especialista, responsáveis e roadmap | J | 10 |
 | Defesa sob challenge | J | 5 |
 | **Total** | | **100** |
 
-### Mastery
+### Domínio
 
 - aprovação: **80/100**;
 - mínimo K: **36/45**;
 - mínimo J: **44/55**;
-- zero fatal error;
+- zero erro crítico;
 - resultado certifica K/J; P permanece pendente.
 
-### Fatal errors
+### Erros críticos
 
 1. projeto legislativo apresentado como lei;
 2. conclusão jurídica/tributária categórica sem advisor;
-3. incidente sem clock, owner ou preservação;
+3. incidente sem clock, responsável ou preservação;
 4. fato, número, sanção, fonte ou case inventado;
 5. cenário sintético sem rótulo;
 6. vendor/transferência sem fluxo e papéis;
@@ -277,9 +277,9 @@ Feedback deve apontar:
 - correção;
 - retest necessário.
 
-Não aceitar prosa geral como remediação. Retest exige versão nova do artefato e defesa das mudanças.
+Não aceitar prosa geral como remediação. Reteste exige versão nova do artefato e defesa das mudanças.
 
-### Retest Form B
+### Reteste — forma B
 
 Usar exclusivamente `ASSESS-M7-FORM-B — Vela Grid` em `cases.md`. O aluno cria artefato novo; não corrige a Form A.
 
@@ -290,10 +290,10 @@ Gates específicos do avaliador:
 - conflito do diretor é divulgado e tratado com recusal/authority apropriada;
 - acesso público confirmado inicia incident command mesmo com download incerto;
 - perda parcial de log é registrada como deficiency, não ocultada;
-- feature de recomendação recebe evaluation, human oversight, appeal/fallback e stop trigger;
+- feature de recomendação recebe evaluation, human oversight, appeal/fallback e stop gatilho;
 - aquisição/JV, exclusividade e transferência de pessoas entram em diligence;
-- royalty, management fee e funding recebem functional facts, tax/FX/accounting review;
+- royalty, management fee e financiamento recebem functional facts, tax/FX/accounting review;
 - PL de IA permanece projeto, não fundamento jurídico vigente;
-- mastery continua 80, K mínimo 36/45, J mínimo 44/55 e zero fatal error.
+- mastery continua 80, K mínimo 36/45, J mínimo 44/55 e zero erro crítico.
 
-Qualquer fatal error novo na Form B reprova a tentativa. Pontos ou trechos corretos da Form A não compensam e não são transportados.
+Qualquer erro crítico novo na Form B reprova a tentativa. Pontos ou trechos corretos da Form A não compensam e não são transportados.

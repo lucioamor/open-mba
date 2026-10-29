@@ -1,4 +1,10 @@
-# Changelog
+# Histórico de alterações
+
+## Revisão de idioma e contexto — 2026-10-29
+
+README principal em inglês; conteúdo didático e documentação em português brasileiro. Traduzidos os casos, exercícios e gabarito de organização, além de campos e exemplos dos demais módulos. Defesa em inglês passa a extensão opcional. Explicitados público brasileiro, limites de transferência de referências internacionais e glossário. Créditos incluem site e LinkedIn do autor.
+
+Rótulos dos dois modelos financeiros traduzidos, com ajustes de quebra de linha. Nomes de abas e chaves usados em fórmulas foram preservados. Comparação confirmou os mesmos números de entrada, fórmulas e resultados calculados após a tradução.
 
 ## Revisão de arquitetura — 2026-10-29
 

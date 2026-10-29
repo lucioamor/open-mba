@@ -8,9 +8,9 @@ As horas abaixo são estimativas iniciais de estudo e prática por módulo compl
 |---|---|---|---|---:|
 | F1 | [Negócio e matemática](foundations/F1-business.md) | Modelo econômico de uma página | — | 6 |
 | F2 | [Cliente e validação](foundations/F2-customer.md) | Hipótese e plano de entrevistas | F1 | 6 |
-| F3 | [Distribuição e growth](foundations/F3-growth.md) | Funil e experimento de canal | F1, F2 | 6 |
+| F3 | [Distribuição e crescimento](foundations/F3-growth.md) | Funil e experimento de canal | F1, F2 | 6 |
 | F4 | [Produto, dados e experimentação](foundations/F4-product.md) | Métrica, evento e teste | F1, F2 | 6 |
-| M1 | [Finanças e P&L](modules/M1-financial-fluency-pnl/module.md) | Demonstrações e forecast | F1 | 30 |
+| M1 | [Finanças e P&L](modules/M1-financial-fluency-pnl/module.md) | Demonstrações e previsão | F1 | 30 |
 | M2 | [Unit economics, pricing e capital](modules/M2-unit-economics-pricing-capital/module.md) | Coortes, custo e investimento | M1 | 22 |
 | M3 | [Estratégia e incerteza](modules/M3-strategy-decision/module.md) | Memo de escolhas | F2, M2 | 16 |
 | M4 | [Modelo operacional](modules/M4-operating-model/module.md) | Processo, direitos e cadência | M1 | 20 |

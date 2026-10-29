@@ -1,4 +1,4 @@
-# M2 — Unit economics, pricing e eficiência de capital em SaaS/AI
+# M2 — Economia por unidade, preços e eficiência de capital em software e IA
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -6,15 +6,15 @@
 
 **Quem servir, a que preço, com qual motion e estrutura de margem — e qual investimento financiar, condicionar ou recusar?**
 
-Uma resposta executiva completa contém: unidade e coorte; economics observados; pricing meter; custo por workload; cash flow incremental; alternativa rejeitada; risco; gate de liberação; trigger de revisão; owner e escalation.
+Uma resposta executiva completa contém: unidade e coorte; economics observados; pricing meter; custo por carga de trabalho; cash flow incremental; alternativa rejeitada; risco; gate de liberação; gatilho de revisão; responsável e escalation.
 
 O módulo termina quando o participante consegue defender a decisão sem esconder mix, média, timing, custo compartilhado ou uma premissa financeira atrás de um benchmark.
 
 ## 2. Como escolher a profundidade
 
-Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, test-out ou M0.
+Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, avaliação para dispensa ou M0.
 
-## 3. Conhecimentos prévios e test-out
+## 3. Conhecimentos prévios e avaliação para dispensa
 
 Pré-requisitos:
 
@@ -22,17 +22,17 @@ Pré-requisitos:
 2. Calcular percentuais, média ponderada e valor presente.
 3. Explicitar premissa, período, moeda e unidade.
 
-Test-out por subcompetência: `K ≥ 85`, `J ≥ 80`, dois casos independentes e zero fatal error local. Resultado 70–84 pode comprimir; erro em definição de unidade, gross margin, payback ou workload cost mantém DEEP, mesmo com média agregada alta.
+Avaliação para dispensa por subcompetência: `K ≥ 85`, `J ≥ 80`, dois casos independentes e zero erro crítico local. Resultado 70–84 pode comprimir; erro em definição de unidade, gross margin, payback ou carga de trabalho cost mantém DEEP, mesmo com média agregada alta.
 
 Antes de começar, responda sem consulta: “qual é o denominador de CAC?”, “por que NRR de duas empresas pode não ser comparável?” e “qual custo entra no floor de preço?”. Se qualquer resposta omitir população, período ou margem, execute o módulo integral.
 
-## 4. Learning outcomes
+## 4. Objetivos de aprendizagem
 
 Ao concluir, o participante será capaz de:
 
 - **M2-LO-01 / UE-01:** reconstruir ARR, GRR, NRR e coortes com unidade, população e período auditáveis.
 - **M2-LO-02 / UE-02:** calcular CAC fully-loaded, payback e LTV e rejeitar premissas incompatíveis.
-- **M2-LO-03 / UE-03:** desenhar preço e guardrails que preservem contribuição por workload sob consumo e desconto.
+- **M2-LO-03 / UE-03:** desenhar preço e guardrails que preservem contribuição por carga de trabalho sob consumo e desconto.
 - **M2-LO-04 / CAP-01:** recomendar, condicionar ou recusar capital usando NPV, sensibilidade, alternativa rejeitada e escalation.
 
 ## 5. Mapa de conceitos em uma página
@@ -76,7 +76,7 @@ Antes do cálculo, escreva:
 
 | campo | pergunta mínima |
 |---|---|
-| unidade | logo, contrato, workspace, seat, workload ou R$ de ARR? |
+| unidade | logo, contrato, workspace, seat, carga de trabalho ou R$ de ARR? |
 | população | quem entra e quem fica fora? |
 | evento | assinatura, ativação, primeira receita ou primeiro consumo? |
 | janela | mês, trimestre, trailing 12 meses ou dois anos? |
@@ -89,7 +89,7 @@ Snowflake informa que product revenue acompanha consumo e que esse timing pode u
 
 #### 1.2 ARR/MRR operacional
 
-Definição do curso: ARR é o run-rate anual de componentes recorrentes ativos na data; exclui serviço one-off. Para consumo, qualquer annualização deve declarar janela, sazonalidade, compromisso e política de outlier. Nunca force “ARR” onde o melhor indicador é revenue de consumo por coorte e workload.
+Definição do curso: ARR é o run-rate anual de componentes recorrentes ativos na data; exclui serviço one-off. Para consumo, qualquer annualização deve declarar janela, sazonalidade, compromisso e política de outlier. Nunca force “ARR” onde o melhor indicador é revenue de consumo por coorte e carga de trabalho.
 
 **Fatal error:** somar serviços, implementação e uso não contratado ao ARR sem política explícita.
 
@@ -175,9 +175,9 @@ Definição do curso: `score = growth definido + margem definida`, sempre com pe
 
 Magic number pode ser uma razão de sales efficiency, mas sua fórmula varia. Neste curso, qualquer uso exige fórmula, lag, margem, organic/paid e reconciliação ao ledger; não há benchmark de aprovação automática.
 
-### Lição 4 — Pricing por consumo e margem por workload
+### Lição 4 — Pricing por consumo e margem por carga de trabalho
 
-**Decisão:** qual meter, preço e limite tornam o workload observável?
+**Decisão:** qual meter, preço e limite tornam o carga de trabalho observável?
 
 Arquiteturas:
 
@@ -192,7 +192,7 @@ Arquiteturas:
 
 Snowflake publica meters de compute, storage e transfer; créditos consumidos multiplicam o preço do acordo [SRC-M2-SNOW-PRICING, “Basic pricing model”]. Confluent lista data transfer, storage, compute units e add-ons, com billing horário [SRC-M2-CONFLUENT-BILLING, linhas 1083–1107]. Lovable usa créditos compartilhados cujo consumo varia por ação/plano e não cobra por seat [SRC-M2-LOVABLE-PRICING, linhas 22–35 e 62–70]; em 2026 unificou saldo de build, Cloud e AI com visibilidade por membro/projeto/categoria [SRC-M2-LOVABLE-BILLING, linhas 27–49]. São padrões observáveis, não economics internos comparáveis.
 
-#### Workload cost tree
+#### Carga de trabalho cost tree
 
 ```text
 tokens input + tokens output + cache
@@ -205,13 +205,13 @@ tokens input + tokens output + cache
 = custo atribuível do workload
 ```
 
-Calcule p50, p95 e stress. Defina unit cost, rate limit, alert, budget cap, overage, kill switch operacional e owner. O kill criterion estratégico canônico pertence ao M3; aqui há apenas proteção financeira e de serviço.
+Calcule p50, p95 e stress. Defina unit cost, rate limit, alert, budget cap, overage, kill switch operacional e responsável. O kill criterion estratégico canônico pertence ao M3; aqui há apenas proteção financeira e de serviço.
 
 Para os exercícios, adote um fornecedor fictício com input a US$2,50/MTok e output a US$15/MTok. São premissas didáticas, não preços públicos verificados. Para uma decisão real, registre provedor, modelo, moeda, tier, data e fonte do contrato ou catálogo consultado.
 
-#### Exemplo resolvido 3 — margem por workload e desconto
+#### Exemplo resolvido 3 — margem por carga de trabalho e desconto
 
-**Cenário sintético; preços do fornecedor são premissas fictícias.** Workload mensal: 300 MTok input e 60 MTok output em Modelo A (sintético); demais custos diretos = US$850; FX didático = R$5,20/US$; preço ao cliente = R$26.000.
+**Cenário sintético; preços do fornecedor são premissas fictícias.** Carga de trabalho mensal: 300 MTok input e 60 MTok output em Modelo A (sintético); demais custos diretos = US$850; FX didático = R$5,20/US$; preço ao cliente = R$26.000.
 
 ```text
 modelo = 300 × 2,50 + 60 × 15 = US$1.650
@@ -220,7 +220,7 @@ contribuição = 26.000 - 13.000 = R$13.000
 margem = 13.000 / 26.000 = 50,00%
 ```
 
-Com desconto de 20%, preço = R$20.800; margem cai para `(20.800 − 13.000)/20.800 = 37,50%`. Se o cliente também exigir R$2.080 de suporte incremental, margem cai para 27,50%. Para preservar 50%, o floor passa a `15.080/(1−0,50) = R$30.160`, acima do list. Decisão: rejeitar pacote, reduzir escopo/uso/SLA, trocar workload ou obter contrapartida econômica; não aprovar só pelo ARR.
+Com desconto de 20%, preço = R$20.800; margem cai para `(20.800 − 13.000)/20.800 = 37,50%`. Se o cliente também exigir R$2.080 de suporte incremental, margem cai para 27,50%. Para preservar 50%, o floor passa a `15.080/(1−0,50) = R$30.160`, acima do list. Decisão: rejeitar pacote, reduzir escopo/uso/SLA, trocar carga de trabalho ou obter contrapartida econômica; não aprovar só pelo ARR.
 
 ### Lição 5 — Discount governance e leakage
 
@@ -229,14 +229,14 @@ Com desconto de 20%, preço = R$20.800; margem cai para `(20.800 − 13.000)/20.
 O handbook público do GitLab exige aprovação para elementos não padrão, racional do desconto, resposta a “what are we getting in return?” e reaprovação após mudança [SRC-M2-GITLAB-DEAL, linhas 4082–4103]. O módulo transforma esse exemplo em um controle mínimo próprio:
 
 1. list, net, TCV, term, payment e ramp;
-2. custo por workload p50/p95 e margem após canal/suporte;
+2. custo por carga de trabalho p50/p95 e margem após canal/suporte;
 3. desconto efetivo e price waterfall;
 4. contrapartida: prepay, commit, volume, escopo, prazo, referência ou menor SLA;
 5. approver por impacto, não por título comercial;
 6. validade, exception ID e reaprovação após mudança;
-7. floor e CFO trigger.
+7. floor e CFO gatilho.
 
-Leakage inclui desconto informal, implantação grátis, suporte customizado, rate limit ausente, overage não cobrado, parceiro sem margin waterfall, FX sem clause, pagamento longo e renewal price lock. Cada item tem owner e valor esperado.
+Leakage inclui desconto informal, implantação grátis, suporte customizado, rate limit ausente, overage não cobrado, parceiro sem margin waterfall, FX sem clause, pagamento longo e renewal price lock. Cada item tem responsável e valor esperado.
 
 **Escalar ao CFO/controller:** preço abaixo do floor, margem negativa em p95, compromisso mínimo, pagamento/FX material, revenue recognition incomum, canal com risco de principal-versus-agent, ou exceção que cria precedente.
 
@@ -281,7 +281,7 @@ NPV direct  = -900 + 150/1,14 + 400/1,14² + 550/1,14³
             = -R$89,40 mil; IRR = 8,95%; payback simples = 2,64 anos
 ```
 
-Recomendação preliminar: partner-led, condicionado a quality/economics gates. Com inflows 20% menores, seu NPV vira **−R$85,98 mil**; a decisão exige staged funding. Hurdle real, tributos, FX e risco de parceiro devem ser aprovados pelo CFO/controller.
+Recomendação preliminar: partner-led, condicionado a quality/economics gates. Com inflows 20% menores, seu NPV vira **−R$85,98 mil**; a decisão exige staged financiamento. Hurdle real, tributos, FX e risco de parceiro devem ser aprovados pelo CFO/controller.
 
 **Capital structure literacy:** equity dilui, dívida cria obrigação/covenant e compromisso contratual cria downside mesmo sem dívida. O objetivo aqui é ler efeitos e escalar; valuation, cap-table modeling e M&A avançados ficam fora.
 
@@ -300,7 +300,7 @@ Gate: zero mistura de ARR/revenue e GRR sem expansão.
 
 ### GP-M2-02 — Pricing war room (150 min)
 
-Use o workload do exemplo 3. Recalcule p50, p95 (+40% output, +20% support) e três propostas: seat, commit+overage, enterprise floor. Simule pedido de 25% desconto e SLA customizado. Registre give-get, approver e expiry.
+Use o carga de trabalho do exemplo 3. Recalcule p50, p95 (+40% output, +20% support) e três propostas: seat, commit+overage, enterprise floor. Simule pedido de 25% desconto e SLA customizado. Registre give-get, approver e expiry.
 
 Gate: todos os custos atribuíveis e supplier price “as of” visíveis.
 
@@ -325,7 +325,7 @@ Separação obrigatória:
 | erro | sinal | correção |
 |---|---|---|
 | unidade oculta | “CAC caiu” sem denominador | contrato de definição |
-| média mascara mix | blended margin sem p95/segmento | cohort/workload view |
+| média mascara mix | blended margin sem p95/segmento | cohort/carga de trabalho view |
 | NRR comparado cru | empresas usam janelas diferentes | normalize ou não compare |
 | GRR com expansão | GRR >100% | cap por cliente no opening |
 | payback em revenue | divide CAC por MRR | usar gross profit |
@@ -345,13 +345,13 @@ Separação obrigatória:
 - [ ] CAC pool, denominador e lag publicados.
 - [ ] Payback usa gross profit incremental.
 - [ ] LTV inclui limites e cenário, não falsa precisão.
-- [ ] Workload p50/p95/stress com todos os meters.
+- [ ] Carga de trabalho p50/p95/stress com todos os meters.
 - [ ] Supplier price tem data e recheck.
 - [ ] Floor, discount waterfall, give-get, expiry e approver.
 - [ ] Cash flows incrementais, after-tax e coerentes com hurdle.
 - [ ] NPV e sensibilidade; IRR/payback com limites.
 - [ ] Alternativa rejeitada e opportunity cost.
-- [ ] Gate de liberação, owner e trigger de revisão.
+- [ ] Gate de liberação, responsável e gatilho de revisão.
 - [ ] CFO/controller escalation explícita.
 
 ## 11. Exercício aplicado à operação Brasil
@@ -359,29 +359,29 @@ Separação obrigatória:
 Uma empresa global de AI avalia entrada no Brasil com três segmentos: startups self-serve, mid-market via parceiros e enterprise direto. Construa:
 
 1. unit-economics tree por segmento;
-2. pricing meter e price floor por workload;
+2. pricing meter e price floor por carga de trabalho;
 3. cohort model com GRR/NRR;
 4. discount approval card;
 5. investment memo build-versus-partner.
 
-Use BRL e USD em colunas separadas, FX como premissa, impostos como linha pendente de validação e nenhum dado “de mercado” sem fonte. Não invente preço, margem ou churn de empresa-alvo. O workbook fornece dados sintéticos completos.
+Use BRL e USD em colunas separadas, FX como premissa, impostos como linha pendente de validação e nenhum dado “de mercado” sem fonte. Não invente preço, margem ou churn de empresa-alvo. O caderno de exercícios fornece dados sintéticos completos.
 
 ## 12. Avaliação e rubrica
 
 Avaliação individual, sem AI:
 
 - **ASSESS-M2-A — Mechanics (45 pontos K):** coorte, CAC, payback e LTV.
-- **ASSESS-M2-B — Executive judgment (55 pontos J):** workload pricing, desconto e capital allocation.
+- **ASSESS-M2-B — Julgamento executivo (55 pontos J):** carga de trabalho pricing, desconto e capital allocation.
 
-Mastery = 80/100 e zero fatal error. K/J não são compensados quando há fatal error local. `P` não é pontuado neste módulo; artefatos alimentam capstone, mas não provam field readiness.
+Domínio = 80/100 e zero erro crítico. K/J não são compensados quando há erro crítico local. `P` não é pontuado neste módulo; artefatos alimentam capstone, mas não provam field readiness.
 
 Rubrica:
 
 | dimensão | pontos | evidência |
 |---|---:|---|
 | definição/reconciliação | 15 | unidade, população, período e ledger |
-| cálculos | 30 | GRR/NRR, CAC, payback, LTV, workload, NPV |
-| julgamento | 25 | decisão, trade-off e alternativa |
+| cálculos | 30 | GRR/NRR, CAC, payback, LTV, carga de trabalho, NPV |
+| julgamento | 25 | decisão, escolha e renúncia e alternativa |
 | risco/governança | 20 | p95, floor, gate, approver, escalation |
 | comunicação | 10 | recomendação curta e auditável |
 
@@ -390,7 +390,7 @@ Rubrica:
 Entregáveis:
 
 1. `ART-M2-UE-TREE`: cohort model e unit-economics tree.
-2. `ART-M2-PRICING`: pricing architecture, workload ledger, floor e approval matrix.
+2. `ART-M2-PRICING`: pricing architecture, carga de trabalho ledger, floor e approval matrix.
 3. `ART-M2-ALLOC`: investment memo curto com NPV, sensibilidade, alternativa rejeitada, tranches e CFO ask.
 
 O M3 é dono dos kill criteria estratégicos. M2 fornece evidence gates financeiros; não duplica o registro canônico. O M8 transforma a recomendação em board memo.

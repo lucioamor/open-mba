@@ -1,8 +1,8 @@
-# M6 — Answer key e rubrica
+# M6 — Gabarito e rubrica
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
-**Evaluator only.** Arredondamento aceito: ±0,02 p.p. ou ±R$0,01 milhão.
+**Somente para o avaliador.** Arredondamento aceito: ±0,02 p.p. ou ±R$0,01 milhão.
 
 ## Chave dos exemplos resolvidos
 
@@ -23,9 +23,9 @@ Base:
 
 - COGS = `1,50 + 0,30 + 0,60 = 2,40`.
 - GP = `6,00 − 2,40 = 3,60`; GM = `60,00%`.
-- Local OPEX = `1,80 + 0,50 + 0,20 = 2,50`.
-- Local contribution = `1,10`; margin = `18,33%`.
-- Fully allocated result = `1,10 − 0,50 = 0,60`; margin = `10,00%`.
+- Despesas operacionais locais = `1,80 + 0,50 + 0,20 = 2,50`.
+- Contribuição local = `1,10`; margin = `18,33%`.
+- Resultado com todas as alocações = `1,10 − 0,50 = 0,60`; margin = `10,00%`.
 
 Downside combinado:
 
@@ -34,15 +34,15 @@ Downside combinado:
 - Partner = `4,50 × 10% = 0,45`.
 - COGS = `1,35 + 0,30 + 0,45 = 2,10`.
 - GP = `2,40`; GM = `53,33%`.
-- Local OPEX = `2,50 − 0,20 = 2,30`.
-- Local contribution = `0,10`; margin = `2,22%`.
-- Fully allocated result = `−0,40`; margin = `−8,89%`.
+- Despesas operacionais locais = `2,50 − 0,20 = 2,30`.
+- Contribuição local = `0,10`; margin = `2,22%`.
+- Resultado com todas as alocações = `−0,40`; margin = `−8,89%`.
 
 ### Exemplo 3 — exception
 
 - Incremental probability = `55% − 10% = 45%`.
 - Incremental expected ARR = `2,40 × 45% = 1,08`.
-- Expected contribution = `1,08 × 45% = 0,486`.
+- Contribuição esperada = `1,08 × 45% = 0,486`.
 - First-year net = `0,486 − 0,500 − 0,100 = −0,114`, ou **−R$114 mil**.
 
 ### Exemplo 4 — miss bridge
@@ -110,12 +110,12 @@ Pontuação: revenue/compute 3; GP/GM 3; local 2; allocated 2.
 
 Resposta completa:
 
-- PTAX = taxa oficial observada com data/hora e lado; não é preço contratual nem forecast.
+- PTAX = taxa oficial observada com data/hora e lado; não é preço contratual nem previsão.
 - Focus = distribuição/mediana de expectativas de mercado; não é projeção do BCB.
-- FX scenario = premissa interna para sensitivity/forecast, com owner e versão.
+- FX scenario = premissa interna para sensitivity/previsão, com responsável e versão.
 - CFO/treasury valida hedge; controller/tax valida accounting/tax effects.
 
-Pontuação: distinções 4; owners 2.
+Pontuação: distinções 4; responsáveis 2.
 
 ### Fatals A
 
@@ -125,7 +125,7 @@ Pontuação: distinções 4; owners 2.
 - FX sem moeda/data/tipo;
 - número de Arco atribuído a empresa real.
 
-## ASSESS-M6-B — Executive judgment (60 J)
+## ASSESS-M6-B — Julgamento executivo (60 J)
 
 ### 1. Entry-mode score (12)
 
@@ -144,9 +144,9 @@ subsidiary =
 
 Resposta-modelo: experimentar **partner-led**, com SLA/attribution/economics e gate; manter cross-border como fallback; não liberar subsidiary antes de repeatability/economics. M7 valida entity, tax, employment, contracts, data e sector rules.
 
-Pontuação: três scores 6; recommendation/trade-off 4; M7 scope 2.
+Pontuação: três scores 6; recommendation/escolha e renúncia 4; M7 scope 2.
 
-### 2. Forecast call (12)
+### 2. Previsão call (12)
 
 ```text
 commit = Luma 0,60 + Terra 0,30 = 0,90
@@ -157,7 +157,7 @@ pipeline total = 2,00
 commit gap vs plan = 1,50 − 0,90 = 0,60
 ```
 
-Partner influence não adiciona R$0,50; Nexo já está no revenue forecast. Forecast call recomendada: commit R$0,90; best-case R$1,60, com Nexo/Sol abaixo de evidence threshold; plano não é commit.
+Partner influence não adiciona R$0,50; Nexo já está no revenue previsão. Previsão call recomendada: commit R$0,90; best-case R$1,60, com Nexo/Sol abaixo de evidence limite; plano não é commit.
 
 Pontuação: categorias 6; plan gap 2; call 2; zero double count 2.
 
@@ -166,14 +166,14 @@ Pontuação: categorias 6; plan gap 2; call 2; zero double count 2.
 Resultado:
 
 - deployments `4/4`: passa;
-- outcomes `3/3`: passa;
+- resultados `3/3`: passa;
 - partner pipeline `25% vs 30%`: falha 5 p.p.;
-- forecast error `18% vs ≤15%`: falha 3 p.p.;
+- previsão error `18% vs ≤15%`: falha 3 p.p.;
 - GM `48% vs ≥50%`: falha 2 p.p.
 
-Decisão-modelo: **hold/remediate**, não scale integral e não stop. Há proof de paid deployment/outcome, mas economics e predictability não atingem gate. Owners: Partnerships para pipeline; Revenue Ops/country lead para forecast; Finance/Product/Delivery para GM. Novo gate em 60–90 dias com os mesmos thresholds e action plan.
+Decisão-modelo: **hold/remediate**, não scale integral e não stop. Há proof de paid deployment/outcome, mas economics e predictability não atingem gate. Responsáveis: Partnerships para pipeline; Revenue Ops/country lead para previsão; Finance/Product/Delivery para GM. Novo gate em 60–90 dias com os mesmos limites e action plan.
 
-Pontuação: avaliação 5; decisão 3; owners 2; próximo gate 2.
+Pontuação: avaliação 5; decisão 3; responsáveis 2; próximo gate 2.
 
 ### 4. HQ exception (12)
 
@@ -184,7 +184,7 @@ expected contribution = 0,90 × 50% = 0,45
 first-year net = 0,45 − 0,40 − 0,08 = −0,03
 ```
 
-Resposta-modelo: **reformular**. O caso de primeiro ano é −R$30 mil. Propor discovery/stage 1, design-partner commitment, scope reutilizável, stage 2 após proof; Product decide em 15 dias; Finance/Legal/Security mantêm veto; expiry 12 meses e reapproval trigger.
+Resposta-modelo: **reformular**. O caso de primeiro ano é −R$30 mil. Propor discovery/stage 1, design-partner commitment, scope reutilizável, stage 2 após proof; Product decide em 15 dias; Finance/Legal/Security mantêm veto; expiry 12 meses e reapproval gatilho.
 
 Pontuação: math 6; recommendation 2; staged ask 2; rights/expiry 2.
 
@@ -192,7 +192,7 @@ Pontuação: math 6; recommendation 2; staged ask 2; rights/expiry 2.
 
 Resposta-modelo:
 
-> O commit atual é R$0,90m contra plano R$1,50m; no dia 180, forecast error é 18% e GM 48%, ambos abaixo do gate. O gap inclui capacity, mas a vaga de R$300k/ano não deve ser liberada apenas por narrativa local. Opções: manter freeze; cobertura temporária via parceiro; liberar contratação condicional. Recomendo 90 dias de partner coverage e job design agora, com liberação automática se pipeline qualificado por owner exceder 3× quota, forecast error cair a ≤15%, GM atingir ≥50% e delivery capacity permanecer verde. Local recomenda e reconfigura coverage; HQ/Finance decide headcount. Decision-by em 10 dias para não perder o próximo hiring window.
+> O commit atual é R$0,90m contra plano R$1,50m; no dia 180, previsão error é 18% e GM 48%, ambos abaixo do gate. O gap inclui capacity, mas a vaga de R$300k/ano não deve ser liberada apenas por narrativa local. Opções: manter freeze; cobertura temporária via parceiro; liberar contratação condicional. Recomendo 90 dias de partner coverage e job design agora, com liberação automática se pipeline qualificado por responsável exceder 3× quota, previsão error cair a ≤15%, GM atingir ≥50% e delivery capacity permanecer verde. Local recomenda e reconfigura coverage; HQ/Finance decide headcount. Decision-by em 10 dias para não perder o próximo hiring window.
 
 Variações são válidas se contêm fato, economia, opções, recommendation, rights, milestone e data.
 
@@ -236,4 +236,4 @@ exception_first_year_net_m = -0.03
 
 ## Form B — reteste executável
 
-**Cenário sintético.** Reach cai de 35% para 25%; qualification permanece 40%, win rate 20%, 600 contas, ACV R$240 mil e first-year recognition 65%. Calcule logos, bookings e first-year revenue; depois revise entry mode, resource ask e gates 90/180/365. Respostas: 12 logos; R$2,88 mi bookings; R$1,872 mi first-year revenue. Nenhum dado é atribuído a empresa real. Fatal original é reavaliado isoladamente e P continua pendente.
+**Cenário sintético.** Reach cai de 35% para 25%; qualification permanece 40%, win rate 20%, 600 contas, ACV R$240 mil e first-year recognition 65%. Calcule logos, bookings e receita do primeiro ano; depois revise entry mode, resource ask e gates 90/180/365. Respostas: 12 logos; R$2,88 mi bookings; R$1,872 mi receita do primeiro ano. Nenhum dado é atribuído a empresa real. Fatal original é reavaliado isoladamente e P continua pendente.

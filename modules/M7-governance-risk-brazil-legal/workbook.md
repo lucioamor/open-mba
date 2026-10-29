@@ -1,43 +1,43 @@
-# WB-M7-GOV-RISK — Workbook auditável
+# WB-M7-GOV-RISK — Caderno de exercícios auditável
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
-**As of:** 2026-07-23\
-**Formato:** Markdown tabular canônico. Não há `.xlsx`; as fórmulas abaixo devem ser preservadas se o workbook for convertido.
+**Data de referência:** 2026-07-23\
+**Formato:** Markdown tabular canônico. Não há `.xlsx`; as fórmulas abaixo devem ser preservadas se o caderno de exercícios for convertido.
 
 ## Instruções
 
 1. Não preencha conclusão jurídica. Registre `issue`, fatos, hipótese, pergunta e advisor.
 2. Use `source_id`, locator e data para toda regra externa.
 3. Marque dados do caso fictício como `CENÁRIO SINTÉTICO`.
-4. Um controle só existe se tiver owner, frequência, evidência e teste.
+4. Um controle só existe se tiver responsável, frequência, evidência e teste.
 5. Não apague linhas fechadas; mude o status e registre a data.
 
-## Board pack
+## Pacote para o conselho
 
 | Campo | Conteúdo |
 |---|---|
 | Decision ID | |
 | Meeting / date | |
 | Decision requested | |
-| Executive owner | |
-| Why now | |
+| Executive responsável | |
+| Por que agora | |
 | Facts verified | |
 | Hypotheses | |
 | Unknowns | |
-| Options | |
-| Recommendation | |
+| Opções | |
+| Recomendação | |
 | Trade-offs | |
 | Risk outside appetite | |
 | Conflicts / recusal | |
 | Conditions precedent | |
-| Stop trigger | |
+| Stop gatilho | |
 | Advisor opinions required | |
 | Dissent | |
-| Decision / owner / due | |
+| Decision / responsável / due | |
 | Next review | |
 
-## Risk register
+## Registro de riscos
 
 ### Escala interna
 
@@ -51,7 +51,7 @@ Esta é uma escala pedagógica interna, não benchmark externo.
 
 O score prioriza discussão; não substitui análise qualitativa, apetite ou advisor.
 
-| Risk ID | Objetivo | Causa → evento → impacto | Owner | P | I | EI | Tratamento | Controles | EC | ER | Indicador | Trigger | Status |
+| Risk ID | Objetivo | Causa → evento → impacto | Responsável | P | I | EI | Tratamento | Controles | EC | ER | Indicador | Trigger | Status |
 |---|---|---|---|---:|---:|---:|---|---|---:|---:|---|---|---|
 | | | | | | | `P*I` | | | | `EI*(1-EC)` | | | |
 
@@ -59,7 +59,7 @@ O score prioriza discussão; não substitui análise qualitativa, apetite ou adv
 
 **CENÁRIO SINTÉTICO.**
 
-| Risk ID | Objetivo | Causa → evento → impacto | Owner | P | I | EI | Tratamento | Controles | EC | ER | Indicador | Trigger | Status |
+| Risk ID | Objetivo | Causa → evento → impacto | Responsável | P | I | EI | Tratamento | Controles | EC | ER | Indicador | Trigger | Status |
 |---|---|---|---|---:|---:|---:|---|---|---:|---:|---|---|---|
 | R-AI-01 | Lançar assistente sem exposição cross-tenant | Permissão herdada → resposta exibe dado de outro cliente → confiança e continuidade afetadas | Product VP | 4 | 5 | 20 | Reduzir | Tenant isolation; permission test; logging; kill switch | 0,60 | 8 | Falhas no test suite | Qualquer leak cross-tenant | Condicionado |
 
@@ -67,33 +67,33 @@ O score prioriza discussão; não substitui análise qualitativa, apetite ou adv
 
 **Decisão:** piloto interno somente após evidência dos quatro controles. External launch bloqueado até nova aprovação.
 
-## Control map
+## Mapa de controles
 
-| Control ID | Risco | Objetivo do controle | Tipo | Atividade | Owner | Frequência | Evidência | Tester | Resultado | Deficiência / ação |
+| Control ID | Risco | Objetivo do controle | Tipo | Atividade | Responsável | Frequência | Evidência | Tester | Resultado | Deficiência / ação |
 |---|---|---|---|---|---|---|---|---|---|---|
 | | | | Preventivo / detectivo / corretivo | | | | | | | |
 
 ### Teste de desenho
 
 - O controle atua antes, durante ou depois do evento?
-- O owner tem autoridade e acesso?
+- O responsável tem autoridade e acesso?
 - A evidência prova execução, não apenas intenção?
 - O controle cobre população e frequência?
 - Existe segregação adequada?
 - A exceção é detectada e escalada?
 - Há fallback se o controle falhar?
 
-## Escalation matrix
+## Matriz de escalonamento
 
-| Issue | Severidade | Owner operacional | Advisor | Comitê/board | Clock | Ação provisória | Stop trigger | Evidência |
+| Issue | Severidade | Responsável operacional | Advisor | Comitê/board | Clock | Ação provisória | Stop gatilho | Evidência |
 |---|---|---|---|---|---|---|---|---|
 | Incidente com dado pessoal | | Incident commander | DPO + privacy counsel + forensics | | Desde confirmação | Conter e preservar | | Incident log |
-| Estrutura/entidade | | Country lead | Corporate + tax counsel | | Antes do compromisso | Condicionar | Assinatura/contratação sem estrutura | Options memo |
+| Estrutura/entidade | | Country lead | Corporate + tax counsel | | Antes do compromisso | Condicionar | Assinatura/contratação sem estrutura | Opções memo |
 | Trabalho/contractor | | People lead | Labor counsel | | Antes da contratação/mudança | Congelar desenho | Fatos incompatíveis | People-facts sheet |
-| FX/intercompany | | Finance lead | Tax/FX counsel + instituição autorizada | | Antes do fluxo | Não executar | Divergência contrato/invoice/finalidade | Flow-of-funds |
-| IA de alto impacto interno | | Product owner | AI risk + privacy + sector counsel | | Antes do rollout | Sandbox | Falha em avaliação/oversight | Model card/test log |
+| FX/intercompany | | Finance lead | Tax/FX counsel + instituição autorizada | | Antes do fluxo | Não executar | Divergência contrato/invoice/finalidade | Fluxo de recursos |
+| IA de alto impacto interno | | Product responsável | AI risk + privacy + sector counsel | | Antes do rollout | Sandbox | Falha em avaliação/oversight | Model card/test log |
 
-## Issue map
+## Mapa de questões
 
 | Issue ID | Domínio | Fatos confirmados | Hipótese | Regra/fonte | Implicação | Pergunta decidível | Advisor | Decisão requerida | Due | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -114,7 +114,7 @@ O score prioriza discussão; não substitui análise qualitativa, apetite ou adv
 - “O PL já exige…”
 - “NIST compliance elimina responsabilidade.”
 
-## Structure options
+## Opções de estrutura
 
 | Critério | Cross-border | Partner/reseller | EOR | Subsidiária/Ltda | Aquisição/JV |
 |---|---|---|---|---|---|
@@ -128,17 +128,17 @@ O score prioriza discussão; não substitui análise qualitativa, apetite ou adv
 | Decision rights | | | | | |
 | Intercompany | | | | | |
 | Reversibility | | | | | |
-| Advisor questions | | | | | |
+| Perguntas ao especialista | | | | | |
 
-## Data and vendor map
+## Mapa de dados e fornecedores
 
 | Flow ID | Titular | Dado | Finalidade | Controlador | Operador | Sistema/vendor | País | Transferência posterior | Retenção | Direito/canal | Fonte/contrato | Gap |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | | | | |
 
-## Incident decision log
+## Registro de decisões sobre incidente
 
-| Timestamp | Fato conhecido | Hipótese/lacuna | Ação | Owner | Evidência preservada | Advisor question | Comunicação / decisão |
+| Timestamp | Fato conhecido | Hipótese/lacuna | Ação | Responsável | Evidência preservada | Advisor question | Comunicação / decisão |
 |---|---|---|---|---|---|---|---|
 | | | | | | | | |
 
@@ -151,15 +151,15 @@ O score prioriza discussão; não substitui análise qualitativa, apetite ou adv
 - quais titulares/dados/países/vendors?
 - comunicação em etapa é necessária?
 - segredo comercial foi identificado sem ocultar fato material?
-- próxima atualização tem owner e hora?
+- próxima atualização tem responsável e hora?
 
-## AI portfolio card
+## Ficha de portfólio de IA
 
 | Campo | Resposta |
 |---|---|
 | Use-case ID / version | |
 | Purpose / decision influenced | |
-| Business owner | |
+| Business responsável | |
 | People affected | |
 | Inputs / outputs | |
 | Personal or sensitive data | |
@@ -169,17 +169,17 @@ O score prioriza discussão; não substitui análise qualitativa, apetite ou adv
 | Human oversight / override | |
 | Monitoring / drift | |
 | Fallback | |
-| Stop trigger | |
+| Stop gatilho | |
 | Legal/regulatory issues | |
 | Approval / expiry | |
 
-## Flow-of-funds e intercompany
+## Fluxo de recursos e intercompany
 
-| Flow ID | From | To | Currency | Economic purpose | Contract | Invoice | Service/IP/funding facts | FX path | Tax question | Accounting evidence | Owner |
+| Flow ID | From | To | Currency | Economic purpose | Contract | Invoice | Service/IP/financiamento facts | FX path | Tax question | Accounting evidence | Responsável |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | | | |
 
-## Advisor brief
+## Briefing para especialista
 
 ### 1. Decisão requerida
 
@@ -203,9 +203,9 @@ Cada pergunta deve poder receber: `sim`, `não`, `depende de X`, ou `faltam Y do
 
 ### 10. Decisão depois do advice
 
-## Compliance roadmap 30/60/90
+## Plano de conformidade 30/60/90
 
-| Horizon | Deliverable | Owner | Dependency | Evidence | Exit criterion | Risk if late |
+| Horizon | Deliverable | Responsável | Dependency | Evidence | Exit criterion | Risk if late |
 |---|---|---|---|---|---|---|
 | 30 | | | | | | |
 | 60 | | | | | | |
@@ -214,10 +214,10 @@ Cada pergunta deve poder receber: `sim`, `não`, `depende de X`, ou `faltam Y do
 ## Verificação antes de entregar
 
 - [ ] Fórmulas recalculadas.
-- [ ] Todos os scores têm escala e owner.
+- [ ] Todos os scores têm escala e responsável.
 - [ ] Toda regra externa tem fonte e as-of date.
 - [ ] Todo cenário fictício está rotulado.
 - [ ] Não há conclusão jurídica.
-- [ ] Advisors e stop triggers estão explícitos.
+- [ ] Advisors e stop gatilhos estão explícitos.
 - [ ] Board ask cabe em uma frase.
 - [ ] Dissent, conflito e condição estão registrados.

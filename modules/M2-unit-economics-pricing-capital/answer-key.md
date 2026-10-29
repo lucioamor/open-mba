@@ -1,8 +1,8 @@
-# M2 — Answer key e rubrica
+# M2 — Gabarito e rubrica
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
-**Evaluator only.** Não entregar junto ao exercício. Arredondamento aceito: ±0,02 p.p. ou ±R$0,02 mil, salvo indicação.
+**Somente para o avaliador.** Não entregar junto ao exercício. Arredondamento aceito: ±0,02 p.p. ou ±R$0,02 mil, salvo indicação.
 
 ## Chave dos exemplos resolvidos
 
@@ -88,7 +88,7 @@ Pontuação: LTV 3; razão 2; limites 4.
 
 ### 5. Contrato de definição (8)
 
-Resposta completa nomeia: unidade/denominador; população/inclusões; período e lag; moeda/FX; receita/custo usado; owner/versão. Um exemplo coerente vale nota integral; não há texto único.
+Resposta completa nomeia: unidade/denominador; população/inclusões; período e lag; moeda/FX; receita/custo usado; responsável/versão. Um exemplo coerente vale nota integral; não há texto único.
 
 ### Fatals A
 
@@ -100,9 +100,9 @@ Qualquer um zera o item e bloqueia mastery:
 - omitir pool ou denominador;
 - trocar R$ mil por R$ sem sinalizar.
 
-## ASSESS-M2-B — Executive judgment (55 J)
+## ASSESS-M2-B — Julgamento executivo (55 J)
 
-### Parte 1 — Workload e desconto (30)
+### Parte 1 — Carga de trabalho e desconto (30)
 
 #### 1. Base (8)
 
@@ -160,9 +160,9 @@ Pontuação: list 2; equação 2; floor 1.
 
 #### 5. Recomendação (7)
 
-Resposta-modelo: **reformular**, não aprovar o pedido. Opções: preço ≥ R$32,73 mil direto; remover support custom; reduzir workload/SLA; commit/prepay; overage; rate limit. Partner exige ≥R$33,33 mil ou share/COGS menor. Exigir give-get, CFO/Deal Desk approval, validade curta, reaprovação após mudança, supplier-price recheck imediato se >30 dias e triggers de p95/margem.
+Resposta-modelo: **reformular**, não aprovar o pedido. Opções: preço ≥ R$32,73 mil direto; remover support custom; reduzir carga de trabalho/SLA; commit/prepay; overage; rate limit. Partner exige ≥R$33,33 mil ou share/COGS menor. Exigir give-get, CFO/Deal Desk approval, validade curta, reaprovação após mudança, supplier-price recheck imediato se >30 dias e gatilhos de p95/margem.
 
-Rubrica: decisão 1; rationale econômico 2; give-get 1; owner/expiry 1; recheck 1; dois triggers 1.
+Rubrica: decisão 1; rationale econômico 2; give-get 1; responsável/expiry 1; recheck 1; dois gatilhos 1.
 
 ### Parte 2 — Capital allocation (25)
 
@@ -198,18 +198,18 @@ partner = 2 + (400−160−220)/260 = 2,08 anos
 
 Dois limites, um ponto cada: payback simples ignora time value e fluxos posteriores; IRR pode conflitar com NPV por escala/timing e pode ter múltiplas raízes em fluxos não convencionais.
 
-#### 4. Recommendation (7)
+#### 4. Recomendação (7)
 
 Resposta-modelo: escolher **partner-led**. Tem NPV base maior, menor upfront, payback menor e permanece positivo no downside. Rejeitar build neste gate: NPV base positivo, porém menor e levemente negativo no downside. O sunk cost de R$120 mil não entra.
 
 Gates financeiros aceitáveis:
 
-1. liberar tranche 2 somente se gross contribution/workload e consumo observado preservarem floor;
-2. liberar expansão somente se forecast de cash flow mantiver NPV positivo no downside atualizado.
+1. liberar tranche 2 somente se gross contribution/carga de trabalho e consumo observado preservarem floor;
+2. liberar expansão somente se previsão de cash flow mantiver NPV positivo no downside atualizado.
 
-Trigger: supplier cost/FX/volume/margem cruza threshold aprovado. CFO/controller questions: hurdle/WACC; tributos/FX/working capital; classificação de COGS/capex; compromisso/covenant; materialidade.
+Trigger: supplier cost/FX/volume/margem cruza limite aprovado. CFO/controller questions: hurdle/WACC; tributos/FX/working capital; classificação de COGS/capex; compromisso/covenant; materialidade.
 
-Pontuação: recommendation 2; alternativa rejeitada 1; downside 1; dois gates 1; trigger 1; três perguntas 1.
+Pontuação: recommendation 2; alternativa rejeitada 1; downside 1; dois gates 1; gatilho 1; três perguntas 1.
 
 ### Fatals B
 
@@ -234,7 +234,7 @@ Qualquer um bloqueia mastery:
 
 **Cenário sintético.** Cohort abre com 20 clientes e MRR de R$50 mil. Em 12 meses perde 15% do opening MRR por logo churn, 10% por contraction e ganha 25% por expansion. Gross margin 65%. Custo de aquisição fully-loaded: R$300 mil. Calcule GRR, NRR, CAC por logo e payback simples sobre new MRR. Respostas: GRR 75%; NRR 100%; CAC R$15 mil; payback `300/(50×65%) = 9,23 meses`.
 
-Capital Form B, R$ mil: `CF0=-1.000`, `CF1=400`, `CF2=450`, `CF3=500`, hurdle 12%. Respostas: NPV R$71,77 mil; IRR 15,98%; decisão condicionalmente positiva antes de risco/capacidade. Reteste usa nova recomendação e novo discount guardrail; fatal error original é pontuado isoladamente.
+Capital Form B, R$ mil: `CF0=-1.000`, `CF1=400`, `CF2=450`, `CF3=500`, hurdle 12%. Respostas: NPV R$71,77 mil; IRR 15,98%; decisão condicionalmente positiva antes de risco/capacidade. Reteste usa nova recomendação e novo discount guardrail; erro crítico original é pontuado isoladamente.
 - Não elevar `P` ou prontidão C-level com base nesta nota.
 
 ## Verificação determinística

@@ -41,7 +41,7 @@ Avaliação editorial da v0.1; não é validação de equivalência acadêmica. 
 | Domínio da base geral proposta | Material existente | Trabalho necessário |
 |---|---|---|
 | Contabilidade financeira e gerencial | F1 e M1 | Separar introdução geral de P&L de país; ampliar progressão e exercícios |
-| Finanças corporativas, valuation e capital | M2 e partes de M1 | Desenvolver finanças/valuation além dos casos de SaaS e workload |
+| Finanças corporativas, valuation e capital | M2 e partes de M1 | Desenvolver finanças/valuation além dos casos de SaaS e carga de trabalho |
 | Microeconomia e ambiente macroeconômico | Pricing em M2; contexto Brasil em M6 | Construir sequência própria; pricing não cobre economia inteira |
 | Estatística, dados e decisão | F4 e M3 | Incluir probabilidade, inferência e modelos; não confundir oficina de teste com curso de estatística |
 | Marketing, cliente e arquitetura comercial | F2/F3 e trechos de M2/M6 | Ampliar segmentação, posicionamento, demanda e canais além de PLG/enterprise tech |

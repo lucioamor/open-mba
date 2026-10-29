@@ -2,7 +2,7 @@
 
 ## Leitura e prática sem IA
 
-Siga o currículo, produza a resposta no workbook e compare com a rubrica depois. Um colega pode fazer as perguntas de defesa. Material protegido opcional não é requisito; os exercícios têm dados sintéticos próprios.
+Siga o currículo, produza a resposta no caderno de exercícios e compare com a rubrica depois. Um colega pode fazer as perguntas de defesa. Material protegido opcional não é requisito; os exercícios têm dados sintéticos próprios.
 
 ## Tutor por texto ou voz
 

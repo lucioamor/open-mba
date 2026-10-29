@@ -1,16 +1,16 @@
-# Source Packet — M1
+# Referências de apoio — M1
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
 **Status:** aceito para autoria do piloto\
-**As of:** 2026-07-23
+**Data de referência:** 2026-07-23
 
 ## Decisões suportadas
 
 - distinguir receita, billing, recebimento e caixa;
 - reconciliar income statement, balance sheet e cash flow;
 - construir P&L gerencial de país sem tratá-lo como demonstração estatutária;
-- fechar rolling forecast, bridge e resposta ao desvio;
+- fechar rolling previsão, bridge e resposta ao desvio;
 - identificar quando escalar para controller, CFO, banco ou especialista tributário.
 
 ## Fontes aceitas

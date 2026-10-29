@@ -1,10 +1,10 @@
-# M7 — Governança, board, risco e operação legal/regulatória no Brasil
+# M7 — Governança, conselho, risco e operação jurídica/regulatória no Brasil
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
 **Rota:** DEEP\
 **Carga:** 22h\
-**As of:** 2026-07-23\
+**Data de referência:** 2026-07-23\
 **Limite:** material educacional para executive issue-spotting. Não constitui aconselhamento jurídico, tributário, trabalhista, cambial, contábil ou regulatório.
 
 ## 1. Decisão executiva central
@@ -15,17 +15,17 @@ A resposta executiva não é uma opinião jurídica improvisada. É um sistema:
 
 1. estabelecer o objetivo e a decisão requerida;
 2. separar fato verificado, hipótese, incerteza e restrição;
-3. identificar owners, decision rights e conflitos;
+3. identificar responsáveis, decision rights e conflitos;
 4. tornar exposição e consequência visíveis;
-5. desenhar controle provisório, evidência e stop trigger;
+5. desenhar controle provisório, evidência e stop gatilho;
 6. formular perguntas decidíveis para advisors;
 7. registrar decisão, dissent, condições e próxima revisão.
 
 ## 2. Como escolher a profundidade
 
-Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, test-out ou M0.
+Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, avaliação para dispensa ou M0.
 
-## 3. Conhecimentos prévios e test-out
+## 3. Conhecimentos prévios e avaliação para dispensa
 
 ### Pré-requisitos
 
@@ -34,24 +34,24 @@ Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o d
 - operating model, tese Brasil e relação HQ-local do M6;
 - comunicação de bad news e defesa sob challenge do M8.
 
-### Test-out
+### Avaliação para dispensa
 
-Não há test-out integral. O módulo combina domínios que precisam operar juntos. O aluno pode reduzir releitura conceitual se demonstrar:
+Não há avaliação para dispensa integral. O módulo combina domínios que precisam operar juntos. O aluno pode reduzir releitura conceitual se demonstrar:
 
 - mapa de decision rights com reserved matters;
-- risk register com risco inerente, controle, evidência e risco residual;
+- registro de riscos com risco inerente, controle, evidência e risco residual;
 - data-flow map com papéis e transferência;
 - advisor brief que não contém conclusão jurídica;
-- resposta a incidente com relógio, owner e preservação de evidência.
+- resposta a incidente com relógio, responsável e preservação de evidência.
 
 Mesmo com desempenho forte, a avaliação integrada continua obrigatória.
 
-## 4. Learning outcomes mensuráveis
+## 4. Objetivos de aprendizagem mensuráveis
 
 Ao final, o aluno:
 
 1. **M7-LO1 / COMP-GOV-BOARD / J:** desenha decision rights, agenda, information pack e registro de decisão.
-2. **M7-LO2 / COMP-GOV-RISK / J:** converte objetivos em apetite, riscos, controles, owners, evidências, gatilhos e escalonamento.
+2. **M7-LO2 / COMP-GOV-RISK / J:** converte objetivos em apetite, riscos, controles, responsáveis, evidências, gatilhos e escalonamento.
 3. **M7-LO3 / COMP-DATA-AI / K:** identifica papéis, fluxo, hipótese, direitos, transferência e issue de incidente sob LGPD.
 4. **M7-LO4 / COMP-BR-LEGAL / J:** compara estruturas operacionais e reconhece issues de contrato, poderes, trabalho e regulação setorial.
 5. **M7-LO5 / COMP-BR-LEGAL / J:** produz advisor brief para tributação do consumo, FX, pagamentos e intercompany.
@@ -88,7 +88,7 @@ Princípio operacional: nenhum quadrante isolado “resolve” a decisão. O boa
 
 Use cinco verbos:
 
-- **recommend:** prepara fatos, opções e trade-offs;
+- **recommend:** prepara fatos, opções e escolhas e renúncias;
 - **challenge:** testa premissas, conflito, viés e downside;
 - **approve:** concede autoridade dentro de condições;
 - **execute:** opera e produz evidência;
@@ -103,15 +103,15 @@ Um board ou steering committee falha quando recebe informação demais sem decis
 5. risco inerente, controles e residual;
 6. conflito/related party e recusal;
 7. recomendação, dissent e condições;
-8. owner, prazo, leading indicator e stop trigger.
+8. responsável, prazo, leading indicator e stop gatilho.
 
 O framework internacional da OECD sustenta board responsibility, accountability e qualidade da informação. A CGU descreve três linhas no Executivo federal: operação gerencia risco e controle; funções de segunda linha orientam e monitoram; auditoria interna fornece avaliação independente. Aqui isso é analogia de desenho, não imposição legal para empresa privada. [SRC-OECD-CG-2023; SRC-CGU-THREE-LINES; CLM-M7-THREE-LINES]
 
-**Reserved matters.** Não copie uma lista genérica. Defina assuntos que sobem por natureza ou materialidade: mudança de estratégia, orçamento/capital, dívida, entidade, contratação executiva, conflito, incidente material, exceção de produto, risco fora do apetite e compromisso público. O threshold é política interna aprovada, não fato externo.
+**Reserved matters.** Não copie uma lista genérica. Defina assuntos que sobem por natureza ou materialidade: mudança de estratégia, orçamento/capital, dívida, entidade, contratação executiva, conflito, incidente material, exceção de produto, risco fora do apetite e compromisso público. O limite é política interna aprovada, não fato externo.
 
-**Minutes.** Registre pergunta, resposta, dissent, conflito, recusal, condição e owner. A ata não é transcrição; é trilha de accountability.
+**Minutes.** Registre pergunta, resposta, dissent, conflito, recusal, condição e responsável. A ata não é transcrição; é trilha de accountability.
 
-**Prática guiada GP-M7-BOARD-MAP:** preencher RACI de decisão para: miss de forecast, lançamento de feature de IA, incidente de fornecedor e abertura de entidade.
+**Prática guiada GP-M7-BOARD-MAP:** preencher RACI de decisão para: miss de previsão, lançamento de feature de IA, incidente de fornecedor e abertura de entidade.
 
 **Saída:** board calendar, agenda, decision-rights map e evidence checklist.
 
@@ -129,16 +129,16 @@ Exemplo de forma, não de fato:
 
 Cada risco recebe:
 
-- owner do objetivo;
+- responsável do objetivo;
 - probabilidade e impacto em escala interna documentada;
 - exposição inerente;
 - tratamento;
 - controle preventivo/detectivo/corretivo;
-- owner do controle;
+- responsável do controle;
 - frequência;
 - evidência;
 - exposição residual;
-- indicador e trigger;
+- indicador e gatilho;
 - aceitação formal por autoridade adequada.
 
 “Transferir” risco por contrato ou seguro não elimina execução, reputação ou obrigação própria. “Aceitar” não significa ignorar; significa decisão explícita dentro do apetite.
@@ -157,25 +157,25 @@ O portfolio card de IA deve conter:
 | Campo | Pergunta |
 |---|---|
 | Purpose | Qual decisão ou trabalho o sistema influencia? |
-| Owner | Quem responde por valor e dano? |
+| Responsável | Quem responde por valor e dano? |
 | Data | Quais dados entram, persistem, saem e treinam? |
 | Evaluation | Que performance, erro e subgrupo são testados? |
 | Human oversight | Quem pode revisar, rejeitar e corrigir? |
 | Monitoring | Qual drift, incidente ou mudança dispara ação? |
 | Fallback | Como operar sem o sistema? |
-| Stop trigger | Quando suspender uso ou rollout? |
+| Stop gatilho | Quando suspender uso ou rollout? |
 | Third parties | Que modelo, região, subprocessor e contrato? |
 | Evidence | Que log, approval, teste e versão provam o controle? |
 
 **Prática guiada GP-M7-RISK-CONTROL:** transformar quatro labels vagos em risk statements, controles testáveis e evidência.
 
-**Saída:** risk register, control map e AI portfolio register.
+**Saída:** registro de riscos, control map e AI portfolio register.
 
 ### Lição 3 — LGPD, fornecedores, transferência e incidente
 
 **Decisão:** quem trata qual dado, com que papel e finalidade, para onde ele vai e como o relógio de incidente opera?
 
-#### Data-flow first
+#### Começar pelo fluxo de dados
 
 Antes de discutir “compliance”, desenhe:
 
@@ -214,7 +214,7 @@ Um playbook executivo separa:
 
 Quando presentes os critérios regulatórios, a página operacional da ANPD registra comunicação pelo controlador à Agência e aos titulares em três dias úteis, ressalvado prazo setorial específico. O RCIS também exige registro dos incidentes pelo período indicado no ledger. [SRC-ANPD-RCIS-15-2024; CLM-M7-INCIDENT-DEADLINE; CLM-M7-INCIDENT-RECORD]
 
-O executivo não espera o dossiê perfeito para iniciar o relógio. Ele registra o que sabe, o que não sabe, quem apura e quando atualiza. Counsel decide o conteúdo e o formato regulatório; negócio garante fatos, owner, recursos e continuidade.
+O executivo não espera o dossiê perfeito para iniciar o relógio. Ele registra o que sabe, o que não sabe, quem apura e quando atualiza. Counsel decide o conteúdo e o formato regulatório; negócio garante fatos, responsável, recursos e continuidade.
 
 **Prática guiada GP-M7-INCIDENT-TRIAGE:** completar o incident decision log de `cases.md` sem concluir prematuramente “notificável” ou “não notificável”.
 
@@ -264,7 +264,7 @@ Nunca dê autoridade de assinatura por título implícito. A delegation matrix d
 - privacy/security review;
 - exceções proibidas;
 - validade e revogação;
-- repositório e evidence owner.
+- repositório e evidence responsável.
 
 Term sheet, order form, DPA, SCC, reseller agreement, statement of work e side letter podem deslocar risco entre si. O checklist deve testar consistência.
 
@@ -294,7 +294,7 @@ O aluno não conclui vínculo. Ele entrega os fatos a labor counsel antes da con
 
 ### Lição 5 — Tributação do consumo, FX, pagamentos e intercompany
 
-**Decisão:** quais fluxos econômicos e documentais precisam existir antes de preço, invoice, funding ou close?
+**Decisão:** quais fluxos econômicos e documentais precisam existir antes de preço, invoice, financiamento ou close?
 
 #### Reforma tributária do consumo
 
@@ -309,7 +309,7 @@ O country GM não escolhe tratamento fiscal. Ele impede que produto e contrato c
 - que documento fiscal e sistema suportam a operação?
 - que crédito, retenção, cadastro e obrigação acessória entram?
 - que cláusula de tax change existe?
-- quem é owner da readiness de 2026 e da migração posterior?
+- quem é responsável da readiness de 2026 e da migração posterior?
 
 Toda resposta vai para tax counsel e contador. A saída do módulo é uma lista de decisões e dados, não uma alíquota “correta”.
 
@@ -327,7 +327,7 @@ Para cada fluxo:
 6. classificação, registro e reporting;
 7. tributos e retenções;
 8. conciliação contábil;
-9. owner e evidência.
+9. responsável e evidência.
 
 Não fragmente pagamentos para “simplificar” requisito. Não descreva uma finalidade diferente da econômica. Escale divergência entre contrato, invoice, banco e contabilidade.
 
@@ -340,7 +340,7 @@ O operating model deve responder:
 - quem executa função;
 - quem usa e controla ativos;
 - quem assume e controla risco;
-- que serviço, licença, funding ou garantia existe;
+- que serviço, licença, financiamento ou garantia existe;
 - que contrato e conduta real demonstram o desenho;
 - como charge, allocation key e invoice são produzidos;
 - que documentação é contemporânea;
@@ -348,7 +348,7 @@ O operating model deve responder:
 
 O aluno não seleciona método nem comparável. Ele prepara functional facts e perguntas para tax counsel.
 
-**Prática guiada GP-M7-INTERCOMPANY:** mapear três fluxos — management service, software/IP e funding — sem definir tratamento final.
+**Prática guiada GP-M7-INTERCOMPANY:** mapear três fluxos — management service, software/IP e financiamento — sem definir tratamento final.
 
 **Saída:** flow-of-funds map, tax issue log, intercompany facts pack e close-control checklist.
 
@@ -362,7 +362,7 @@ A matriz correta:
 
 | Camada | Tratamento |
 |---|---|
-| Lei/regulação vigente | Identificar fonte T0, escopo, owner, evidência e advisor |
+| Lei/regulação vigente | Identificar fonte T0, escopo, responsável, evidência e advisor |
 | Regulação setorial | Verificar setor, autoridade, produto e prazo |
 | Projeto legislativo | Monitorar; não apresentar como obrigação |
 | Padrão voluntário | Usar para controle quando adequado; não chamar de lei |
@@ -380,8 +380,8 @@ Ausência de lei horizontal de IA não autoriza ausência de governança. Se o u
 6. controles existentes e gaps;
 7. obrigação confirmada versus questão aberta;
 8. perguntas por advisor;
-9. ação provisória e stop trigger;
-10. owner, prazo e próxima revisão.
+9. ação provisória e stop gatilho;
+10. responsável, prazo e próxima revisão.
 
 **Prática guiada GP-M7-ADVISOR-BRIEF:** transformar uma solicitação vaga — “legal aprova a feature?” — em brief com fatos, decisão, alternativas e perguntas.
 
@@ -411,7 +411,7 @@ Escala gerencial interna:
 
 **Trade-off:** atraso comercial versus redução de evento irreversível.
 
-**Conseqüência:** product owner mantém responsabilidade; security executa controle; segunda linha monitora; steering committee aprova somente após evidência. Privacy counsel valida fluxo e papel; o exemplo não conclui conformidade.
+**Conseqüência:** product responsável mantém responsabilidade; security executa controle; segunda linha monitora; steering committee aprova somente após evidência. Privacy counsel valida fluxo e papel; o exemplo não conclui conformidade.
 
 ### Exemplo resolvido 2 — Relógio de incidente e informação incompleta
 
@@ -428,14 +428,14 @@ Resposta resolvida:
 3. 10:00 — acionar security, DPO, counsel, forensics, communications e negócio;
 4. 11:00 — registrar fatos conhecidos, hipóteses e lacunas;
 5. 14:00 — avaliar se há dados pessoais, ocorrência confirmada e potencial de risco/dano relevante;
-6. fim do dia — registrar decisão preliminar, owner de cada lacuna e próximo checkpoint;
+6. fim do dia — registrar decisão preliminar, responsável de cada lacuna e próximo checkpoint;
 7. dias seguintes — counsel governa comunicação em etapas quando aplicável, observando o prazo oficial e regra setorial.
 
-**Decisão:** não declarar “não notificável” sem análise; não comunicar externamente com fatos inventados; não deixar o clock sem owner.
+**Decisão:** não declarar “não notificável” sem análise; não comunicar externamente com fatos inventados; não deixar o clock sem responsável.
 
 **Trade-off:** velocidade de transparência versus precisão. A solução é staged facts, não silêncio.
 
-**Conseqüência:** evidência e decisão ficam auditáveis; continuidade e comunicação têm owners distintos.
+**Conseqüência:** evidência e decisão ficam auditáveis; continuidade e comunicação têm responsáveis distintos.
 
 ## 8. Caso real documentado e cenário sintético
 
@@ -449,7 +449,7 @@ O caso completo, perguntas e evidências permitidas estão em `cases.md`.
 
 ### CENÁRIO SINTÉTICO — Orbe AI Brasil
 
-Uma empresa fictícia sofre miss de forecast e incidente em fornecedor durante decisão de estrutura local. HQ pede continuidade do lançamento, contratação rápida por contractors e exceção de produto. O aluno deve:
+Uma empresa fictícia sofre miss de previsão e incidente em fornecedor durante decisão de estrutura local. HQ pede continuidade do lançamento, contratação rápida por contractors e exceção de produto. O aluno deve:
 
 - preparar board pack;
 - decidir contenção e governance;
@@ -466,18 +466,18 @@ Nenhum fato da Orbe AI descreve empresa real.
 | Erro | Sinal de alerta | Correção |
 |---|---|---|
 | “Legal aprovou” sem escopo | Não há questão, versão, fatos ou condição | Registrar decisão, fatos e limite do parecer |
-| Board como teatro | Pack sem ask, owner ou trigger | Uma decisão por página |
+| Board como teatro | Pack sem ask, responsável ou gatilho | Uma decisão por página |
 | Risco como adjetivo | “alto risco regulatório” | Causa → evento → impacto → controle → evidência |
 | Contrato como transferência total | Vendor “assume tudo” | Mapear obrigação própria e residual |
 | Projeto como lei | “PL exige” | Checar status T0 e escrever `proposta` |
 | Framework como safe harbor | “NIST compliant, então legal” | Separar controle voluntário de obrigação |
 | Contractor por rótulo | Fatos mostram direção e integração | People-facts sheet + labor counsel |
 | Estrutura por moda | “todo mundo abre Ltda” | Comparar fluxos, atividade, setor e reversibilidade |
-| Incidente sem clock | Espera por certeza total | Incident ID, owner, checkpoints e counsel |
+| Incidente sem clock | Espera por certeza total | Incident ID, responsável, checkpoints e counsel |
 | Comunicação sem fatos | Número ou causa não confirmados | Known/unknown/next update |
 | Intercompany sem substância | Contrato diverge da conduta | Functional facts, invoice e evidence |
 | Tax after launch | Produto e invoice já fixados | Tax design gate antes de go-live |
-| IA sem fallback | Operação depende do modelo | Manual path, rollback e stop trigger |
+| IA sem fallback | Operação depende do modelo | Manual path, rollback e stop gatilho |
 | Conflito não registrado | Related party participa da aprovação | Disclosure, recusal, minutes |
 
 ## 10. Checklist de decisão
@@ -487,18 +487,18 @@ Antes de aprovar:
 - [ ] decisão e objetivo em uma frase;
 - [ ] fatos, hipóteses e fontes separados;
 - [ ] as-of date e freshness registrados;
-- [ ] options, trade-offs e reversibilidade;
+- [ ] options, escolhas e renúncias e reversibilidade;
 - [ ] autoridade e reserved matter confirmados;
 - [ ] conflito e recusal verificados;
 - [ ] risk statement, inerente e residual;
-- [ ] controle com owner, frequência e evidência;
+- [ ] controle com responsável, frequência e evidência;
 - [ ] fluxo de contrato, invoice, pagamento e dado;
 - [ ] pessoas e fatos de trabalho mapeados;
 - [ ] vendor, subprocessor e transferência mapeados;
 - [ ] obrigação vigente separada de projeto/padrão;
 - [ ] advisor questions específicas;
-- [ ] ação provisória e stop trigger;
-- [ ] comunicação interna/externa com owner;
+- [ ] ação provisória e stop gatilho;
+- [ ] comunicação interna/externa com responsável;
 - [ ] decision log, dissent, condição e revisão.
 
 ## 11. Exercício aplicado à operação Brasil
@@ -508,7 +508,7 @@ Use o cenário Orbe AI de `cases.md`.
 ### Entregáveis independentes
 
 1. board memo de duas páginas;
-2. risk register com oito riscos priorizados;
+2. registro de riscos com oito riscos priorizados;
 3. control map com preventivo/detectivo/corretivo e evidência;
 4. incident decision log;
 5. structure options matrix;
@@ -520,7 +520,7 @@ Use o cenário Orbe AI de `cases.md`.
 
 ### Regra
 
-Não usar IA generativa na avaliação independente. Pode usar as fontes oficiais listadas, o workbook e anotações próprias. Toda afirmação externa precisa de `source_id` e locator.
+Não usar IA generativa na avaliação independente. Pode usar as fontes oficiais listadas, o caderno de exercícios e anotações próprias. Toda afirmação externa precisa de `source_id` e locator.
 
 ## 12. Avaliação e rubrica
 
@@ -535,20 +535,20 @@ Não usar IA generativa na avaliação independente. Pode usar as fontes oficiai
 | LGPD, fluxo, transferência e incident criteria/clock | K | 15 |
 | Estrutura, trabalho, tax, FX e intercompany issues | K | 15 |
 | Fontes, locators, as-of e limitações | K | 5 |
-| Recomendação, opções, trade-offs e condições | J | 15 |
+| Recomendação, opções, escolhas e renúncias e condições | J | 15 |
 | Board/accountability, conflito e decision rights | J | 10 |
-| Risk register, controles, evidence e triggers | J | 15 |
-| Advisor brief, owners e roadmap | J | 10 |
+| Registro de riscos, controles, evidence e gatilhos | J | 15 |
+| Briefing para especialista, responsáveis e roadmap | J | 10 |
 | Defesa sob challenge | J | 5 |
 | **Total K** | | **45** |
 | **Total J** | | **55** |
 | **Total** | | **100** |
 
-Mastery exige 80/100, mínimo de 36/45 em K, mínimo de 44/55 em J e zero fatal error.
+Domínio exige 80/100, mínimo de 36/45 em K, mínimo de 44/55 em J e zero erro crítico.
 
-Retest exige a Form B, arquivo novo e defesa nova. Revisar a Form A não conta como retest. A rubrica e os outcomes permanecem; fatos, estrutura, conflito, fluxo e decisão mudam.
+Reteste exige a Form B, arquivo novo e defesa nova. Revisar a Form A não conta como retest. A rubrica e os resultados permanecem; fatos, estrutura, conflito, fluxo e decisão mudam.
 
-### Fatal errors
+### Erros críticos
 
 - apresentar projeto legislativo como lei vigente;
 - emitir conclusão jurídica/tributária categórica sem advisor;
@@ -557,7 +557,7 @@ Retest exige a Form B, arquivo novo e defesa nova. Revisar a Form A não conta c
 - usar cenário sintético sem rótulo;
 - aprovar transferência/fornecedor sem mapear fluxo e papéis;
 - esconder conflito ou dispensar recusal sem análise;
-- risco material sem owner, controle, evidência ou escalation trigger;
+- risco material sem responsável, controle, evidência ou escalation gatilho;
 - afirmar conformidade pelo uso isolado de um framework;
 - fonte legal/regulatória sem T0, locator e as-of date.
 
@@ -567,8 +567,8 @@ K e J são avaliados. P permanece pendente de experiência real documentada.
 
 O módulo entrega:
 
-- board pack para miss de forecast + incidente;
-- risk register e control map;
+- board pack para miss de previsão + incidente;
+- registro de riscos e control map;
 - escalation matrix;
 - legal/regulatory issue map;
 - compliance roadmap;

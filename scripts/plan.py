@@ -1,4 +1,4 @@
-"""Transparent, local-only learning-plan generator. Python standard library."""
+"""Gerador local de plano de aprendizagem, com regras explícitas e biblioteca padrão."""
 from __future__ import annotations
 
 import argparse

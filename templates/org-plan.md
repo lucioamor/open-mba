@@ -1,4 +1,4 @@
-# Organization Plan — Brasil
+# Plano de organização — Brasil
 
 ## Mandato e decisões
 
@@ -6,19 +6,19 @@
 
 ## Estágio 0–5
 
-| Papel | Decisões | Outcome | Métricas | Hire trigger | Não contratar se |
+| Papel | Decisões | Resultado | Métricas | Gatilho de contratação | Não contratar se |
 |---|---|---|---|---|---|
 
 ## Estágio 5–20
 
 ## Estágio 20–50
 
-## Managers e spans
+## Gestores e amplitude de gestão
 
-## Incentivos e controles contra gaming
+## Incentivos e controles contra manipulação de métricas
 
-## Succession e bus factor
+## Sucessão e dependência de pessoas-chave
 
-## Headcount economics
+## Economia das posições
 
-## Gaps que ficam no HQ ou em parceiros
+## Lacunas que ficam na matriz ou em parceiros

@@ -1,179 +1,129 @@
-# M5 — Workbook
+# M5 — Caderno de exercícios
 
-> **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
+> **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e localizadores herdados de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Consulte [SOURCES.md](../../SOURCES.md).
 
-## Rules
+## Regras
 
-- Use only `cases.md`, `sources.md` and upstream M1/M2/M4/M7 artifacts explicitly supplied.
-- Label every additional assumption.
-- Do not invent facts about people.
-- First assessment submission is individual and without AI.
-- Templates are scaffolds, not hidden answer keys.
+- Use apenas `cases.md`, `sources.md` e os artefatos de M1/M2/M4/M7 fornecidos explicitamente.
+- Identifique toda premissa adicional. Não invente fatos sobre pessoas.
+- A primeira entrega é individual e sem IA. Modelos organizam o trabalho; não são gabaritos ocultos.
 
-## WB1 — Work-to-org map
+## WB1 — Do trabalho à estrutura
 
-| outcome/workstream | decisions | recurring work | interfaces | weekly load | risk if unowned | current owner |
+| Resultado/frente | Decisões | Trabalho recorrente | Interfaces | Carga semanal | Risco sem responsável | Responsável atual |
 |---|---|---|---|---:|---|---|
-|  |  |  |  |  |  |  |
+| | | | | | | |
 
-For each proposed role:
+Para cada função proposta:
 
-| role | mission | outcomes | decision rights from M4 | interfaces | manager work | entry trigger | removal trigger |
+| Função | Missão | Resultados | Direitos de decisão de M4 | Interfaces | Trabalho gerencial | Gatilho de criação | Gatilho de remoção |
 |---|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |  |
+| | | | | | | | |
 
-## WB2 — Span/layer test
+## WB2 — Teste de amplitude e camadas
 
-| proposed layer | distinct work | hours/week | reports/managers served | latency added | alternative | decision |
+| Camada proposta | Trabalho distinto | Horas/semana | Subordinados/gestores atendidos | Demora adicionada | Alternativa | Decisão |
 |---|---|---:|---:|---|---|---|
-|  |  |  |  |  |  | add / defer / remove |
+| | | | | | | Criar / adiar / remover |
 
-Reject a layer if it cannot name both distinct work and a threshold that shows why the current level cannot absorb it.
+Rejeite uma camada que não identifique trabalho distinto e um limite observável demonstrando por que a camada atual não o absorve.
 
-## WB3 — Org plan by stage
+## WB3 — Estrutura por estágio
 
-| stage | structure | roles added | decisions moved | critical interfaces | capacity gate | risk | review date |
+| Estágio | Estrutura | Funções adicionadas | Decisões transferidas | Interfaces críticas | Condição de capacidade | Risco | Revisão |
 |---|---|---|---|---|---|---|---|
-| 0–5 |  |  |  |  |  |  |  |
-| 5–20 |  |  |  |  |  |  |  |
-| 20–50 |  |  |  |  |  |  |  |
+| 0–5 | | | | | | | |
+| 5–20 | | | | | | | |
+| 20–50 | | | | | | | |
 
-Include status quo and at least one alternative at each transition.
+Inclua a situação atual e ao menos uma alternativa em cada transição.
 
-## WB4 — Manager scorecard
+## WB4 — Quadro de avaliação de gestores
 
-**Role:**\
-**Mission (12 months):**\
-**Constraints/authority:**\
+Informe função, missão em 12 meses, restrições e autoridade. Fixe versão e data antes de avaliar candidatos.
 
-| outcome | baseline | target | deadline | evidence source | weight |
+| Resultado | Base inicial | Meta | Prazo | Fonte de evidência | Peso |
 |---|---:|---:|---|---|---:|
-|  |  |  |  |  |  |
+| | | | | | |
 
-| competency | job-related behavior | question/work sample | anchor 1 | anchor 3 | anchor 5 | weight |
+| Competência | Comportamento ligado ao trabalho | Pergunta/amostra | Referência nota 1 | Referência nota 3 | Referência nota 5 | Peso |
 |---|---|---|---|---|---|---:|
-|  |  |  |  |  |  |  |
+| | | | | | | |
 
-Freeze version/date before candidates.
+## WB5 — Evidências de entrevista
 
-## WB5 — Interview evidence log
-
-| candidate | competency | question ID | evidence observed | score 1–5 | uncertainty | reviewer |
+| Candidato | Competência | ID da pergunta | Evidência observada | Nota 1–5 | Incerteza | Revisor |
 |---|---|---|---|---:|---|---|
-|  |  |  |  |  |  |  |
+| | | | | | | |
 
-Panel:
+Painel: mesmas perguntas centrais e de aprofundamento; pontuação individual silenciosa; calibração por evidência; registro de divergências; nenhum critério novo.
 
-1. same lead/probe set;
-2. silent individual scoring;
-3. evidence-first calibration;
-4. dissent recorded;
-5. no new criterion.
+## WB6 — Acordo de desempenho
 
-## WB6 — Performance contract
-
-| outcome/behavior | standard | evidence | cadence | support | threshold | consequence path |
+| Resultado/comportamento | Padrão | Evidência | Cadência | Apoio | Limite | Processo de consequência |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |
+| | | | | | | |
 
-Use sequence: facts → immediate containment → employee response/process → development/control fix → competent review → decision.
+Sequência: fatos → contenção imediata → resposta do profissional/processo → desenvolvimento/correção de controle → revisão competente → decisão.
 
-## WB7 — Incentive and gaming test
+## WB7 — Incentivos e manipulação de métricas
 
-| component | weight | definition | source | behavior encouraged | gaming route | guardrail |
+| Componente | Peso | Definição | Fonte | Comportamento incentivado | Rota de manipulação | Proteção |
 |---|---:|---|---|---|---|---|
-|  |  |  |  |  |  |  |
+| | | | | | | |
 
-| gate/override | trigger | effect | decision owner | evidence | review/log |
+| Condição/exceção | Gatilho | Efeito | Responsável pela decisão | Evidência | Revisão/registro |
 |---|---|---|---|---|---|
-|  |  |  |  |  |  |
+| | | | | | |
 
-Run at least four adversarial tests:
+Teste ao menos quatro ataques ao desenho: maximizar volume destruindo margem; adiar más notícias; vender promessa proibida; otimizar indicador individual prejudicando equipe/cliente.
 
-- maximize volume, destroy margin;
-- delay bad news;
-- sell prohibited promise;
-- optimize individual metric, damage team/customer.
+## WB8 — Quadro de sucessão
 
-## WB8 — Succession slate
-
-| critical role | 30/90-day impact | interim + limits | candidate | readiness | gap | experience | fallback | review |
+| Função crítica | Impacto em 30/90 dias | Interino e limites | Candidato | Prontidão | Lacuna | Experiência necessária | Alternativa de contingência | Revisão |
 |---|---|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |  |  |
+| | | | | | | | | |
 
-Readiness labels: `now`, `<6m`, `6–12m`, `>12m`, `none identified`.
+Prontidão: agora, menos de seis meses, seis a 12 meses, mais de 12 meses ou nenhum identificado.
 
-## WB9 — Manager-of-managers operating contract
+## WB9 — Acordo para liderança de gestores
 
-| responsibility | first-line manager | manager-of-managers | evidence/cadence | bypass rule |
+| Responsabilidade | Gestor de primeira linha | Líder de gestores | Evidência/cadência | Regra de intervenção direta |
 |---|---|---|---|---|
-| performance |  |  |  |  |
-| hiring |  |  |  |  |
-| portfolio/resource allocation |  |  |  |  |
-| escalations |  |  |  |  |
-| succession |  |  |  |  |
+| Desempenho | | | | |
+| Contratação | | | | |
+| Alocação de carteira/recursos | | | | |
+| Escalonamento | | | | |
+| Sucessão | | | | |
 
-## GP completion log
+## Registro de prática guiada
 
-| practice | artifact | reviewer | major revision | status |
+| Prática | Artefato | Revisor | Revisão principal | Situação |
 |---|---|---|---|---|
-| GP1 workload-to-org |  |  |  |  |
-| GP2 structured selection |  |  |  |  |
-| GP3 red team |  |  |  |  |
+| GP1 — carga e estrutura | | | | |
+| GP2 — seleção estruturada | | | | |
+| GP3 — revisão adversarial | | | | |
 
-Practice completion does not determine assessment score.
+Concluir a prática não determina a nota da avaliação.
 
----
+## Avaliação independente — forma A
 
-# Independent assessment — Form A
+Prazo: cinco horas no total. Entregue um pacote e não consulte `answer-key.md`.
 
-Timebox: 5 hours total. Submit one pack. Do not consult `answer-key.md`.
+### A1 — ASSESS-ORG-PLAN — 45 pontos
 
-## A1 — ASSESS-ORG-PLAN (45 points)
+Use `CASE-ORG-ATLAS-50` para entregar: diagnóstico de uma página sobre sobrecarga/decisões/interfaces; estrutura para 5/20/50 pessoas; decisão sobre diretoria de receita; definição das funções de gerência de sucesso do cliente e futura liderança de gestores; três gatilhos de criação/remoção; sequência de transição de 90 dias; premissas e distinção entre ações reversíveis e irreversíveis bloqueadas.
 
-Using `CASE-ORG-ATLAS-50`, deliver:
+Defesa oral de 12 minutos: por que criar ou adiar a camada; o que falha com crescimento 30% menor; qual decisão fica com a liderança de país e por quê.
 
-1. one-page diagnosis of overload, decisions and interfaces;
-2. org plan for 5, 20 and 50 people;
-3. decision on Head of Revenue now;
-4. role charters for CS Manager and future manager-of-managers;
-5. three entry/removal triggers;
-6. 90-day transition sequence;
-7. assumptions, reversible moves and blocked irreversible moves.
+### A2 — ASSESS-MANAGER-SYSTEM — 55 pontos
 
-Oral defense, 12 minutes:
+No mesmo caso, entregue: critérios fixados para seleção; protocolo de entrevista/amostra de trabalho e comparação pontuada A/B; resposta ao desempenho de Ana, Bruno, Clara, Diego e Elisa; incentivo com fórmula, definições, condições e quatro testes de manipulação; sucessão para quatro funções críticas; um exercício de transição; limites jurídicos/de RH/dados e registro de conflitos.
 
-- why this layer now/not now;
-- what breaks if growth is 30% lower;
-- which decision remains with Country Lead and why.
+Defesa oral de 15 minutos: sustentar uma escolha de candidato; explicar se 140% da meta gera pagamento; distinguir prontidão atual de potencial; identificar a divergência mais forte contra o plano.
 
-## A2 — ASSESS-MANAGER-SYSTEM (55 points)
+### Relação de arquivos da entrega
 
-Using only the same case:
+`org-plan.md`, `role-charters.md`, `manager-scorecard.md`, `selection-evidence.md`, `performance-incentive.md`, `succession-plan.md` e `assumptions-conflicts.md`.
 
-1. frozen CS Manager scorecard;
-2. interview/work-sample protocol and scored comparison A/B;
-3. performance response for Ana, Bruno, Clara, Diego and Elisa;
-4. redesigned incentive with formula, definitions, gates and four gaming tests;
-5. succession slate for four critical roles;
-6. one transition drill;
-7. legal/HR/data boundaries and conflict log.
-
-Oral defense, 15 minutes:
-
-- defend one candidate decision;
-- explain why 140% quota does or does not pay;
-- distinguish “ready now” from “high potential”;
-- identify the strongest dissent against your plan.
-
-## Submission manifest
-
-- `org-plan.md`
-- `role-charters.md`
-- `manager-scorecard.md`
-- `selection-evidence.md`
-- `performance-incentive.md`
-- `succession-plan.md`
-- `assumptions-conflicts.md`
-
-Each file requires author, timestamp and source/case locators.
+Esses são identificadores estáveis de arquivos; o conteúdo é em português. Cada arquivo informa autor, data/hora e localizadores do caso ou da fonte.

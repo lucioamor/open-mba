@@ -1,4 +1,4 @@
-# M6 — Country P&L, market entry e diplomacia HQ↔Brasil
+# M6 — Resultado de país, entrada no mercado e relação matriz↔Brasil
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -6,28 +6,28 @@
 
 **Por que Brasil, por que agora, com qual wedge, entry mode e revenue architecture — e sob quais direitos e gates o HQ continua investindo?**
 
-Uma resposta completa não é um market deck. É um contrato operacional: mercado acessível, segmento inicial, veículo a validar, P&L, forecast, recursos, direitos, exceções, gates 90/180/365, alternativa rejeitada e trigger de revisão.
+Uma resposta completa não é um market deck. É um contrato operacional: mercado acessível, segmento inicial, veículo a validar, P&L, previsão, recursos, direitos, exceções, gates 90/180/365, alternativa rejeitada e gatilho de revisão.
 
 O objetivo é possuir a decisão sem fingir autoridade que a role charter não oferece.
 
 ## 2. Como escolher a profundidade
 
-Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, test-out ou M0.
+Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, avaliação para dispensa ou M0.
 
-## 3. Conhecimentos prévios e test-out
+## 3. Conhecimentos prévios e avaliação para dispensa
 
 Pré-requisitos:
 
-1. M1: P&L, caixa, forecast e variance bridge.
-2. M2: unit economics, pricing, workload margin e capital allocation.
+1. M1: P&L, caixa, previsão e variance bridge.
+2. M2: unit economics, pricing, carga de trabalho margin e capital allocation.
 3. M4: DRI, decision rights, cadence e escalation.
-4. M5: estrutura, managers e sequência de contratação.
+4. M5: estrutura, gestores e sequência de contratação.
 
-Test-out por subcompetência: `K ≥ 85`, `J ≥ 80`, dois casos individuais e zero fatal error. Market knowledge não compensa P&L que não reconcilia, claim de mercado sem fonte ou overreach de autoridade.
+Avaliação para dispensa por subcompetência: `K ≥ 85`, `J ≥ 80`, dois casos individuais e zero erro crítico. Market knowledge não compensa P&L que não reconcilia, claim de mercado sem fonte ou overreach de autoridade.
 
 Pergunta de entrada: “Se o uso do produto no Brasil é alto, qual multiplicador transforma isso em receita acessível?” Se a resposta pular contracting, product readiness, coverage, win rate e ramp, execute a rota completa.
 
-## 4. Learning outcomes
+## 4. Objetivos de aprendizagem
 
 - **M6-LO-01 / CTY-01:** converter adoção/TAM em acesso real e escolher entry mode com gates.
 - **M6-LO-02 / CTY-02:** construir country P&L reconciliado em base, downside e FX stress.
@@ -86,7 +86,7 @@ revenue acessível =
 logos acessíveis × ACV/usage × first-year ramp × retention
 ```
 
-Cada multiplicador recebe: definição, fonte, data, owner, base/downside e teste barato. Um número sem isso é hipótese.
+Cada multiplicador recebe: definição, fonte, data, responsável, base/downside e teste barato. Um número sem isso é hipótese.
 
 #### Exemplo resolvido 1 — do TAM ao primeiro ano
 
@@ -127,7 +127,7 @@ Essa tabela não afirma qual veículo é legal ou fiscalmente correto. Gera perg
 - evidence log de buyers;
 - contracting/product gaps;
 - duas lighthouse opportunities com next step;
-- base forecast e first resource ask;
+- base previsão e first resource ask;
 - no-go hypothesis.
 
 **180 dias — prove repeatability**
@@ -135,20 +135,20 @@ Essa tabela não afirma qual veículo é legal ou fiscalmente correto. Gera perg
 - motion e stage exit criteria;
 - paid deployments com time-to-value;
 - partner attribution e delivery quality;
-- forecast accuracy;
+- previsão accuracy;
 - cost-to-serve e exception pattern;
-- manager/role que remove o founder bottleneck.
+- gestor/role que remove o founder bottleneck.
 
 **365 dias — prove economics and scale**
 
 - country P&L e cash reconciliados;
 - retention/unit economics por cohort;
-- capacity/quota e manager system;
+- capacity/quota e gestor system;
 - base/downside;
 - entity/entry-mode review;
 - scale/hold/reallocate recommendation.
 
-Kill criteria estratégicos são propriedade do M3. M6 fornece evidence gates de entrada e escala.
+Critérios de encerramento estratégicos são propriedade do M3. M6 fornece evidence gates de entrada e escala.
 
 ### Lição 3 — Country P&L e macro/FX
 
@@ -215,47 +215,47 @@ No modelo, registre `source, timestamp, actual/expectation/scenario, currency, s
 
 **Decisão:** como produzir receita previsível sem o country lead fechar e salvar cada deal?
 
-A JD OpenAI regional observada diferencia outcomes partner-sourced, partner-influenced e partner-delivered e exige co-sell/co-delivery [SRC-M6-OAI-GTM-JD, linhas 51–60]. Outra JD local atribui target, account plans, full cycle e forecast rigoroso a um Client Partner [SRC-M6-OAI-ADS-JD, linhas 32–53]. Isso demonstra especialização funcional e interfaces, não um único herói comercial.
+A JD OpenAI regional observada diferencia resultados partner-sourced, partner-influenced e partner-delivered e exige co-sell/co-delivery [SRC-M6-OAI-GTM-JD, linhas 51–60]. Outra JD local atribui target, account plans, full cycle e previsão rigoroso a um Client Partner [SRC-M6-OAI-ADS-JD, linhas 32–53]. Isso demonstra especialização funcional e interfaces, não um único herói comercial.
 
 #### Arquitetura mínima
 
-1. **ICP/wedge:** problema, trigger, buyer, proof, disqualifier.
+1. **ICP/wedge:** problema, gatilho, buyer, proof, disqualifier.
 2. **Coverage:** named accounts, territories, partner lanes, capacity.
 3. **Stage:** entry/exit criteria e evidence.
-4. **Forecast:** pipeline, best case, commit, closed; amount/date/owner/next step.
+4. **Previsão:** pipeline, best case, commit, closed; amount/date/responsável/next step.
 5. **Delivery:** handoff, deployment, adoption, support.
 6. **Expansion:** cohort, customer economics, renewal.
 7. **Attribution:** sourced/influenced/delivered sem double count.
-8. **Cadence:** weekly forecast; monthly operating review; quarterly HQ gate.
+8. **Cadence:** weekly previsão; monthly operating review; quarterly HQ gate.
 
 Capacity primeiro: contas por rep/partner, selling time, conversion, ramp e implementation capacity. Quota sem capacity model é um desejo.
 
 #### Channel conflict card
 
-Para cada account: owner; origination; influence proof; delivery owner; economics; registration/expiry; conflict escalation. Partner-influenced não adiciona revenue ao total; é uma dimensão de atribuição.
+Para cada account: responsável; origination; influence proof; delivery responsável; economics; registration/expiry; conflict escalation. Partner-influenced não adiciona revenue ao total; é uma dimensão de atribuição.
 
 ### Lição 5 — HQ decision rights e resource asks
 
 **Decisão:** o que local decide, o que HQ decide e qual exceção merece investimento?
 
-A role regional de OpenAI define partner segmentation, investment frameworks, governance, resource allocation, forums e escalation [SRC-M6-OAI-GTM-JD, linhas 41–99]. Um charter defensável transforma esses verbos em thresholds.
+A role regional de OpenAI define partner segmentation, investment frameworks, governance, resource allocation, forums e escalation [SRC-M6-OAI-GTM-JD, linhas 41–99]. Um charter defensável transforma esses verbos em limites.
 
 | decisão | local | HQ | joint/veto |
 |---|---|---|---|
 | ICP e sequencing dentro do AOP | D | I | — |
-| partner selection abaixo do threshold | D | C | Legal/security V |
+| partner selection abaixo do limite | D | C | Legal/security V |
 | pricing dentro de guardrails | D | I | Finance V abaixo do floor |
 | global price/product roadmap | R | D | Product/Finance |
 | entity, employment, tax, data | R | — | Legal/Tax/Privacy V |
-| headcount dentro de budget | R/D conforme threshold | D acima do threshold | Finance/People |
-| forecast call local | D | C | regional leader challenge |
+| headcount dentro de budget | R/D conforme limite | D acima do limite | Finance/People |
+| previsão call local | D | C | regional leader challenge |
 | exception material | R | D | specialist veto |
 
-`D/R/C/V/I` deve vir com threshold, SLA, expiry e escalation. Não copie esta matriz sem adaptar à role real.
+`D/R/C/V/I` deve vir com limite, SLA, expiry e escalation. Não copie esta matriz sem adaptar à role real.
 
 #### Exemplo resolvido 3 — exception request
 
-**Cenário sintético.** Uma localização de produto afeta três deals com ARR total R$2,4 milhões. Probabilidade de win sem feature = 10%; com feature = 55%; contribution margin = 45%. Build one-off = R$500 mil; support incremental = R$100 mil/ano.
+**Cenário sintético.** Uma localização de produto afeta três deals com ARR total R$2,4 milhões. Probabilidade de win sem feature = 10%; com feature = 55%; margem de contribuição = 45%. Build one-off = R$500 mil; support incremental = R$100 mil/ano.
 
 ```text
 incremental probability = 55% − 10% = 45%
@@ -264,7 +264,7 @@ first-year expected contribution = 1,08 × 45% = R$486 mil
 first-year net = 486 − 500 − 100 = −R$114 mil
 ```
 
-O business case de um ano não cobre o ask. Reformule: discovery de R$150 mil; design partner com commitment; scope limitado; stage 2 só após proof; reuse potencial separado; owner e expiry. Não aumente probabilidade para “fazer o caso fechar”.
+O business case de um ano não cobre o ask. Reformule: discovery de R$150 mil; design partner com commitment; scope limitado; stage 2 só após proof; reuse potencial separado; responsável e expiry. Não aumente probabilidade para “fazer o caso fechar”.
 
 #### Resource ask de uma página
 
@@ -290,13 +290,13 @@ Evite “Brasil funciona assim”. Diga: “Nos 14 deals observados, seis exigir
 
 1. avisar no primeiro leading indicator, não no fechamento;
 2. separar volume, conversion, timing, price e capacity;
-3. reconciliar bridge ao forecast;
+3. reconciliar bridge ao previsão;
 4. identificar erro de premissa versus execução;
 5. proteger customer/people/risk;
-6. propor ação, resource trade-off e revised commit;
+6. propor ação, resource escolha e renúncia e revised commit;
 7. registrar aprendizado sem retrospectiva conveniente.
 
-#### Exemplo resolvido 4 — forecast miss e headcount freeze
+#### Exemplo resolvido 4 — previsão miss e headcount freeze
 
 **Cenário sintético.** Plano trimestral R$3,0 milhões; atual R$2,1 milhões; gap R$0,9 milhão. Bridge: R$0,4m slip de procurement, R$0,3m win-rate miss e R$0,2m capacity. HQ congela uma contratação de R$300 mil/ano.
 
@@ -305,7 +305,7 @@ Resposta:
 - não chamar todo o gap de “timing”;
 - commit revisado = R$2,4m apenas se o procurement de R$0,3m tiver evidence/date; restante fica best case;
 - realocar country lead de rescue em todas as contas para coaching dos dois deals críticos;
-- liberar contratação apenas se coverage/capacity superar threshold e forecast accuracy melhorar;
+- liberar contratação apenas se coverage/capacity superar limite e previsão accuracy melhorar;
 - escalar qualquer contrato/discount exception separado do headcount ask.
 
 ## 7. Práticas guiadas
@@ -323,9 +323,9 @@ Gate: zero unsupported market claim e zero Full-P&L atribuído à JD funcional.
 
 ### GP-M6-02 — Country operating review (150 min)
 
-Use `CASE-M6-SYNTHETIC-ARCO`. Reconcilie access funnel, P&L base/stress, coverage e forecast. Rode uma call com CFO regional: revenue 15% abaixo, FX pressiona COGS e headcount congela.
+Use `CASE-M6-SYNTHETIC-ARCO`. Reconcilie access funnel, P&L base/stress, coverage e previsão. Rode uma call com CFO regional: revenue 15% abaixo, FX pressiona COGS e headcount congela.
 
-Gate: P&L fecha, bridge soma ao miss e ação tem owner/date.
+Gate: P&L fecha, bridge soma ao miss e ação tem responsável/date.
 
 ### GP-M6-03 — HQ/partner/customer triad (150 min)
 
@@ -360,7 +360,7 @@ Gate: sem promessa fora da autoridade; specialist veto respeitado.
 | P&L cosmetizado | HQ cost/cost-to-serve fora | duas vistas reconciliadas |
 | FX ornamental | “real volátil” sem data | exposure + sensitivity |
 | Focus mal citado | “BC prevê” | market expectation |
-| hero seller | country lead em todo close | stages, roles, managers |
+| hero seller | country lead em todo close | stages, roles, gestores |
 | partner double count | sourced + influenced somados | attribution dimensions |
 | exception sem expiry | custom vira padrão | ledger + sunset |
 | overreach | pede autonomia que JD não dá | role charter |
@@ -372,13 +372,13 @@ Gate: sem promessa fora da autoridade; specialist veto respeitado.
 - [ ] Adoção/TAM separados de access.
 - [ ] Wedge, região, ICP e disqualifier.
 - [ ] Três entry modes comparados; veículo validado no M7.
-- [ ] Gates 90/180/365 com evidence e owner.
+- [ ] Gates 90/180/365 com evidence e responsável.
 - [ ] P&L controllable e fully allocated reconciliados.
-- [ ] Base, downside, FX e forecast bridge.
+- [ ] Base, downside, FX e previsão bridge.
 - [ ] Cost-to-serve e unit economics importados do M2.
-- [ ] Coverage, capacity, stage, forecast e handoff.
+- [ ] Coverage, capacity, stage, previsão e handoff.
 - [ ] Partner attribution sem double count.
-- [ ] Decision rights, threshold, SLA, veto e escalation.
+- [ ] Decision rights, limite, SLA, veto e escalation.
 - [ ] Resource ask com economia, reversibilidade e decision date.
 - [ ] Miss comunicado antes do fechamento.
 - [ ] Corporate diplomacy sem estereótipo.
@@ -398,9 +398,9 @@ Para hipótese, escreva “não há role charter Brasil comprovado nas fontes de
 Avaliação individual, sem AI:
 
 - **ASSESS-M6-A — Mechanics, 40 pontos K:** access funnel, P&L e macro/FX.
-- **ASSESS-M6-B — Executive judgment, 60 pontos J:** entry mode, ROM, HQ rights, exception e miss.
+- **ASSESS-M6-B — Julgamento executivo, 60 pontos J:** entry mode, ROM, HQ rights, exception e miss.
 
-Mastery = 80/100 e zero fatal. P&L não reconciliado ou unsupported market fact bloqueia, mesmo com nota agregada alta.
+Domínio = 80/100 e zero fatal. P&L não reconciliado ou unsupported market fact bloqueia, mesmo com nota agregada alta.
 
 | dimensão | pontos |
 |---|---:|
@@ -420,7 +420,7 @@ Mastery = 80/100 e zero fatal. P&L não reconciliado ou unsupported market fact 
 5. 90/180/365 gate card.
 6. Negotiation plan, stakeholder map e exception ledger.
 
-M1 é owner de P&L/forecast; M2 de unit economics/pricing/capital; M3 de kill criteria; M4 de decision rights/cadence; M7 de legal/risk; M8 do board memo. M6 integra, não redefine os canônicos.
+M1 é responsável de P&L/previsão; M2 de unit economics/pricing/capital; M3 de kill criteria; M4 de decision rights/cadence; M7 de legal/risk; M8 do board memo. M6 integra, não redefine os canônicos.
 
 ## 14. Leituras
 

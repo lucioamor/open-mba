@@ -40,7 +40,7 @@ Produza:
 7. uma lista de documentos que deveriam ser preservados;
 8. um after-action review sem atribuir culpa não documentada.
 
-### Challenge
+### Questionamento
 
 - Qual falha é de design e qual é de execução?
 - Qual evidência provaria que um controle existia e operava?
@@ -50,7 +50,7 @@ Produza:
 
 ### Critério de qualidade
 
-A resposta forte não estima multa, não inventa causa e não afirma que a empresa privada receberia a mesma sanção. Ela mostra sistema, owner, evidence e escalation.
+A resposta forte não estima multa, não inventa causa e não afirma que a empresa privada receberia a mesma sanção. Ela mostra sistema, responsável, evidence e escalation.
 
 ---
 
@@ -70,17 +70,17 @@ O country lead pede autorização para:
 4. financiar a operação brasileira;
 5. responder a um incidente confirmado em fornecedor.
 
-### Exhibit A — Performance
+### Anexo A — Desempenho
 
-- forecast trimestral: USD 2,50 milhões;
-- forecast revisado: USD 2,05 milhões;
+- previsão trimestral: USD 2,50 milhões;
+- previsão revisado: USD 2,05 milhões;
 - miss: `2,50 − 2,05 = USD 0,45 milhão`;
 - miss percentual: `0,45 / 2,50 = 18%`;
 - runway global: não informado ao aluno;
 - dois contratos enterprise dependem da feature de IA;
 - HQ quer manter a data pública de lançamento.
 
-### Exhibit B — Incidente
+### Anexo B — Incidente
 
 - fornecedor de suporte confirmou acesso não autorizado na segunda-feira às 09:00;
 - export de tickets contém até 18.400 registros;
@@ -93,7 +93,7 @@ O country lead pede autorização para:
 - customer support quer avisar todos imediatamente;
 - sales quer esperar para não afetar as duas renovações.
 
-### Exhibit C — IA e produto
+### Anexo C — IA e produto
 
 - o assistente resume tickets e sugere resposta;
 - treinamento usa dados sintéticos, segundo Product, mas a afirmação ainda não foi documentada;
@@ -104,16 +104,16 @@ O country lead pede autorização para:
 - teste mostrou duas respostas com referência a conta errada em 2.000 execuções;
 - Product propõe aceitar o risco por 30 dias.
 
-### Exhibit D — Pessoas
+### Anexo D — Pessoas
 
 - 14 pessoas trabalham no Brasil;
 - seis estão em EOR;
 - oito são pessoas jurídicas contratadas diretamente por HQ;
-- os oito contractors têm metas semanais, manager de HQ, acesso a sistemas, reuniões diárias e bônus por performance;
+- os oito contractors têm metas semanais, gestor de HQ, acesso a sistemas, reuniões diárias e bônus por performance;
 - não existe people-facts review por labor counsel;
 - HQ quer contratar mais cinco pessoas no mesmo desenho.
 
-### Exhibit E — Estrutura e contratos
+### Anexo E — Estrutura e contratos
 
 - clientes assinam com a entidade estrangeira;
 - parte paga em USD por wire; parte paga em BRL via intermediário;
@@ -123,17 +123,17 @@ O country lead pede autorização para:
 - não há entidade brasileira;
 - DREI, tax e corporate counsel ainda não receberam facts pack.
 
-### Exhibit F — Intercompany, tax e FX
+### Anexo F — Operações entre empresas do grupo, tributos e câmbio
 
 - HQ pretende enviar USD 1 milhão para “Brazil operations”;
-- não há entidade destinatária nem contrato de funding;
+- não há entidade destinatária nem contrato de financiamento;
 - custos locais são reembolsados por expense reports;
 - não há intercompany agreement;
 - pricing e invoice não foram revisitados para a transição tributária de 2026;
 - finance não mapeou finalidade cambial, retenções ou evidência contábil;
 - um executivo sugeriu dividir o fluxo em parcelas “para simplificar”.
 
-### Exhibit G — Informação imperfeita
+### Anexo G — Informação imperfeita
 
 Não estão disponíveis:
 
@@ -155,7 +155,7 @@ O aluno não pode preencher essas lacunas com suposição.
 2. Que ação de incidente ocorre nas próximas 24 horas?
 3. Que estrutura entra em diligence e qual bridge provisório é aceitável?
 4. Que contratações ficam bloqueadas?
-5. Que fluxo de funding fica bloqueado?
+5. Que fluxo de financiamento fica bloqueado?
 6. Que assuntos sobem ao board e quais ficam com management?
 7. Que advisors são acionados, com quais perguntas?
 8. O que comunicar internamente, a clientes e externamente — e quem decide?
@@ -163,7 +163,7 @@ O aluno não pode preencher essas lacunas com suposição.
 ### Entregáveis
 
 - board memo de duas páginas;
-- risk register com oito riscos;
+- registro de riscos com oito riscos;
 - control map;
 - incident decision log;
 - data/vendor map;
@@ -184,7 +184,7 @@ O aluno não pode preencher essas lacunas com suposição.
 - não inventar informação ausente;
 - toda regra externa deve apontar fonte e locator.
 
-### Challenge oral
+### Questionamento oral
 
 O avaliador escolherá três:
 
@@ -192,7 +192,7 @@ O avaliador escolherá três:
 2. “Se o vendor assume responsabilidade, por que parar?”
 3. “O PL de IA ainda não virou lei; por que criar controles?”
 4. “O country lead precisa de autonomia; por que exigir delegation matrix?”
-5. “Por que não enviar o funding agora e documentar depois?”
+5. “Por que não enviar o financiamento agora e documentar depois?”
 6. “Contractors aceitaram o contrato; qual é o issue?”
 7. “Qual controle você removeria se o prazo cair pela metade?”
 8. “Qual decisão é reversível e qual cria lock-in?”
@@ -209,7 +209,7 @@ Todo o conteúdo abaixo é fictício. Vela Grid não representa empresa real. Es
 
 Vela Grid, Inc. vende analytics e recomendação de contratação para operadores de logística. Considera adquirir 40% de um parceiro brasileiro e conceder-lhe exclusividade comercial. Um diretor da Vela investiu pessoalmente em fundo que detém participação no parceiro, mas ainda não registrou conflito.
 
-### Dataset B
+### Dados B
 
 - orçamento anual da operação: USD 4,00 milhões;
 - gasto revisado: USD 5,08 milhões;
@@ -223,7 +223,7 @@ Vela Grid, Inc. vende analytics e recomendação de contratação para operadore
 - contrato com o parceiro não define papéis de dados, subprocessor, transferência, auditoria ou retorno/deleção;
 - a Vela pretende cobrar royalty de IP e management fee da futura sociedade;
 - não há functional analysis nem intercompany agreements;
-- o funding seria em EUR, embora orçamento, contrato comercial e contabilidade usem moedas diferentes;
+- o financiamento seria em EUR, embora orçamento, contrato comercial e contabilidade usem moedas diferentes;
 - 22 trabalhadores locais seriam transferidos do parceiro; não há labor due diligence;
 - a reunião de board ocorre em 36 horas.
 
@@ -233,18 +233,18 @@ Vela Grid, Inc. vende analytics e recomendação de contratação para operadore
 2. Como operar o incidente e a lacuna de logs?
 3. Como tratar o conflito do diretor?
 4. Que diligence precede aquisição, exclusividade e transferência de trabalhadores?
-5. Que facts pack precede royalty, management fee e funding?
+5. Que facts pack precede royalty, management fee e financiamento?
 6. Que decisões pertencem ao board, committee ou management?
 
 ### Entregáveis
 
-Novo board memo, risk register, control map, incident log, structure/JV map, people-facts sheet, data-flow, intercompany/FX map e advisor brief.
+Novo board memo, registro de riscos, control map, incident log, structure/JV map, people-facts sheet, data-flow, intercompany/FX map e advisor brief.
 
 ### Regra de independência
 
 - arquivo novo, não revisão da Form A;
 - dataset e decision memo novos;
-- mesmos outcomes e rubrica K45/J55;
+- mesmos resultados e rubrica K45/J55;
 - proibição de IA generativa;
 - nenhuma resposta da Orbe pode ser copiada sem adaptação factual.
-- fatal error ocorrido na Form B reprova o retest e não pode ser compensado por ponto ou trecho aprovado da Form A.
+- erro crítico ocorrido na Form B reprova o retest e não pode ser compensado por ponto ou trecho aprovado da Form A.

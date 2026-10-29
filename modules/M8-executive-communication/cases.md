@@ -26,10 +26,10 @@ O release associa a pressão de Q4 gross margin a descontos e channel mix; o 10-
 
 É um earnings release e filing, não um QBR interno. Não sabemos por essas fontes:
 
-- forecast vintages internos;
+- previsão vintages internos;
 - alternativas rejeitadas;
 - dissent do board;
-- owner e threshold de cada ação;
+- responsável e limite de cada ação;
 - informação confidencial não divulgada.
 
 ### Tarefas
@@ -119,12 +119,12 @@ Restrições:
 | Gross margin | 70% | 63% |
 | Burn | 1.800 | 2.350 |
 | Pipeline qualificado Q4 | 7.200 | 5.100 |
-| Forecast accuracy | 85% | 58% |
+| Previsão accuracy | 85% | 58% |
 | DSO | 45 dias | 68 dias |
 
 Revenue bridge disponível:
 
-| Driver | Impacto em new ARR |
+| Causa | Impacto em new ARR |
 |---|---:|
 | Deal escorregado | (350) |
 | Security delay | (220) |
@@ -154,49 +154,49 @@ Duas horas antes do painel:
 ### Entregas
 
 1. Board memo PT — duas páginas.
-2. Investment memo EN — duas páginas.
+2. Memorando de investimento em português — duas páginas.
 3. QBR de miss — uma página.
-4. Executive update — 150 palavras, após evento de última hora.
-5. Evidence/status appendix.
-6. Defesa oral PT e EN.
-7. Decision/dissent log.
+4. Atualização executiva — 150 palavras, após evento de última hora.
+5. Anexo de evidências e situação.
+6. Defesa oral em português; inglês opcional.
+7. registro de decisões e divergências.
 
 ### Painel adversarial
 
 #### CFO
 
-- Why should I fund learning that customers have not paid for?
+- Por que financiar aprendizado pelo qual os clientes não pagaram?
 - Qual é o caixa máximo em risco e qual sinal o libera?
-- Por que seu revised forecast merece confiança?
-- What do you cut first if downside materializes?
+- Por que seu previsão revisada merece confiança?
+- O que você corta primeiro se o cenário adverso ocorrer?
 
 #### COO / CRO
 
 - Você está chamando falha de execução de “mercado complexo”?
-- Why did a security-dependent deal enter commit?
+- Por que um negócio dependente de segurança entrou na previsão comprometida?
 - O freeze de vaga reduz ainda mais a chance de bater o trimestre?
-- Which leading indicator changes your action next week?
+- Qual indicador antecedente muda sua ação na próxima semana?
 
-#### Legal / Security
+#### Jurídico / segurança
 
 - Quem autorizou o claim de LGPD?
-- What do you know, what do you assume, and what remains unknown?
+- O que você sabe, o que presume e o que continua desconhecido?
 - Você interrompe sales enquanto investiga?
-- What is the escalation path and deadline?
+- Qual é o caminho e o prazo de escalonamento?
 
-#### HQ / Board Chair
+#### HQ / Presidência do conselho
 
-- Give me the decision in one sentence.
+- Dê a decisão em uma frase.
 - Qual é o melhor argumento contra sua recomendação?
-- Are you asking for approval, advice, or air cover?
+- Você pede aprovação, orientação ou respaldo institucional?
 - O que fará você voltar ao board antes de D+90?
 
 ### Regras do painel
 
-- 90 segundos de opening em PT.
-- 90 segundos de opening em EN.
-- 12 minutos de challenge alternando idiomas.
-- Uma pergunta pode ser interrompida por “answer first”.
-- Painel registra inconsistências entre memo, fala PT e fala EN.
-- Resposta “não sei” é aceita somente com impacto, owner e prazo.
+- 90 segundos de abertura em português.
+- 90 segundos opcionais de abertura em inglês.
+- 12 minutos de questionamento em português; alternar idiomas somente na extensão opcional.
+- Uma pergunta pode ser interrompida por “responda primeiro”.
+- Painel registra inconsistências entre memorando e defesa; a extensão opcional em inglês é avaliada separadamente.
+- Resposta “não sei” é aceita somente com impacto, responsável e prazo.
 - Nenhum membro pode fornecer a resposta ou permitir correção do memo durante a defesa.

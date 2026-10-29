@@ -56,6 +56,6 @@ Para um segundo caso independente, use 90 unidades atuais e desconto de 10%, man
 
 ## Aplicação
 
-Faça seu modelo de uma página: pagador, problema, oferta, unidade, preço, custos, capacidade, resultado, caixa e uma hipótese a testar. Use dados sintéticos quando não puder compartilhar dados reais. Continue em [M1](../modules/M1-financial-fluency-pnl/module.md) para demonstrações, reconhecimento e forecast.
+Faça seu modelo de uma página: pagador, problema, oferta, unidade, preço, custos, capacidade, resultado, caixa e uma hipótese a testar. Use dados sintéticos quando não puder compartilhar dados reais. Continue em [M1](../modules/M1-financial-fluency-pnl/module.md) para demonstrações, reconhecimento e previsão.
 
 As fórmulas e os casos desta oficina são modelos didáticos autorais; não são benchmarks de mercado.

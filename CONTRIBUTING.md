@@ -1,5 +1,7 @@
 # Contribuir com o OpenMBA
 
+Escreva o conteúdo de estudo e a documentação em português brasileiro. O README principal permanece em inglês. Preserve o contexto brasileiro e indique limites de transferência ao usar exemplos internacionais; siga a [política de idioma e contexto](docs/BRASIL-E-IDIOMA.md).
+
 Comece com uma correção, um caso sintético ou um exercício com solução. Explique para quem serve e que decisão treina. Mudanças grandes de escopo devem vir com uma proposta em issue antes de reestruturar o currículo.
 
 Cada contribuição de conteúdo deve ter:

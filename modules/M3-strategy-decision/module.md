@@ -8,17 +8,17 @@ Escolher onde jogar, como vencer, o que não financiar e quais sinais obrigam re
 
 ## 2. Como escolher a profundidade
 
-Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, test-out ou M0.
+Este módulo não presume experiência, senioridade ou lacunas do aluno. Use o diagnóstico por competência e o objetivo escolhido para decidir o que estudar. Sem avaliação, a recomendação é provisória: estudar ou fazer a prova de entrada. Cargo, tempo de carreira e autoavaliação não dispensam conteúdo. As regras da edição pública em `diagnostic/README.md` prevalecem sobre referências legadas a placement, avaliação para dispensa ou M0.
 
-## 3. Pré-requisitos e test-out
+## 3. Pré-requisitos e avaliação para dispensa
 
-Pré-requisito: separar fato, hipótese e premissa. Test-out exige 80/100 em M3-A1, nenhum erro fatal e uma defesa oral de dez minutos. Resultado altera apenas K/J; P permanece pendente de decisão real atestada.
+Pré-requisito: separar fato, hipótese e premissa. Avaliação para dispensa exige 80/100 em M3-A1, nenhum erro fatal e uma defesa oral de dez minutos. Resultado altera apenas K/J; P permanece pendente de decisão real atestada.
 
-## 4. Learning outcomes
+## 4. Objetivos de aprendizagem
 
 - M3-O1/C09: produzir strategy kernel com diagnóstico causal, política-guia e ações coerentes.
-- M3-O2/C10: comparar opções por expected value, reversibilidade, valor da informação e custo de atraso.
-- M3-O3/C11: definir kill criteria observáveis, owner, data de revisão e regra de realocação.
+- M3-O2/C10: comparar opções por valor esperado, reversibilidade, valor da informação e custo de atraso.
+- M3-O3/C11: definir kill criteria observáveis, responsável, data de revisão e regra de realocação.
 
 Cobertura: `competency_id → lesson → guided practice → assessment`: C09→L1/L2→GP1→M3-A1; C10→L3/L4→GP2→M3-A1; C11→L5/L6→GP2→M3-A1.
 
@@ -42,7 +42,7 @@ Decisões “two-way door” pedem velocidade e limite de perda; “one-way door
 
 ### L4 — Informação tem preço e prazo
 
-Calcule expected value por cenário. Compre informação apenas se ela puder mudar a decisão antes do prazo. Base rate ancora; evidência específica atualiza. Probabilidade é posição revisável, não decoração matemática. [SRC-M3-GJOPEN][SRC-M3-MIT]
+Calcule valor esperado por cenário. Compre informação apenas se ela puder mudar a decisão antes do prazo. Base rate ancora; evidência específica atualiza. Probabilidade é posição revisável, não decoração matemática. [SRC-M3-GJOPEN][SRC-M3-MIT]
 
 ### L5 — Premortem e dissent
 
@@ -50,7 +50,7 @@ Antes do commitment, suponha que a tese falhou e liste causas observáveis. Desi
 
 ### L6 — Kill não é derrota
 
-Kill criteria devem ter métrica, threshold, janela, owner, resposta e exceção autorizável. Sunk cost não entra no valor futuro. Encerrar libera capital para opção melhor. O postmortem avalia processo com informação disponível à época. [SRC-M3-GJOPEN]
+Critérios de encerramento devem ter métrica, limite, janela, responsável, resposta e exceção autorizável. Sunk cost não entra no valor futuro. Encerrar libera capital para opção melhor. O postmortem avalia processo com informação disponível à época. [SRC-M3-GJOPEN]
 
 ## 7. Exemplos resolvidos
 
@@ -64,7 +64,7 @@ Opção A: 40% de chance de R$ 12 mi de valor, 60% de perda de R$ 2 mi. EV = `0,
 
 **CENÁRIO SINTÉTICO.**
 
-Hipótese: partner-led alcança 12 clientes em seis meses. Leading indicators: 30 oportunidades qualificadas até D90 e 20% de conversão até D150. Se oportunidades <18 em D90, congelar enablement; se conversão <12% em D150, encerrar e realocar dois FTE para direct. Owner: Country Lead; exceção: só CRO, com memo de evidência e nova data.
+Hipótese: partner-led alcança 12 clientes em seis meses. Leading indicators: 30 oportunidades qualificadas até D90 e 20% de conversão até D150. Se oportunidades <18 em D90, congelar enablement; se conversão <12% em D150, encerrar e realocar dois FTE para direct. Responsável: Country Lead; exceção: só CRO, com memo de evidência e nova data.
 
 ## 8. Casos
 
@@ -83,7 +83,7 @@ Cenário sintético: `Aurora AI Brasil`, todos os números e pessoas são fictí
 
 ## 10. Checklist
 
-Problema causal? Alternativas comparáveis? Renúncias explícitas? Tipo de door? EV e downside? Evidência capaz de mudar a decisão? Premortem? Owner? Threshold e prazo? Regra de realocação? Trigger de revisão?
+Problema causal? Alternativas comparáveis? Renúncias explícitas? Tipo de door? EV e downside? Evidência capaz de mudar a decisão? Premortem? Responsável? Limite e prazo? Regra de realocação? Gatilho de revisão?
 
 ## 11. Exercício Brasil
 
@@ -105,4 +105,4 @@ Tempo: leitura 3h; exemplos e práticas guiadas 4h; caso independente 6h; avalia
 
 ## 15. Fontes e limitações
 
-Referências completas em `sources.md`. Os exemplos numéricos e Aurora são sintéticos. Expected value organiza premissas, não elimina ambiguidade. Nenhuma simulação certifica P ou field readiness.
+Referências completas em `sources.md`. Os exemplos numéricos e Aurora são sintéticos. Valor esperado organiza premissas, não elimina ambiguidade. Nenhuma simulação certifica P ou field readiness.

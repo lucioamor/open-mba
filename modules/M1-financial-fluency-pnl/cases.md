@@ -5,7 +5,7 @@
 ## Caso real — Salesforce FY2026: lucro, caixa e obrigações contratuais
 
 **Fonte:** `SRC-FIN-SALESFORCE-10K-2026`\
-**As of:** fiscal year ended 2026-01-31\
+**Data de referência:** fiscal year ended 2026-01-31\
 **Unidade:** US$ milhões
 
 Dados extraídos do filing:
@@ -40,7 +40,7 @@ Os dados abaixo são didáticos. Atlas AI não é empresa real.
 - Moeda de reporte: R$ mil.
 - Horizonte: 24 meses, mensal.
 - Caixa inicial: 6.000.
-- Funding HQ já aprovado: 4.000 no M7.
+- Financiamento HQ já aprovado: 4.000 no M7.
 - Contratos enterprise: billing anual antecipado; revenue ratable.
 - Self-serve: billing e revenue no mês.
 - COGS: 28% de revenue no base case.
@@ -51,7 +51,7 @@ Os dados abaixo são didáticos. Atlas AI não é empresa real.
 
 ### Base case inicial
 
-| Quarter | Revenue | New ARR exit | Gross margin | Opex | Ending cash |
+| Trimestre | Revenue | New ARR exit | Gross margin | Opex | Ending cash |
 |---|---:|---:|---:|---:|---:|
 | Q1 | 900 | 2.400 | 72% | 1.950 | 5.120 |
 | Q2 | 1.800 | 4.800 | 72% | 2.250 | 4.210 |
@@ -67,7 +67,7 @@ Esses totais não são um modelo completo; o aluno deve reconstruir drivers mens
 - Dois clientes enterprise atrasam collection em 30 dias.
 - Revenue recognition não muda automaticamente.
 
-**Decisão:** contratar o segundo AE ou preservar caixa? Entregue bridge, runway e trigger.
+**Decisão:** contratar o segundo AE ou preservar caixa? Entregue bridge, runway e gatilho.
 
 ### Ciclo Q2 — churn e desconto
 
@@ -80,7 +80,7 @@ Esses totais não são um modelo completo; o aluno deve reconstruir drivers mens
 ### Ciclo Q3 — hiring delay e pressão de HQ
 
 - Hiring do CS Lead atrasa três meses.
-- Expansion revenue cai 20% versus forecast.
+- Expansion revenue cai 20% versus previsão.
 - HQ congela novas vagas e exige redução de 12% no cash burn dos próximos seis meses.
 
 **Decisão:** reforecast, reallocate e preparar QBR. Não use corte linear sem examinar capacity e retention.

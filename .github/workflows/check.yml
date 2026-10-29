@@ -1,4 +1,4 @@
-name: Check curriculum and routing
+name: Verificar currículo e trilhas
 on: [push, pull_request]
 permissions:
   contents: read

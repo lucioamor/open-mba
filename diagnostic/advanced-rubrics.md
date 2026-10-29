@@ -24,7 +24,7 @@ Este arquivo contém escalas e chaves dos instrumentos avançados. Para roteamen
 
 | Faixa | Descritor |
 |---:|---|
-| 90–100 | Escolha clara; alternativa rejeitada; trade-off; consequência econômica; risco; owner; threshold e revisão. |
+| 90–100 | Escolha clara; alternativa rejeitada; escolha e renúncia; consequência econômica; risco; responsável; limite e revisão. |
 | 80–89 | Boa decisão e defesa; uma dimensão secundária fica incompleta. |
 | 70–79 | Recomendação plausível, mas gates, renúncia ou consequências permanecem genéricos. |
 | 50–69 | Lista ações sem priorização; confunde análise com decisão; não governa incerteza. |
@@ -56,35 +56,35 @@ As letras identificam os instrumentos avançados. Use as questões específicas 
 
 | ID | Competência | Instrumento complementar |
 |---|---|---|
-| FIN-01 | Accrual, cash e reconhecimento | B |
+| FIN-01 | Regime de competência, caixa e reconhecimento | B |
 | FIN-02 | Três demonstrações integradas | B |
-| FIN-03 | P&L de país e centros de responsabilidade | B |
-| FIN-04 | Budget, rolling forecast e variance bridge | B |
-| FIN-05 | Cash runway, working capital e FX | B |
-| UE-01 | ARR, retention e cohort economics | B/C/D |
-| UE-02 | CAC fully-loaded, LTV e payback | B/C/D |
-| UE-03 | Pricing por consumo e margem por workload | B/C/D |
-| CAP-01 | Capital allocation, hurdle e kill criteria | B/C/D |
+| FIN-03 | Resultado de país e centros de responsabilidade | B |
+| FIN-04 | Budget, rolling previsão e variance bridge | B |
+| FIN-05 | Fôlego de caixa, capital de giro e câmbio | B |
+| UE-01 | Receita recorrente, retenção e economia de coortes | B/C/D |
+| UE-02 | Custo completo de aquisição, valor do cliente e prazo de recuperação | B/C/D |
+| UE-03 | Pricing por consumo e margem por carga de trabalho | B/C/D |
+| CAP-01 | Alocação de capital, retorno mínimo e critérios de encerramento | B/C/D |
 | STR-01 | Escolhas, renúncias e vantagem | D |
-| STR-02 | Base rates, cenários e value of information | D |
-| STR-03 | One-way/two-way doors e decision journal | D |
-| OPS-01 | Operating model e mecanismos | E |
-| OPS-02 | Decision rights, interfaces e escalation | E |
-| OPS-03 | Cadência MBR/QBR e closed-loop accountability | E |
-| ORG-01 | Org design, spans, layers e sequencing | E |
-| ORG-02 | Hiring scorecards e manager selection | E |
-| ORG-03 | Performance, incentivos e gaming | E |
-| ORG-04 | Succession e liderança por managers | E |
-| CTY-01 | Tese Brasil, wedge e entry mode | D/F |
-| CTY-02 | Revenue operating model e direito de investir | D/F |
-| CTY-03 | HQ-local contract e corporate diplomacy | D/F |
-| GOV-01 | Board governance e internal controls | F |
-| RSK-01 | Enterprise risk, thresholds e response | F |
-| BRL-01 | LGPD e regulação de IA issue-spotting | F |
+| STR-02 | Taxas-base, cenários e valor da informação | D |
+| STR-03 | Reversibilidade e diário de decisões | D |
+| OPS-01 | Modelo operacional e mecanismos | E |
+| OPS-02 | Direitos de decisão, interfaces e escalonamento | E |
+| OPS-03 | Cadência de revisões e responsabilidade com acompanhamento | E |
+| ORG-01 | Desenho organizacional, amplitude, camadas e sequência | E |
+| ORG-02 | Hiring scorecards e gestor selection | E |
+| ORG-03 | Desempenho, incentivos e manipulação de métricas | E |
+| ORG-04 | Succession e liderança por gestores | E |
+| CTY-01 | Tese Brasil, segmento inicial e modo de entrada | D/F |
+| CTY-02 | Modelo de operação de receita e direito de investir | D/F |
+| CTY-03 | Acordo matriz-local e diplomacia corporativa | D/F |
+| GOV-01 | Governança do conselho e controles internos | F |
+| RSK-01 | Risco empresarial, limites e resposta | F |
+| BRL-01 | Identificação de questões de LGPD e regulação de IA | F |
 | BRL-02 | Tributário, trabalhista, cambial e entidade | F |
-| COM-01 | Board memo e investment ask | B–F |
-| COM-02 | QBR de miss e comunicação sob challenge | B–F |
-| COM-03 | Defesa oral EN/PT e altitude | B–F |
+| COM-01 | Memorando ao conselho e pedido de investimento | B–F |
+| COM-02 | Revisão trimestral de desvio e comunicação sob questionamento | B–F |
+| COM-03 | Defesa oral e síntese executiva | B–F |
 
 ## 4. Componentes por instrumento
 
@@ -93,12 +93,12 @@ As proporções abaixo organizam a correção dentro do instrumento. Não existe
 | Instrumento | Componentes de correção |
 |---|---|
 | B — finance | três demonstrações 35; P&L/cash 25; scenario/bridge 20; decisão 20 |
-| C — revenue | higiene/forecast 35; capacity/quota 20; conceitos revenue 20; ações 25 |
+| C — revenue | higiene/previsão 35; capacity/quota 20; conceitos revenue 20; ações 25 |
 | D — investment memo | escolhas 25; economics 25; entry/HQ 20; gates/kill 20; escalonamento 10 |
-| E — organization | org/decision rights 30; capacity/cost 20; managers 25; incentivos/sucessão 25 |
-| F — governance | realidade/forecast 20; risco/controles 30; escalonamento 25; defesa 25 |
+| E — organization | org/decision rights 30; capacity/cost 20; gestores 25; incentivos/sucessão 25 |
+| F — governance | realidade/previsão 20; risco/controles 30; escalonamento 25; defesa 25 |
 
-## 5. Fatal errors locais
+## 5. Erros críticos locais
 
 | ID | Fatal error | Subcompetência bloqueada |
 |---|---|---|
@@ -106,7 +106,7 @@ As proporções abaixo organizam a correção dentro do instrumento. Não existe
 | FE-FIN-02 | confundir lucro, EBITDA ou bookings com caixa | FIN-01, FIN-03, UE-01 |
 | FE-FIN-03 | erro de sinal ou fórmula que altera materialmente runway, caixa ou decisão e não é detectado | FIN-03, FIN-04 |
 | FE-UE-01 | incluir oportunidade sem evidência crítica em commit ou tratar pipeline como receita | UE-01, CTY-02 |
-| FE-CTY-02 | usar probabilidade do CRM como única base de forecast | CTY-02 |
+| FE-CTY-02 | usar probabilidade do CRM como única base de previsão | CTY-02 |
 | FE-STR-01 | recomendar investimento sem renúncia, gate ou kill criterion | STR-01, CTY-01 |
 | FE-OPS-01 | operating model mantém decisões críticas integralmente no Country Lead sem plano de remoção | OPS-01, ORG-01 |
 | FE-ORG-01 | promover performance tóxica ou desconto não autorizado apenas porque quota foi batida | ORG-02 |
@@ -115,7 +115,7 @@ As proporções abaixo organizam a correção dentro do instrumento. Não existe
 | FE-COM-01 | alterar número, atribuição ou status de evidência durante a defesa para fortalecer a narrativa | COM-01 e claim afetado |
 | FE-P-01 | transformar simulação, currículo ou autodeclaração em prova operacional forte | P de todo domínio afetado |
 
-`Material` significa que o erro muda recomendação, viola threshold, desloca em ≥5% uma saída crítica ou oculta risco que exigiria escalonamento. Pequeno erro aritmético isolado pode ser corrigido na defesa se o método estiver correto e a decisão não mudar.
+`Material` significa que o erro muda recomendação, viola limite, desloca em ≥5% uma saída crítica ou oculta risco que exigiria escalonamento. Pequeno erro aritmético isolado pode ser corrigido na defesa se o método estiver correto e a decisão não mudar.
 
 ## 6. Roteamento público
 
@@ -197,7 +197,7 @@ Qualquer plano de mitigação precisa produzir pelo menos R$ 1.643,29 mil de cai
 - O8 não entra em commit: security pendente crítica.
 - Descontos O1 (12%), O5 (18%) e O15 (15%) exigem Country Lead + Finance; O5 também exige CFO por exceder 15%.
 
-O2, O6, O8, O12 e O15 podem variar entre best case e upside conforme a justificativa. Não pontue a categoria isolada; pontue a evidência, dependência e ação necessária. O forecast deve mostrar gap para R$ 3.600 e não inventar cobertura.
+O2, O6, O8, O12 e O15 podem variar entre best case e upside conforme a justificativa. Não pontue a categoria isolada; pontue a evidência, dependência e ação necessária. O previsão deve mostrar gap para R$ 3.600 e não inventar cobertura.
 
 ### Fatal conceptual distinctions
 
@@ -221,20 +221,20 @@ Não existe uma única escolha correta. A resposta de domínio precisa:
 - separar issue-spotting de parecer jurídico;
 - adaptar a recomendação aos dois choques escolhidos.
 
-Resposta que declara TAM, lei, benchmark ou comportamento de empresa real não fornecido perde crédito de evidência e pode receber fatal error.
+Resposta que declara TAM, lei, benchmark ou comportamento de empresa real não fornecido perde crédito de evidência e pode receber erro crítico.
 
 ## 11. Chave do instrumento E
 
 O desenho não precisa usar todos os papéis. Deve:
 
 - mostrar capacidade e custo, sem exceder R$ 720 mil/mês em M12;
-- respeitar span 4–7 para managers;
+- respeitar span 4–7 para gestores;
 - remover aprovação universal, revisão universal e presença universal do Country Lead;
 - manter roadmap, security policy e treasury no HQ;
 - tratar desconto >10%, claim regulatório e incidente crítico como escalonáveis;
 - não premiar o AE de 140% sem consequência e correção de controle;
 - nomear sucessor interino, backup e decision rights por 30 dias;
-- declarar que simulação não prova manager-of-managers real.
+- declarar que simulação não prova líder de gestores real.
 
 ## 12. Chave do instrumento F
 
@@ -243,7 +243,7 @@ Prioridade esperada:
 1. conter/preservar evidência do incidente e acionar security/privacy;
 2. impedir carta jurídica feita por IA e escalar revisão;
 3. reconhecer serviços não faturados e impacto financeiro;
-4. corrigir forecast/discount authority;
+4. corrigir previsão/discount authority;
 5. avaliar parceria sem aceitar pipeline não especificado;
 6. ajustar OPEX/meta com bridge e escolha explícita.
 
@@ -255,14 +255,14 @@ Outras ordenações são aceitáveis se urgência, dano, reversibilidade e obrig
 |---|---|---|
 | K ou J 70–84 | revisão dirigida + uma prática equivalente | forma B da subcompetência |
 | K ou J <70 | lição DEEP + duas práticas guiadas | forma B integral do bloco |
-| fatal error | análise de causa + cálculo/decisão refeito + checklist | forma B integral após ≥72h |
+| erro crítico | análise de causa + cálculo/decisão refeito + checklist | forma B integral após ≥72h |
 | autoria duvidosa | defesa oral sem material + reprodução do cálculo | nova forma supervisionada |
 | P0/P1 | não é reteste acadêmico | field practicum ou nova evidência real |
 
 Para aprovação no reteste:
 
-- SKIP continua exigindo K ≥85, J ≥80, dois casos e zero fatal error.
-- COMPRESS exige ambos ≥70 e zero fatal error.
+- SKIP continua exigindo K ≥85, J ≥80, dois casos e zero erro crítico.
+- COMPRESS exige ambos ≥70 e zero erro crítico.
 - Nova falha crítica mantém DEEP.
 - Registrar as duas tentativas; nunca sobrescrever a primeira.
 
@@ -311,7 +311,7 @@ Tarefas: três demonstrações, reconciliação mensal, Y1, bridge EBITDA→cash
 
 Checkpoints: base Y1 revenue 10.690,00; EBITDA (1.608,10); CFO (1.048,10); caixa M12 5.441,90. Choque: Y1 revenue 9.883,60; EBITDA (2.601,56); CFO (2.221,56); caixa M12 4.268,44. A mitigação precisa gerar mais de R$ 231,56 mil até M12.
 
-### C-REV — forecast alternativo
+### C-REV — previsão alternativo
 
 Tempo: 50 minutos. Quota: R$ 2.400 mil. Dois reps, quota 1.200 cada, capacidade 4 deals cada.
 
@@ -342,13 +342,13 @@ Escolher entre cross-border (R$ 1,2M fixo), dois parceiros não exclusivos (R$ 2
 
 ### E-ORG — organização alternativa
 
-Tempo: 60 minutos. Um Country Lead com sete reports diretos aprova propostas, incidentes e hiring. O time crescerá de 8 para 24 em nove meses; budget R$ 650 mil/mês; dois melhores ICs querem virar managers, mas nenhum avaliou performance. Entrega: spans/layers, dez contratações, decision rights, scorecards, incentivo, caso de performance e sucessão. Deve remover três dependências do Country Lead e nomear backup para funções single-point-of-failure.
+Tempo: 60 minutos. Um Country Lead com sete reports diretos aprova propostas, incidentes e hiring. O time crescerá de 8 para 24 em nove meses; budget R$ 650 mil/mês; dois melhores ICs querem virar gestores, mas nenhum avaliou performance. Entrega: spans/layers, dez contratações, decision rights, scorecards, incentivo, caso de performance e sucessão. Deve remover três dependências do Country Lead e nomear backup para funções single-point-of-failure.
 
 ### F-GOV — QBR alternativo
 
-Tempo: 50 minutos. Plano/real: ARR 1.800/1.250; GM 72%/65%; DSO 40/68; forecast accuracy 80%/54%; incidentes 0/1. Eventos: invoice duplicada de R$ 210 mil; claim de compliance sem revisão; parceiro promete R$ 3 milhões sem account list; incidente ainda não contido; headcount contratado fora do budget. Entrega: QBR, risk register, comunicação ao board, controles e escalonamento. Omissão de incidente ou claim jurídico continua fatal.
+Tempo: 50 minutos. Plano/real: ARR 1.800/1.250; GM 72%/65%; DSO 40/68; previsão accuracy 80%/54%; incidentes 0/1. Eventos: invoice duplicada de R$ 210 mil; claim de compliance sem revisão; parceiro promete R$ 3 milhões sem account list; incidente ainda não contido; headcount contratado fora do budget. Entrega: QBR, registro de riscos, comunicação ao board, controles e escalonamento. Omissão de incidente ou claim jurídico continua fatal.
 
-## 15. Template de scorecard
+## 15. Template de quadro de indicadores
 
 | ID canônico | K | J | Revisão | Casos independentes | Erro crítico | Prática | Remediação/reteste |
 |---|---|---|---|---|---|---|---|

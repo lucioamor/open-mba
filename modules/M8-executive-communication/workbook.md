@@ -1,4 +1,4 @@
-# Workbook — M8
+# Caderno de exercícios — M8
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
@@ -8,7 +8,7 @@
 
 ## 1. Practice templates
 
-### Decision memo
+### Memorando de decisão
 
 ```text
 TO:
@@ -46,29 +46,29 @@ RISK — what can worsen
 ASK — decision/resource/acceptance
 ```
 
-### Evidence/status appendix
+### Anexo de evidências e situação
 
-| Claim | Status A/E/P/U/D | Value/range | Source/locator | Owner | Refresh date |
+| Claim | Status A/E/P/U/D | Value/range | Source/locator | Responsável | Refresh date |
 |---|---|---:|---|---|---|
 
-### Challenge log
+### Registro de questionamentos
 
-| Question | Answer | Evidence | Caveat | Decision/next | Consistent PT/EN? |
+| Pergunta | Resposta | Evidência | Limite | Decisão/próximo passo | Coerente com o texto? |
 |---|---|---|---|---|---|
 
 ## 2. Guided practices
 
-### GP1 — memo compression
+### GP1 — síntese de memorando
 
 Use `CASE-COM-NIKE-FY25`.
 
 1. Construa headline em até 25 palavras.
-2. Produza um executive update de 150 palavras.
+2. Produza um atualização executiva de 150 palavras.
 3. Separe fatos, interpretação e unknowns.
 4. Liste três perguntas internas que a fonte pública não responde.
 5. Faça um ask apenas se existir decision right no enunciado; não invente um.
 
-### GP2 — miss reconstruction
+### GP2 — reconstrução do desvio
 
 Use `CASE-COM-AURORA-QBR`, Pack 2.
 
@@ -76,17 +76,17 @@ Use `CASE-COM-AURORA-QBR`, Pack 2.
 2. Verifique se o bridge soma ao miss.
 3. Classifique cada linha A/E/P/U/D.
 4. Escreva QBR de uma página.
-5. Corte 30% das palavras sem retirar risco, owner ou ask.
+5. Corte 30% das palavras sem retirar risco, responsável ou ask.
 
-### GP3 — bilingual stress test
+### GP3 — teste de defesa sob pressão
 
 Use o painel adversarial de Aurora.
 
-- opening PT, 90 segundos;
-- opening EN, 90 segundos;
+- abertura em português, 90 segundos;
+- repetição opcional em inglês, 90 segundos;
 - seis perguntas sem material;
 - uma pergunta com dado deliberadamente ausente;
-- uma interrupção “answer first”;
+- uma interrupção “responda primeiro”;
 - revisão de inconsistências após o fim.
 
 O reviewer não corrige durante a sessão.
@@ -99,7 +99,7 @@ Tempo total: 120 minutos escritos + 18 minutos de defesa.
 
 Responda em até 80 palavras cada.
 
-1. Qual diferença entre executive update e board memo?
+1. Qual diferença entre atualização executiva e board memo?
 2. Por que “plain English” não autoriza remover complexidade material?
 3. Como distinguir actual, estimate, assumption e unknown?
 4. O que torna um QBR de miss causal, e não descritivo?
@@ -145,7 +145,7 @@ Entregue board memo PT de duas páginas:
 - economics e opportunity cost;
 - melhor argumento contrário;
 - gates D+45 e D+90;
-- kill trigger;
+- kill gatilho;
 - appendix A/E/P/U/D.
 
 Não existe obrigação de escolher uma opção específica; a qualidade está na decisão e nos limites.
@@ -160,11 +160,11 @@ Não existe obrigação de escolher uma opção específica; a qualidade está n
 | Gross margin | 72% | 66% |
 | Burn | 1.200 | 1.550 |
 | DSO | 45 dias | 63 dias |
-| Forecast accuracy | 82% | 55% |
+| Previsão accuracy | 82% | 55% |
 
 Bridge de new ARR:
 
-| Driver | Impacto |
+| Causa | Impacto |
 |---|---:|
 | Deal escorregado | (240) |
 | Security delay | (160) |
@@ -194,10 +194,10 @@ Evento recebido dez minutos antes da defesa:
 Entregue em 55 minutos:
 
 1. QBR de miss de uma página;
-2. executive update em EN, até 150 palavras;
-3. revised forecast e status de cada número;
+2. atualização executiva em português, até 150 palavras;
+3. previsão revisada e status de cada número;
 4. risk/action/ask table;
-5. opening PT e EN.
+5. abertura em português; versão em inglês opcional.
 
 Depois, defesa individual:
 
@@ -215,20 +215,20 @@ Depois, defesa individual:
 - Fontes do módulo podem ser consultadas na parte escrita; defesa é closed-book.
 - Fórmulas, revision history e tempo devem ser entregues.
 
-## 5. Fatal errors
+## 5. Erros críticos
 
 - fato, número, quote, source ou atribuição fabricada;
 - risco material conhecido omitido;
 - assumption/estimate/unknown apresentado como actual;
-- revised forecast incompatível com o dataset;
-- claim jurídico/compliance tratado como confirmado sem owner/locator;
-- número ou recommendation muda entre PT e EN sem explicação;
+- previsão revisada incompatível com o dataset;
+- claim jurídico/compliance tratado como confirmado sem responsável/locator;
+- número ou recomendação muda entre texto e defesa sem explicação;
 - simulação apresentada como prova de field readiness.
 
 ## 6. Reteste
 
 - forma nova, mesmo blueprint;
-- mínimo de 72 horas após fatal error;
+- mínimo de 72 horas após erro crítico;
 - retestar apenas subcompetência falha, salvo fabricação ou omissão material, que exigem bloco completo;
 - primeira tentativa permanece no registro;
 - IA continua proibida;

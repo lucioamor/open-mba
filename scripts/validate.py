@@ -1,6 +1,6 @@
-"""Check public-release structure, encoding, local links and accidental private context.
+"""Verifica estrutura, codificação, links locais e contexto privado acidental.
 
-This does not establish factual accuracy, copyright clearance or learning efficacy.
+Não atesta precisão factual, liberação de direitos ou eficácia de aprendizagem.
 """
 from __future__ import annotations
 
@@ -69,11 +69,11 @@ def main():
                 except ValueError:
                     errors.append(f'Invalid JSON: {relative}')
             if relative.parts[0] in {'modules', 'foundations', 'diagnostic', 'sources', 'curriculum'}:
-                checked = text.split('## Authorship and maintenance')[0]
+                checked = re.split(r'## (?:Authorship and maintenance|Autoria e manutenção)', text)[0]
                 found = PRIVATE_CONTEXT.search(checked)
                 if found:
                     errors.append(f'Private-origin context in {relative}: {found.group()}')
-            if path.name == 'README.md' and 'Authorship and maintenance' not in text:
+            if path.name == 'README.md' and not any(header in text for header in ('Authorship and maintenance', 'Autoria e manutenção')):
                 errors.append(f'Missing authorship in {relative}')
             if path.suffix == '.md':
                 for target in re.findall(r'\[[^\]\n]+\]\(([^)\n]+)\)', text):
@@ -107,10 +107,10 @@ def main():
         for error in errors:
             print(f'FAIL {error}')
         return 1
-    print(f'PASS: {len(modules)} modules; {len(competencies)} competencies; '
-          f'{len(catalog["goals"])} goals; {len(files)} files checked.')
-    print('Scope: structure, UTF-8, local links, private-context patterns, workbook packaging and example plans.')
-    print('External source accuracy, rights and educational efficacy remain subject to human review.')
+    print(f'PASS: {len(modules)} módulos; {len(competencies)} competências; '
+          f'{len(catalog["goals"])} objetivos; {len(files)} arquivos verificados.')
+    print('Escopo: estrutura, UTF-8, links locais, padrões de contexto privado, arquivos de planilha e planos de exemplo.')
+    print('Precisão de fontes externas, direitos e eficácia educacional continuam sujeitos a revisão humana.')
     return 0
 
 

@@ -3,7 +3,7 @@
   "competencies": [
     {
       "id": "FIN-01",
-      "name": "Accrual, cash e reconhecimento",
+      "name": "Regime de competência, caixa e reconhecimento",
       "owner": "M1",
       "critical": true
     },
@@ -15,43 +15,43 @@
     },
     {
       "id": "FIN-03",
-      "name": "P&L de país e centros de responsabilidade",
+      "name": "Resultado de país e centros de responsabilidade",
       "owner": "M1",
       "critical": true
     },
     {
       "id": "FIN-04",
-      "name": "Budget, rolling forecast e variance bridge",
+      "name": "Orçamento, previsão contínua e ponte de desvios",
       "owner": "M1",
       "critical": true
     },
     {
       "id": "FIN-05",
-      "name": "Cash runway, working capital e FX",
+      "name": "Fôlego de caixa, capital de giro e câmbio",
       "owner": "M1",
       "critical": true
     },
     {
       "id": "UE-01",
-      "name": "ARR, retention e cohort economics",
+      "name": "Receita recorrente, retenção e economia de coortes",
       "owner": "M2",
       "critical": true
     },
     {
       "id": "UE-02",
-      "name": "CAC fully-loaded, LTV e payback",
+      "name": "Custo completo de aquisição, valor do cliente e prazo de recuperação",
       "owner": "M2",
       "critical": true
     },
     {
       "id": "UE-03",
-      "name": "Pricing por consumo e margem por workload",
+      "name": "Preço por consumo e margem por carga de trabalho",
       "owner": "M2",
       "critical": true
     },
     {
       "id": "CAP-01",
-      "name": "Capital allocation, hurdle e kill criteria",
+      "name": "Alocação de capital, retorno mínimo e critérios de encerramento",
       "owner": "M2",
       "critical": true
     },
@@ -63,91 +63,91 @@
     },
     {
       "id": "STR-02",
-      "name": "Base rates, cenários e value of information",
+      "name": "Taxas-base, cenários e valor da informação",
       "owner": "M3",
       "critical": false
     },
     {
       "id": "STR-03",
-      "name": "One-way/two-way doors e decision journal",
+      "name": "Reversibilidade e diário de decisões",
       "owner": "M3",
       "critical": false
     },
     {
       "id": "OPS-01",
-      "name": "Operating model e mecanismos",
+      "name": "Modelo operacional e mecanismos",
       "owner": "M4",
       "critical": true
     },
     {
       "id": "OPS-02",
-      "name": "Decision rights, interfaces e escalation",
+      "name": "Direitos de decisão, interfaces e escalonamento",
       "owner": "M4",
       "critical": true
     },
     {
       "id": "OPS-03",
-      "name": "Cadência MBR/QBR e closed-loop accountability",
+      "name": "Cadência de revisões e responsabilidade com acompanhamento",
       "owner": "M4",
       "critical": true
     },
     {
       "id": "ORG-01",
-      "name": "Org design, spans, layers e sequencing",
+      "name": "Desenho organizacional, amplitude, camadas e sequência",
       "owner": "M5",
       "critical": true
     },
     {
       "id": "ORG-02",
-      "name": "Hiring scorecards e manager selection",
+      "name": "Critérios de contratação e seleção de gestores",
       "owner": "M5",
       "critical": true
     },
     {
       "id": "ORG-03",
-      "name": "Performance, incentivos e gaming",
+      "name": "Desempenho, incentivos e manipulação de métricas",
       "owner": "M5",
       "critical": true
     },
     {
       "id": "ORG-04",
-      "name": "Succession e liderança por managers",
+      "name": "Sucessão e liderança por gestores",
       "owner": "M5",
       "critical": true
     },
     {
       "id": "CTY-01",
-      "name": "Tese Brasil, wedge e entry mode",
+      "name": "Tese Brasil, segmento inicial e modo de entrada",
       "owner": "M6",
       "critical": true
     },
     {
       "id": "CTY-02",
-      "name": "Revenue operating model e direito de investir",
+      "name": "Modelo de operação de receita e direito de investir",
       "owner": "M6",
       "critical": true
     },
     {
       "id": "CTY-03",
-      "name": "HQ-local contract e corporate diplomacy",
+      "name": "Acordo matriz-local e diplomacia corporativa",
       "owner": "M6",
       "critical": true
     },
     {
       "id": "GOV-01",
-      "name": "Board governance e internal controls",
+      "name": "Governança do conselho e controles internos",
       "owner": "M7",
       "critical": true
     },
     {
       "id": "RSK-01",
-      "name": "Enterprise risk, thresholds e response",
+      "name": "Risco empresarial, limites e resposta",
       "owner": "M7",
       "critical": true
     },
     {
       "id": "BRL-01",
-      "name": "LGPD e regulação de IA issue-spotting",
+      "name": "Identificação de questões de LGPD e regulação de IA",
       "owner": "M7",
       "critical": true
     },
@@ -159,19 +159,19 @@
     },
     {
       "id": "COM-01",
-      "name": "Board memo e investment ask",
+      "name": "Memorando ao conselho e pedido de investimento",
       "owner": "M8",
       "critical": true
     },
     {
       "id": "COM-02",
-      "name": "QBR de miss e comunicação sob challenge",
+      "name": "Revisão trimestral de desvio e comunicação sob questionamento",
       "owner": "M8",
       "critical": true
     },
     {
       "id": "COM-03",
-      "name": "Defesa oral EN/PT e altitude",
+      "name": "Defesa oral e síntese executiva",
       "owner": "M8",
       "critical": false
     },
@@ -189,7 +189,7 @@
     },
     {
       "id": "FND-03",
-      "name": "Distribuição e growth",
+      "name": "Distribuição e crescimento",
       "owner": "F3",
       "critical": true
     },

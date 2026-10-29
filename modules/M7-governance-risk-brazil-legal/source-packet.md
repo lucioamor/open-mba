@@ -1,8 +1,8 @@
-# M7 — Source packet aceito
+# M7 — Referências de apoio herdadas
 
 > **Edição pública inicial.** Adaptado de material de estudo assistido por IA. Referências e locators herdados do material de julho de 2026 ainda não foram revalidados para esta edição. Trate afirmações externas como pontos a verificar, não como fatos atuais confirmados. Casos numéricos são exercícios; consulte a política de fontes em [SOURCES.md](../../SOURCES.md).
 
-**As of:** 2026-07-23\
+**Data de referência:** 2026-07-23\
 **Uso:** executive issue-spotting. Não é aconselhamento jurídico, tributário, trabalhista, cambial ou regulatório.
 
 ## 1. Regra de admissão
@@ -23,7 +23,7 @@
 | CLM-M7-TRANSFER-MECHANISMS | Fluxo internacional de dados | SRC-ANPD-TID-19-2024 | Verificado; mecanismo depende dos fatos |
 | CLM-M7-SES-SC-ENFORCEMENT | Caso real de incidente e resposta regulatória | SRC-ANPD-SES-SC-SANCTION | Caso público; não extrapolar sanção para empresa privada |
 | CLM-M7-THREE-LINES | Ownership de risco e assurance | SRC-CGU-THREE-LINES | Analogia; norma citada é do Executivo federal |
-| CLM-M7-LTDA-REGISTRATION | Issue map de estrutura local | SRC-DREI-LTDA-GUIDE | Orientação geral; não escolhe entidade |
+| CLM-M7-LTDA-REGISTRATION | Mapa de questões de estrutura local | SRC-DREI-LTDA-GUIDE | Orientação geral; não escolhe entidade |
 | CLM-M7-EMPLOYMENT-TEST | Issue spotting de emprego e contractor | SRC-BR-CLT | Requer counsel e análise factual/jurisprudencial |
 | CLM-M7-RTC-2026 | Transição tributária em 2026 | SRC-RFB-RTC-2026 | Resumo oficial; norma e operação controlam |
 | CLM-M7-TRANSFER-PRICING | Arm's length e transações controladas | SRC-BR-TRANSFER-PRICING-14596 | Método e documentação exigem tax counsel |
@@ -45,7 +45,7 @@
 
 - **SRC-NIST-AI-RMF:** Govern, Map, Measure e Manage; framework voluntário.
 - **SRC-CAMARA-PL2338-STATUS:** em 2026-07-23 o PL 2338/2023 aguardava parecer na Câmara.
-- **Pergunta executiva:** qual uso de IA tem owner, propósito, dados, avaliação, monitoramento, human oversight, fallback e stop trigger?
+- **Pergunta executiva:** qual uso de IA tem responsável, propósito, dados, avaliação, monitoramento, human oversight, fallback e stop gatilho?
 
 ### LGPD, transferência e incidente
 
@@ -84,7 +84,7 @@
 | LGPD, fornecedor, transferência ou titular | Privacy counsel + DPO/encarregado | Antes de go-live ou mudança material de fluxo |
 | Incidente | Incident commander + DPO + privacy counsel + forensics | Imediatamente após confirmação; preservar relógio e evidência |
 | Tributação do consumo ou renda | Tax counsel + contador | Antes de preço, invoice, reconhecimento ou alteração de modelo |
-| Intercompany/transfer pricing | Tax counsel + finance | Antes de contrato, charge, funding ou fechamento |
+| Intercompany/transfer pricing | Tax counsel + finance | Antes de contrato, charge, financiamento ou fechamento |
 | Trabalho/contractor/EOR | Labor counsel + People | Antes de contratar, mudar fatos ou encerrar |
 | FX/capital externo | Instituição autorizada + tax/FX counsel | Antes do fluxo e do registro/reporting |
 | IA | Product/AI risk + privacy + sector counsel | Antes de alto impacto, dado sensível, mudança de modelo ou uso não aprovado |

@@ -1,21 +1,21 @@
-# Investment Memo — Brasil
+# Memorando de investimento — Brasil
 
-## Recommendation
+## Recomendação
 
-## Strategic fit e opportunity cost
+## Aderência estratégica e custo de oportunidade
 
-## Base case / upside / downside
+## Cenário-base / favorável / adverso
 
-## Capital ask e fontes de financiamento
+## Pedido de capital e fontes de financiamento
 
-## Unit economics e caminho para contribution margin
+## Economia por unidade e caminho para margem de contribuição
 
-## Milestones, hurdle e direito de continuar investindo
+## Marcos, taxa mínima de retorno e direito de continuar investindo
 
 ## Alternativa rejeitada
 
-## Kill criteria
+## Critérios de encerramento
 
-## Riscos e owners
+## Riscos e responsáveis
 
 ## Decisão requerida

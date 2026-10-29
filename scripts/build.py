@@ -1,4 +1,4 @@
-"""Generate portable study volumes without evaluator answers. No dependencies."""
+"""Gera volumes de estudo e correção separados, sem dependências externas."""
 from pathlib import Path
 import json
 from hashlib import sha256

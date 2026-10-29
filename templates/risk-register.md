@@ -1,6 +1,6 @@
-# Risk Register — Brasil
+# Registro de riscos — Brasil
 
-| ID | Risco | Categoria | Causa | Consequência | Prob. | Impacto | Owner | Leading indicator | Threshold | Prevent | Respond | Escalate to | Status |
+| ID | Risco | Categoria | Causa | Consequência | Prob. | Impacto | Responsável | Indicador antecedente | Limite | Prevenir | Responder | Escalar para | Status |
 |---|---|---|---|---|---:|---:|---|---|---|---|---|---|---|
 
-Escalas de probabilidade e impacto precisam ser definidas para o caso. Um risco sem owner, indicador, threshold e resposta não está governado.
+Escalas de probabilidade e impacto precisam ser definidas para o caso. Um risco sem responsável, indicador, limite e resposta não está governado.

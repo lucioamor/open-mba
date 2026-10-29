@@ -1,17 +1,17 @@
-# Decision Memo — [decisão]
+# Memorando de decisão — [decisão]
 
-**Owner:** [função] · **Data:** [data] · **Door:** one-way/two-way
+**Responsável:** [função] · **Data:** [data] · **Reversibilidade:** irreversível/reversível
 
-## Situação e stakes
+## Situação e consequências em jogo
 
 ## Dados disponíveis e ausentes
 
 ## Alternativas
 
-## Recomendação e trade-off
+## Recomendação e renúncias
 
 ## Premissa mais frágil
 
-## Trigger, kill criterion e próxima revisão
+## Gatilho, critério de encerramento e próxima revisão
 
 ## Decisão registrada

@@ -1,34 +1,34 @@
-# Board Memo — [decisão]
+# Memorando ao conselho — [decisão]
 
-**As of:** [data]\
-**Owner:** [função]\
-**Decision required by:** [data]
+**Data de referência:** [data]\
+**Responsável:** [função]\
+**Decisão necessária até:** [data]
 
-## Recommendation
+## Recomendação
 
 Uma frase com ação, valor, prazo e condição.
 
-## Why now
+## Por que agora
 
 Fatos verificados, mudança desde a última revisão e custo de esperar.
 
-## Economics
+## Economia do negócio
 
 Receita, margem, caixa, capital comprometido, downside e premissas.
 
-## Options
+## Opções
 
 | Opção | Valor | Risco | Reversibilidade | Razão para aceitar/rejeitar |
 |---|---:|---|---|---|
 
-## Risks and controls
+## Riscos e controles
 
-Owners, leading indicators, thresholds e response.
+Responsáveis, indicadores antecedentes, limites e resposta.
 
-## Ask
+## Pedido de decisão
 
 Decisão, recurso e autoridade requeridos.
 
-## Review trigger
+## Gatilho de revisão
 
 Data ou sinal que reabre a decisão.
