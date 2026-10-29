@@ -2,6 +2,8 @@
 
 Cada trilha seleciona módulos relevantes. O plano inclui os pré-requisitos e adapta profundidade aos resultados individuais. Nenhuma trilha infere habilidade pelo cargo.
 
+Estes cinco percursos usam o catálogo inicial de tecnologia/IA. Eles não constituem uma classificação universal de alunos de MBA. A [base geral de gestão](../docs/CURRICULUM-DESIGN.md) está em desenho e ainda não é uma trilha completa executável.
+
 | Objetivo no perfil | Seleção principal | Capstone |
 |---|---|---|
 | `builder` | F1–F4, M2, M4, M8 | Transformar produto em oferta usada e economicamente plausível |

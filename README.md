@@ -1,10 +1,12 @@
 # OpenMBA
 
-**Aprenda a construir, operar e decidir sobre negócios de tecnologia.**
+**Uma base aberta de gestão, com percursos de aprendizagem individuais.**
 
 Um currículo aberto em português, com fundamentos, casos, exercícios, arguição e trilhas que partem do que você precisa aprender. Criado por Lucio Amorim.
 
 Você pode chegar como profissional técnico, fundador, líder funcional ou gestor experiente. O programa não presume que todos tenham as mesmas lacunas. Objetivo define relevância; avaliação define profundidade; experiência real é registrada separadamente.
+
+A primeira edição disponível concentra conteúdo em negócios de tecnologia e IA. A evolução para uma base geral de gestão está descrita no [desenho curricular e matriz de cobertura](docs/CURRICULUM-DESIGN.md); ela ainda não está integralmente implementada.
 
 **[Comece aqui](START-HERE.md)** · [Currículo](CURRICULUM.md) · [Diagnóstico](diagnostic/README.md) · [Trilhas](tracks/README.md) · [Estudar com IA](prompts/tutor.md) · [Contribuir](CONTRIBUTING.md)
 

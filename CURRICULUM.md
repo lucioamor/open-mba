@@ -1,5 +1,7 @@
 # Currículo e dependências
 
+Este é o currículo **disponível na primeira edição, aplicado a tecnologia e IA**. O OpenMBA tem como direção uma base geral de gestão, seguida de diagnóstico e percursos individuais. Consulte o [desenho curricular](docs/CURRICULUM-DESIGN.md) para distinguir cobertura existente, parcial e a desenvolver.
+
 As horas abaixo são estimativas iniciais de estudo e prática por módulo completo. Não são tempos medidos em uma turma. Provas, retestes, leituras adicionais e prática real variam e ficam fora da estimativa.
 
 | ID | Tema | Entrega | Pré-requisitos | Horas indicativas |

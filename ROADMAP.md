@@ -9,11 +9,11 @@
 
 ## Próximas prioridades
 
-1. Revisar fontes e cálculos módulo a módulo, registrando responsável, data e correções.
-2. Testar com pessoas de trajetórias diferentes e registrar onde instruções e carga de estudo falham.
-3. Expandir os fundamentos em cursos com mais exemplos, exercícios e formas de reteste.
-4. Revisar rubricas com educadores e especialistas; calibrar os limiares com resultados observados.
-5. Melhorar acessibilidade, traduções e navegação conforme feedback de uso.
+1. Recuperar a pesquisa curricular mais ampla e detalhar a [matriz de cobertura da base geral](docs/CURRICULUM-DESIGN.md), sem tomar as lacunas do autor como definição do currículo.
+2. Definir a progressão da base geral e distinguir suas disciplinas das aplicações em tecnologia, IA e Brasil.
+3. Revisar fontes e cálculos do material existente e registrar responsável, data e correções.
+4. Preencher as lacunas da matriz com aulas, exemplos, exercícios independentes, soluções e retestes; só então adicionar competências ao gerador.
+5. Testar com pessoas de trajetórias diferentes; revisar rubricas, carga, acessibilidade e limiares com resultados observados.
 
 ## Expansões a avaliar
 
