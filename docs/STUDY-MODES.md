@@ -10,7 +10,9 @@ Use [prompts/tutor.md](../prompts/tutor.md), a lição e o exercício. Separe o 
 
 ## Áudio e revisão oral
 
-Em uma ferramenta que transforme documentos em áudio, envie somente a lição e as referências necessárias. Uma bibliografia não contém o texto integral dos links. Não carregue seu perfil profissional inteiro nem dados de terceiros.
+Para criar aulas aplicadas ao seu setor, empresa ou projeto, siga o [guia de áudio personalizado](PERSONALIZED-AUDIO.md). Ele combina a lição de cada módulo, um modelo de contexto e comandos reutilizáveis para NotebookLM / Gemini Notebook. Você monta seus próprios notebooks e escolhe as fontes de aplicação.
+
+Em uma ferramenta que transforme documentos em áudio, envie a lição, o contexto mínimo e as referências necessárias. Uma bibliografia não contém o texto integral dos links. Não carregue seu perfil profissional inteiro nem dados de terceiros.
 
 Prompt de áudio:
 

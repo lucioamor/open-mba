@@ -43,6 +43,8 @@ Cargo e tempo de experiência ajudam a escolher exemplos, mas não dispensam com
 
 Uma sessão de 45 minutos pode ter 15 minutos de leitura, 20 de prática e 10 de revisão. Ajuste conforme cálculo, acessibilidade e dificuldade. Não trate o tempo de leitura como carga horária do programa.
 
+Para estudar ouvindo, monte [aulas em áudio com seu contexto](docs/PERSONALIZED-AUDIO.md): use a lição do módulo, preencha o modelo de contexto e acrescente fontes do setor ou empresa que deseja entender. O guia inclui instruções para os oito módulos. A personalização muda exemplos e decisões de aplicação, além de ajustar o percurso; preserve a tentativa independente dos exercícios.
+
 ## 5. Integre e aplique
 
 Conclua o [capstone](capstone/brief.md) da sua trilha. Depois, se houver acesso e autorização, faça um [projeto de campo](capstone/field-practicum.md). Quem está em transição de carreira pode praticar com um projeto próprio pequeno ou voluntário, sem inventar responsabilidade executiva.

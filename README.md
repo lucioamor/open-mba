@@ -31,6 +31,12 @@ Open [F1 — Business fundamentals](foundations/F1-business.md), attempt the cas
 
 Prefer audio, voice or a study group? See [study modes](docs/STUDY-MODES.md). All learning instructions are in Portuguese.
 
+## Make the learning material relevant to your world
+
+Personalization goes beyond choosing which modules to study. Combine a lesson with your learning context and public sources about an industry, company or project you want to understand. Use that context to explore different examples, constraints and decisions while preserving the lesson's learning objectives.
+
+The [personalized audio guide](docs/PERSONALIZED-AUDIO.md) provides a context template, source-selection instructions for M1–M8 and reusable prompts for NotebookLM / Gemini Notebook. Create your own notebooks, generate lessons in Brazilian Portuguese, then practice and defend a decision. The repository supplies the materials and workflow; it does not provision notebooks or include generated audio. Listening alone does not demonstrate competence.
+
 ## Knowledge, judgment and documented practice
 
 | Dimension | Question | How to develop it |

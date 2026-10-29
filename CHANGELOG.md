@@ -1,5 +1,9 @@
 # Histórico de alterações
 
+## Áudio e contexto individual — 2026-10-29
+
+Adicionados guia para montar notebooks próprios por módulo M1–M8, modelo de contexto de aprendizagem e comando reutilizável de aula em áudio, com extensões para aprofundamento e debate. Personalização de exemplos e decisões explicitada na apresentação e no início do percurso. Documentados seleção de fontes, separação dos gabaritos, prática após a escuta e distinção entre fluxo manual e API Enterprise. Nenhum notebook ou áudio foi criado; o guia não foi testado de ponta a ponta na ferramenta.
+
 ## Revisão de idioma e contexto — 2026-10-29
 
 README principal em inglês; conteúdo didático e documentação em português brasileiro. Traduzidos os casos, exercícios e gabarito de organização, além de campos e exemplos dos demais módulos. Defesa em inglês passa a extensão opcional. Explicitados público brasileiro, limites de transferência de referências internacionais e glossário. Créditos incluem site e LinkedIn do autor.
