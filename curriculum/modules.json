@@ -1,0 +1,180 @@
+{
+  "version": "0.1.0",
+  "modules": [
+    {
+      "id": "F1",
+      "title": "Negócio e matemática",
+      "path": "foundations/F1-business.md",
+      "requires": [],
+      "hours": 6
+    },
+    {
+      "id": "F2",
+      "title": "Cliente e validação",
+      "path": "foundations/F2-customer.md",
+      "requires": [
+        "F1"
+      ],
+      "hours": 6
+    },
+    {
+      "id": "F3",
+      "title": "Distribuição e growth",
+      "path": "foundations/F3-growth.md",
+      "requires": [
+        "F1",
+        "F2"
+      ],
+      "hours": 6
+    },
+    {
+      "id": "F4",
+      "title": "Produto, dados e experimentação",
+      "path": "foundations/F4-product.md",
+      "requires": [
+        "F1",
+        "F2"
+      ],
+      "hours": 6
+    },
+    {
+      "id": "M1",
+      "title": "Finanças e P&L",
+      "path": "modules/M1-financial-fluency-pnl/module.md",
+      "requires": [
+        "F1"
+      ],
+      "hours": 30
+    },
+    {
+      "id": "M2",
+      "title": "Unit economics, pricing e capital",
+      "path": "modules/M2-unit-economics-pricing-capital/module.md",
+      "requires": [
+        "M1"
+      ],
+      "hours": 22
+    },
+    {
+      "id": "M3",
+      "title": "Estratégia e incerteza",
+      "path": "modules/M3-strategy-decision/module.md",
+      "requires": [
+        "F2",
+        "M2"
+      ],
+      "hours": 16
+    },
+    {
+      "id": "M4",
+      "title": "Modelo operacional",
+      "path": "modules/M4-operating-model/module.md",
+      "requires": [
+        "M1"
+      ],
+      "hours": 20
+    },
+    {
+      "id": "M5",
+      "title": "Organização e pessoas",
+      "path": "modules/M5-org-managers/module.md",
+      "requires": [
+        "M4"
+      ],
+      "hours": 22
+    },
+    {
+      "id": "M6",
+      "title": "Expansão e P&L de país",
+      "path": "modules/M6-country-pnl-market-entry-hq/module.md",
+      "requires": [
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "hours": 22
+    },
+    {
+      "id": "M7",
+      "title": "Governança e risco no Brasil",
+      "path": "modules/M7-governance-risk-brazil-legal/module.md",
+      "requires": [
+        "M1",
+        "M4"
+      ],
+      "hours": 22
+    },
+    {
+      "id": "M8",
+      "title": "Comunicação executiva",
+      "path": "modules/M8-executive-communication/module.md",
+      "requires": [
+        "F1"
+      ],
+      "hours": 14
+    }
+  ],
+  "goals": {
+    "builder": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "M2",
+      "M4",
+      "M8"
+    ],
+    "founder": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M7",
+      "M8"
+    ],
+    "functional-lead": [
+      "F1",
+      "F3",
+      "F4",
+      "M1",
+      "M2",
+      "M4",
+      "M5",
+      "M7",
+      "M8"
+    ],
+    "general-manager": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6",
+      "M7",
+      "M8"
+    ],
+    "explorer": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6",
+      "M7",
+      "M8"
+    ]
+  }
+}

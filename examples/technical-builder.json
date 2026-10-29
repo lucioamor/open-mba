@@ -1,0 +1,18 @@
+{
+  "example_only": true,
+  "goal": "builder",
+  "hours_per_week": 5,
+  "assessments": {
+    "FND-04": {
+      "k": 90,
+      "j": 85,
+      "independent_cases": 2,
+      "unassisted": true,
+      "fatal_error": false,
+      "review_type": "human",
+      "reviewer": "Avaliador fictício — exemplo de formato",
+      "assessment_ref": "Dois casos fictícios, sem relação com alunos reais",
+      "proof": "unreviewed"
+    }
+  }
+}

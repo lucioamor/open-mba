@@ -1,0 +1,776 @@
+[
+  {
+    "source_id": "SRC-HBS-CURRICULUM",
+    "title": "Curriculum | MBA",
+    "organization": "Harvard Business School",
+    "url_or_identifier": "https://www.hbs.edu/mba/academic-experience/curriculum",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-MIT-SLOAN-CURRICULUM",
+    "title": "MBA Curriculum",
+    "organization": "MIT Sloan School of Management",
+    "url_or_identifier": "https://mitsloan.mit.edu/mba/explore-program/mba-curriculum",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-INSEAD-CURRICULUM",
+    "title": "MBA Course Structure & Curriculum",
+    "organization": "INSEAD",
+    "url_or_identifier": "https://www.insead.edu/master-programmes/master-business-administration/curriculum",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-WHARTON-CURRICULUM",
+    "title": "MBA Courses & Curriculum",
+    "organization": "University of Pennsylvania, The Wharton School",
+    "url_or_identifier": "https://mba.wharton.upenn.edu/mba-curriculum/",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-MIT-OCW-FINANCE-15401",
+    "title": "Finance Theory I",
+    "organization": "MIT OpenCourseWare",
+    "url_or_identifier": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-MIT-OCW-TERMS",
+    "title": "Privacy and Terms of Use",
+    "organization": "Massachusetts Institute of Technology",
+    "url_or_identifier": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-NYU-DAMODARAN-CLASSLIST",
+    "title": "Class List",
+    "organization": "New York University Stern School of Business",
+    "url_or_identifier": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/classlist.htm",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-SEC-INVESTOR-PUBLIC-COMPANIES",
+    "title": "Public Companies",
+    "organization": "Investor.gov, U.S. Securities and Exchange Commission",
+    "url_or_identifier": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/public-companies",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-OECD-CG-2023",
+    "title": "G20/OECD Principles of Corporate Governance 2023",
+    "organization": "Organisation for Economic Co-operation and Development",
+    "url_or_identifier": "https://www.oecd.org/en/publications/2023/09/g20-oecd-principles-of-corporate-governance-2023_60836fcb.html",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-NIST-AI-RMF",
+    "title": "AI Risk Management Framework",
+    "organization": "National Institute of Standards and Technology",
+    "url_or_identifier": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ANPD-DOCS",
+    "title": "Documentos e publicações",
+    "organization": "Autoridade Nacional de Proteção de Dados",
+    "url_or_identifier": "https://www.gov.br/anpd/pt-br/documentos-e-publicacoes",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-CVM-DATA",
+    "title": "Portal Dados Abertos CVM",
+    "organization": "Comissão de Valores Mobiliários",
+    "url_or_identifier": "https://dados.cvm.gov.br/",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-IBGE-ECONOMIC-STATS",
+    "title": "Estatísticas econômicas",
+    "organization": "Instituto Brasileiro de Geografia e Estatística",
+    "url_or_identifier": "https://www.ibge.gov.br/estatisticas/economicas.html",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-BCB-OPEN-DATA",
+    "title": "Dados abertos",
+    "organization": "Banco Central do Brasil",
+    "url_or_identifier": "https://www.bcb.gov.br/acessoinformacao/dadosabertos/",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-AACSB-GLOBAL-STANDARDS-2026",
+    "title": "AACSB Global Standards for Business Education",
+    "organization": "AACSB International",
+    "url_or_identifier": "https://www.aacsb.edu/educators/global-standards",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-CMU-ALIGNMENT",
+    "title": "Align Assessments, Objectives, Instructional Strategies",
+    "organization": "Carnegie Mellon University",
+    "url_or_identifier": "https://www.cmu.edu/teaching/assessment/basics/alignment.html",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-BR-L9610",
+    "title": "Lei nº 9.610, de 19 de fevereiro de 1998",
+    "organization": "Brasil, Presidência da República",
+    "url_or_identifier": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-LOVABLE-CAREERS",
+    "title": "Careers at Lovable",
+    "organization": "Lovable",
+    "url_or_identifier": "https://lovable.dev/careers",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-LOVABLE-PRICING",
+    "title": "Lovable Pricing",
+    "organization": "Lovable",
+    "url_or_identifier": "https://lovable.dev/pricing",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ANTHROPIC-CAREERS",
+    "title": "Careers",
+    "organization": "Anthropic",
+    "url_or_identifier": "https://www.anthropic.com/careers",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ANTHROPIC-PRICING",
+    "title": "Plans & Pricing | Claude by Anthropic",
+    "organization": "Anthropic",
+    "url_or_identifier": "https://www.anthropic.com/pricing",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-OPENAI-CAREERS",
+    "title": "Careers",
+    "organization": "OpenAI",
+    "url_or_identifier": "https://openai.com/careers/",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-OPENAI-API-PRICING",
+    "title": "Pricing | OpenAI API",
+    "organization": "OpenAI",
+    "url_or_identifier": "https://platform.openai.com/docs/pricing",
+    "accessed_at": "2026-07-23T00:31:27-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-BR-LGPD",
+    "title": "Lei nº 13.709, de 14 de agosto de 2018 — Lei Geral de Proteção de Dados Pessoais",
+    "organization": "Presidência da República",
+    "url_or_identifier": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ANPD-RCIS-15-2024",
+    "title": "Comunicação de Incidente de Segurança — Resolução CD/ANPD nº 15/2024",
+    "organization": "Agência Nacional de Proteção de Dados",
+    "url_or_identifier": "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ANPD-TID-19-2024",
+    "title": "Resolução CD/ANPD nº 19, de 23 de agosto de 2024",
+    "organization": "Agência Nacional de Proteção de Dados",
+    "url_or_identifier": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-19-de-23-de-agosto-de-2024",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ANPD-SES-SC-SANCTION",
+    "title": "ANPD sanciona mais um órgão público",
+    "organization": "Agência Nacional de Proteção de Dados",
+    "url_or_identifier": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-sanciona-mais-um-orgao-publico",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-CGU-THREE-LINES",
+    "title": "Sistema de Controle Interno do Poder Executivo Federal",
+    "organization": "Controladoria-Geral da União",
+    "url_or_identifier": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-DREI-LTDA-GUIDE",
+    "title": "Tipos de Pessoas Jurídicas — Sociedade Limitada",
+    "organization": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte",
+    "url_or_identifier": "https://www.gov.br/empresas-e-negocios/pt-br/drei/orientacoes-de-abertura/tipos-de-pessoas-juridicas",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-BR-CLT",
+    "title": "Decreto-Lei nº 5.452, de 1º de maio de 1943 — Consolidação das Leis do Trabalho",
+    "organization": "Presidência da República",
+    "url_or_identifier": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-RFB-RTC-2026",
+    "title": "Entenda a Reforma Tributária do Consumo",
+    "organization": "Receita Federal do Brasil",
+    "url_or_identifier": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/entenda",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-BR-TRANSFER-PRICING-14596",
+    "title": "Lei nº 14.596, de 14 de junho de 2023",
+    "organization": "Presidência da República",
+    "url_or_identifier": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14596.htm",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-RFB-TRANSFER-PRICING-2161",
+    "title": "Receita Federal edita novas regras para tributação de multinacionais com presença no país — IN RFB nº 2.161/2023",
+    "organization": "Receita Federal do Brasil",
+    "url_or_identifier": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2023/setembro/receita-federal-edita-novas-regras-para-tributacao-de-multinacionais-com-presenca-no-pais",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-BCB-FX-277",
+    "title": "Resolução BCB nº 277, de 31 de dezembro de 2022",
+    "organization": "Banco Central do Brasil",
+    "url_or_identifier": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=277",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-CAMARA-PL2338-STATUS",
+    "title": "Dados Abertos da Câmara — PL 2338/2023",
+    "organization": "Câmara dos Deputados",
+    "url_or_identifier": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2487262",
+    "accessed_at": "2026-07-23T00:44:38-03:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-FIN-INVESTOR-10K",
+    "title": "How to Read a 10-K",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-FIN-SALESFORCE-10K-2026",
+    "title": "Salesforce, Inc. Form 10-K, fiscal year ended January 31, 2026",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-FX-BCB",
+    "title": "Câmbio e Capitais Internacionais",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.bcb.gov.br/estabilidadefinanceira/cambioecapitais",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-PED-CMU-ALIGN",
+    "title": "Align Assessments, Objectives, Instructional Strategies",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.cmu.edu/teaching/assessment/basics/alignment.html",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-SNOW-10K",
+    "title": "SRC-M2-SNOW-10K",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-CONFLUENT-10K",
+    "title": "SRC-M2-CONFLUENT-10K",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.sec.gov/Archives/edgar/data/1699838/000169983826000006/cflt-20251231.htm",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-SNOW-PRICING",
+    "title": "SRC-M2-SNOW-PRICING",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.snowflake.com/en/pricing-options/calculator/feedback-faqs/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-CONFLUENT-BILLING",
+    "title": "SRC-M2-CONFLUENT-BILLING",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://docs.confluent.io/cloud/current/billing/overview.html",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-LOVABLE-PRICING",
+    "title": "SRC-M2-LOVABLE-PRICING",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://lovable.dev/pricing",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-LOVABLE-BILLING",
+    "title": "SRC-M2-LOVABLE-BILLING",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://lovable.dev/blog/simplifying-billing",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-OPENAI-PRICING",
+    "title": "SRC-M2-OPENAI-PRICING",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://developers.openai.com/api/docs/models",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-ANTHROPIC-PRICING",
+    "title": "SRC-M2-ANTHROPIC-PRICING",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://claude.com/pricing",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-STRIPE-CAC",
+    "title": "SRC-M2-STRIPE-CAC",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://stripe.com/resources/more/cac-in-saas",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-BVP-CLOUD-METRICS",
+    "title": "SRC-M2-BVP-CLOUD-METRICS",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.bvp.com/atlas/cloud-computing-metrics",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-BVP-RULE-X",
+    "title": "SRC-M2-BVP-RULE-X",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.bvp.com/atlas/the-rule-of-x",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-MIT-NPV",
+    "title": "SRC-M2-MIT-NPV",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/ba02e762046b99e81578e7d19980bb22_MIT15_031JS12_lec10.pdf",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M2-GITLAB-DEAL",
+    "title": "SRC-M2-GITLAB-DEAL",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M3-RUMELT",
+    "title": "SRC-M3-RUMELT",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-perils-of-bad-strategy",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M3-AMAZON",
+    "title": "SRC-M3-AMAZON",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M3-KLEIN",
+    "title": "SRC-M3-KLEIN",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://hbr.org/2007/09/performing-a-project-premortem",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M3-GJOPEN",
+    "title": "SRC-M3-GJOPEN",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.gjopen.com/training",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M3-MIT",
+    "title": "SRC-M3-MIT",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-OPS-GITLAB-DRI",
+    "title": "Directly Responsible Individuals (DRI)",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-OPS-GITLAB-RHYTHM",
+    "title": "Operating Rhythm",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://handbook.gitlab.com/handbook/eta/ai/strategy/hub-and-spoke/operating-rhythm/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-OPS-AMAZON-2015",
+    "title": "2015 Letter to Shareholders",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://ir.aboutamazon.com/files/doc_financials/annual/2015-Letter-to-Shareholders.PDF",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-OPS-GOVUK-GOVERNANCE",
+    "title": "Governance principles for agile service delivery",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.gov.uk/service-manual/agile-delivery/governance-principles-for-agile-service-delivery",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-CONTROL-GAO-2025",
+    "title": "Standards for Internal Control in the Federal Government — 2025 Green Book",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.gao.gov/greenbook",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ORG-GITLAB-SPAN",
+    "title": "People Group for Product Management — Span of Control Guidance",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://handbook.gitlab.com/handbook/product/product-leaders/people-ops-for-product/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ORG-GITLAB-MANAGER",
+    "title": "Work Of A Manager",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://handbook.gitlab.com/handbook/engineering/careers/training/em-role/work_of_a_manager/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ORG-OPM-ASSESS",
+    "title": "Assessment and Selection",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ORG-OPM-INTERVIEW",
+    "title": "Structured Interviews",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/structured-interviews",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ORG-OPM-PERFORMANCE",
+    "title": "Performance Management Cycle",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.opm.gov/policy-data-oversight/performance-management/performance-management-cycle/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-ORG-FRC-GOVERNANCE",
+    "title": "Corporate Governance Code Guidance",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/corporate-governance-code-guidance/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-OAI-BRAZIL",
+    "title": "SRC-M6-OAI-BRAZIL",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://openai.com/global-affairs/brazil-ai-moment-is-here/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-OAI-GTM-JD",
+    "title": "SRC-M6-OAI-GTM-JD",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://openai.com/careers/head-of-gtm-partnerships-latam-sao-paulo/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-OAI-ADS-JD",
+    "title": "SRC-M6-OAI-ADS-JD",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://openai.com/careers/regional-client-partner-ads-solutions-sao-paulo/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-ANT-BRAZIL",
+    "title": "SRC-M6-ANT-BRAZIL",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.anthropic.com/news/claude-brazil",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-ANT-GEO",
+    "title": "SRC-M6-ANT-GEO",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.anthropic.com/research/economic-index-geography",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-TRADE-ENTRY",
+    "title": "SRC-M6-TRADE-ENTRY",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.trade.gov/country-commercial-guides/brazil-market-entry-strategy",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-GOV-INVEST",
+    "title": "SRC-M6-GOV-INVEST",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.gov.br/empresas-e-negocios/pt-br/invest-export-brasil",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-BCB-SELIC",
+    "title": "SRC-M6-BCB-SELIC",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.bcb.gov.br/en/monetarypolicy/interestrates",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-BCB-PTAX",
+    "title": "SRC-M6-BCB-PTAX",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia%28dataCotacao%3D%40dataCotacao%29?%40dataCotacao=%2707-22-2026%27&%24format=json",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-BCB-FOCUS",
+    "title": "SRC-M6-BCB-FOCUS",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.bcb.gov.br/publicacoes/focus",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-M6-IBGE-IPCA",
+    "title": "SRC-M6-IBGE-IPCA",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.ibge.gov.br/en/statistics/economic/prices-and-costs/17136-national-consumer-pricce-index.html",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-COM-SEC-PLAIN",
+    "title": "A Plain English Handbook: How to Create Clear SEC Disclosure Documents",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.sec.gov/pdf/handbook.pdf",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-COM-SEC-MDA",
+    "title": "Commission Guidance Regarding Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.sec.gov/rules-regulations/2003/12/commission-guidance-regarding-managements-discussion-analysis-financial-condition-results-operations",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-COM-FRC-2024",
+    "title": "Corporate Governance Code Guidance",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.frc.org.uk/library/standards-codes-policy/corporate-governance/corporate-governance-code-guidance/",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-COM-AMZN-2017",
+    "title": "2017 Letter to Shareholders — Six-Page Narratives",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.aboutamazon.com/news/company-news/2017-letter-to-shareholders",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-COM-HKS-MEMO",
+    "title": "Insight from Mike Firestone, Chief of Policy and Strategic Planning, City of Boston",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://policymemos.hks.harvard.edu/blog/insight-mike-firestone-chief-policy-and-strategic-planning-mayor-michelle-wu-city",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-COM-NIKE-Q4FY25",
+    "title": "NIKE, Inc. Reports Fiscal 2025 Fourth Quarter and Full Year Results",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2025/NIKE-Inc--Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  },
+  {
+    "source_id": "SRC-COM-NIKE-10KFY25",
+    "title": "NIKE, Inc. Annual Report on Form 10-K for fiscal year ended May 31, 2025",
+    "organization": "See module-local source registry",
+    "url_or_identifier": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+    "accessed_at": "2026-07-23T04:17:07.616315+00:00",
+    "public_edition_review": "pending",
+    "source_text_included": false
+  }
+]
